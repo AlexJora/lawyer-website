@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import { EnvelopeOpenFill } from 'bootstrap-icons-react';
+import { EnvelopeFill } from 'react-bootstrap-icons';
+import { TelephoneFill } from 'react-bootstrap-icons';
+
 const Home = () => {
   return (
     <>
@@ -18,20 +20,21 @@ const Home = () => {
                 <h4 class='mb-4'>Te confrunți cu o problemă juridică?</h4>
                 <p>CABINET DE AVOCAT ALINA MARIN îți stă la dispoziție. Imi asum misiunea de a oferi clienților mei cele mai bune sfaturi juridice și de a lupta pentru drepturile lor legale. Am cunoștințe solide de drept, o vastă experiență și abilitățile necesare pentru a trata cu seriozitate și profesionalism toate cazurile mele. Misiunea mea este să obțin rezultate pozitive pentru clienții mei și să-i ajut să-și atingă obiectivele juridice.</p>
                 <div class="btn-group">
-                  <a href="#" class="btn btn-warnin" Intreaba avocatul</a>
-                <a href="#" class="btn btn-secondary">072336675</a>
+                  <a href="#" class="btn btn-warning"><EnvelopeFill />Intreaba avocatul</a>
+                  <a href="#" class="btn btn-secondary"><TelephoneFill />072336675</a>
 
+
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
 
-      {/* more-info */}
-      {/* services */}
-      {/* footer */}
-    </section >
+        {/* more-info */}
+        {/* services */}
+        {/* footer */}
+      </section >
     </>
   )
 }
