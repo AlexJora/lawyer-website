@@ -10,7 +10,8 @@ const Navbar = () => {
             <span class="text-secondary fw-bold">
               <img src='LOGO2.png' class="img-fluid" alt='measuring scale law logo' style={{ maxWidth: '70px' }} />
               <span>
-                <img src='name.png' class="img-fluid" alt='name' style={{ maxWidth: '100px' }} />
+                <img src='Component 1.png' class="img-fluid mx-1" alt='measuring scale law logo' style={{ maxWidth: '110px' }} />
+
               </span>
 
             </span>
@@ -24,20 +25,17 @@ const Navbar = () => {
           {/* navbar links  */}
           <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
             <ul class="navbar-nav">
-              <li class="nav-item mx-4 fw-semibold">
+              <li class="nav-item mx-2 fw-semibold">
                 <a class="nav-link" href="#topics">ACASA</a>
               </li>
-              <li class="nav-item mx-4 fw-semibold">
+              <li class="nav-item mx-2 fw-semibold">
                 <a class="nav-link" href="#reviews">PRESENTARE</a>
               </li>
-              <li class="nav-item mx-4 fw-semibold">
+              <li class="nav-item mx-2 fw-semibold">
                 <a class="nav-link" href="#contact">DOMENII DE ACTIVITATE</a>
               </li>
-              <li class="nav-item  mx-4 fw-semibold d-md-none">
-                <a class="nav-link" href="#pricing">Pricing</a>
-              </li>
-              <li class="nav-item ms-2 d-none d-md-inline">
-                <a class="btn" href="#pricing">CONTACT</a>
+              <li class="nav-item mx-2 fw-semibold">
+                <a class="nav-link" href="#contact">CONTACT</a>
               </li>
 
             </ul>
