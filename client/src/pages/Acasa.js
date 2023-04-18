@@ -3,14 +3,14 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGavel, faScaleBalanced, faTruck, faGem, faPeopleLine, faBriefcase, faScroll, faMoneyBill1Wave } from '@fortawesome/free-solid-svg-icons';
-const Home = () => {
+const Acasa = () => {
   return (
     <>
       <section>
         {/*navbar*/}
         <Navbar />
         {/* banner */}
-        <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> AVOCAT ALINA MARIN - BUCURESTI </div>
+        <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> AVOCAT BUCURESTI: ALINA MARIN</div>
         {/*intro*/}
         <section id="intro" class="bg-light mt-5">
           <div class="container">
@@ -21,8 +21,9 @@ const Home = () => {
               <div class="col col-md-6 order-md-1 mt-5 mt-md-0">
                 <h4 class='mb-4'>Te confrunți cu o problemă juridică?</h4>
                 <p>CABINET DE AVOCAT ALINA MARIN îți stă la dispoziție. Imi asum misiunea de a oferi clienților mei cele mai bune sfaturi juridice și de a lupta pentru drepturile lor legale. Am cunoștințe solide de drept, o vastă experiență și abilitățile necesare pentru a trata cu seriozitate și profesionalism toate cazurile mele. Misiunea mea este să obțin rezultate pozitive pentru clienții mei și să-i ajut să-și atingă obiectivele juridice.</p>
-                <div class="btn">
-                  <button type="button" class="btn btn-outline-secondary">SOLICITA CONSULTANTA</button>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-outline-secondary">SUNA ACUM</button>
+                  <button type="button" class="btn btn-outline-secondary">LISTA SERVICII</button>
                 </div>
               </div>
             </div>
@@ -153,4 +154,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Acasa;

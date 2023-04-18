@@ -15,10 +15,10 @@ const Footer = () => {
                 <a href='' class='logo'>LOGO2</a>
               </h2>
               <p class='menu'>
-                <a href=''>Acasa</a>
-                <a href=''>Prezentare</a>
-                <a href=''>Domenii de activitate</a>
-                <a href=''>Contact</a>
+                <a href='#'>Acasa</a>
+                <a href='#'>Prezentare</a>
+                <a href='#'>Domenii de activitate</a>
+                <a href='#'>Contact</a>
               </p>
               <ul class='ftco-footer-social p-0'>
                 <li class='ftco-animate'>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           <div class='row mt-5'>
             <div class='col-md-12 text center'>
-              <p class='copyright'>©2023 Avocat Marin Alina created by joracatalinaa@gmail.com</p>
+              <p class='copyright'>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
 
             </div>
           </div>

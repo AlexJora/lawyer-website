@@ -1,13 +1,21 @@
-
+import { Route, Routes } from "react-router-dom";
 import './App.css';
-
-import Home from './pages/Home';
+import Prezentare from './pages/Prezentare';
+import Domenii from './pages/Domenii';
+import Contact from './pages/Contact';
+import Acasa from './pages/Acasa';
 function App() {
   return (
     <div className="App">
-      <div>
-        <Home />
-      </div>
+      <>
+        <Routes>
+          <Route path="/" element={<Acasa />} />
+          <Route path="/prezentare" element={<Prezentare />} />
+          <Route path="/domenii/de/activitate" element={<Domenii />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+      </>
 
     </div>
   );
