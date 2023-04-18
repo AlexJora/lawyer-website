@@ -6,6 +6,8 @@ export const Contact = () => {
   return (
     <>
       <Navbar />
+      {/* banner */}
+      <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> CONTACT</div>
       <section>
 
       </section>

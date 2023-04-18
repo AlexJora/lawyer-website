@@ -31,7 +31,7 @@ const Acasa = () => {
         </section>
 
 
-        {/* more-info */}
+
         {/* services */}
         <section id="services" class="bg-light mt-5">
           <div class="container-lg">
