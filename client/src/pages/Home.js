@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGavel, faScaleBalanced, faTruck, faGem, faPeopleLine, faBriefcase, faScroll, faMoneyBill1Wave } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
@@ -146,6 +147,7 @@ const Home = () => {
         </section>
 
         {/* footer */}
+        <Footer />
       </section >
     </>
   )
