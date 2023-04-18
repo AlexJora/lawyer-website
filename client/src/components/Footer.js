@@ -1,18 +1,10 @@
 import React from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
     <>
-      <section class='ftco-section'>
-        <div class='container'>
-          <div class='row justify-content-center'>
-            <div class='col-md-6 text-center'>
-              <h2>Footer</h2>
-            </div>
-          </div>
 
-        </div>
-      </section>
 
 
       <footer class='footer-07'>
@@ -41,12 +33,12 @@ const Footer = () => {
                 </li>
                 <li class='ftco-animate'>
                   <a href='' data-toggle='tooltip' data-placement='to p' title data-original-title='Facebook'>
-                    <span class=''></span>
+                    <span class=''><FontAwesomeIcon icon={faEnvelope} /></span>
                   </a>
                 </li>
                 <li class='ftco-animate'>
                   <a href='' data-toggle='tooltip' data-placement='to p' title data-original-title='Facebook'>
-                    <span class=''></span>
+                    <span class=''><FontAwesomeIcon icon={faPhone} /></span>
                   </a>
                 </li>
               </ul>
@@ -54,7 +46,7 @@ const Footer = () => {
           </div>
           <div class='row mt-5'>
             <div class='col-md-12 text center'>
-              <p class='copyright'>Copyright @</p>
+              <p class='copyright'>©2023 Avocat Marin Alina created by joracatalinaa@gmail.com</p>
 
             </div>
           </div>
