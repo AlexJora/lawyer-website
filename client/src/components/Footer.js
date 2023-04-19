@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faAngleUp } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
     <>
@@ -24,22 +24,32 @@ const Footer = () => {
                 <a href='#' class='p-2 text-decoration-none text-light'>Contact</a>
               </div>
 
-              <div class="footer-social">
-                <span class="text-light rounded p-2 fs-3 circle">
+              <div class="footer-social ">
+                <span class='p-2 fs-5' style={{ color: '#c2b697', border: '2px solid #c2b697', borderRadius: '50%' }}>
+
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                <a href="https://wa.me/0040769935716" class="text-light rounded-circle p-2 fs-3">
+                <span class=" p-2 fs-5" style={{ color: '#c2b697', border: '2px solid #c2b697', borderRadius: '50%', padding: '0.2rem' }}>
                   <FontAwesomeIcon icon={faWhatsapp} />
-                </a>
-                <span class="text-light rounded-circle p-2 fs-3">
+                </span>
+                <span class=" p-2 fs-5" style={{ color: '#c2b697', border: '2px solid #c2b697', borderRadius: '50%', padding: '0.2rem' }}>
                   <FontAwesomeIcon icon={faPhone} />
                 </span>
               </div>
             </div>
           </div>
+          <button className="scroll-to-top"
+            onClick={() =>
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+              })
+            }>
+            <FontAwesomeIcon icon={faAngleUp} className="icon" />
+          </button>
           <div class='row mt-5'>
             <div class='col-md-12 text center'>
-              <p class='copyright' style={{ fontSize: '0.7rem', color: 'gray' }}>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
+              <p class='copyright' style={{ fontSize: '0.7rem', color: 'gray', marginTop: 'rem', marginBottom: '-5rem' }}>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
 
             </div>
           </div>
