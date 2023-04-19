@@ -8,47 +8,44 @@ const Footer = () => {
 
 
 
-      <footer class='footer-07'>
-        <div class='container'>
+      <footer style={{ backgroundColor: '#272B2E ' }}>
+        <div class='container py-3'>
           <div class='row justify-content-center'>
             <div class='col-md-12 text-center'>
-              <h2 class='footer-heading'>
-                <a href='' class='logo'>LOGO2</a>
-              </h2>
-              <p class='menu'>
-                <a href='#' class='p-2'>Acasa</a>
-                <a href='#' class='p-2'>Prezentare</a>
-                <a href='#' class='p-2'>Domenii de activitate</a>
-                <a href='#' class='p-2'>Contact</a>
-              </p>
-              <div class='ftco-footer-social'>
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="icon"
-                  title="av_alinamarin@yahoo.com"
-                />
-                <a href="https://wa.me/0040769935716"
-                  className="icon" class='p-4'>
-                  <FontAwesomeIcon
-                    icon={faWhatsapp} />
+              <span>
+                <img src='LOGO2.png' class="img-fluid" alt='measuring scale law logo' style={{ maxWidth: '50px' }} />
+                <img src='Component 12 (6).png' class="img-fluid px-0" alt='alina marin cabinet de avocatura si insolventa' style={{ maxWidth: '150px', marginLeft: '-1.5rem' }} />
+              </span>
+
+              <div class='menu my-3'>
+                <a href='#' class='p-2 text-decoration-none text-light'>Acasa</a>
+                <a href='#' class='p-2 text-decoration-none text-light'>Prezentare</a>
+                <a href='#' class='p-2 text-decoration-none text-light'>Domenii de activitate</a>
+                <a href='#' class='p-2 text-decoration-none text-light'>Contact</a>
+              </div>
+
+              <div class="footer-social">
+                <span class="text-light rounded p-2 fs-3 circle">
+                  <FontAwesomeIcon icon={faEnvelope} />
+                </span>
+                <a href="https://wa.me/0040769935716" class="text-light rounded-circle p-2 fs-3">
+                  <FontAwesomeIcon icon={faWhatsapp} />
                 </a>
-                <FontAwesomeIcon
-                  icon={faPhone}
-                  className="icon"
-                  title="0769.935.716"
-                />
+                <span class="text-light rounded-circle p-2 fs-3">
+                  <FontAwesomeIcon icon={faPhone} />
+                </span>
               </div>
             </div>
           </div>
           <div class='row mt-5'>
             <div class='col-md-12 text center'>
-              <p class='copyright' style={{ fontSize: '0.7rem' }}>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
+              <p class='copyright' style={{ fontSize: '0.7rem', color: 'gray' }}>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
 
             </div>
           </div>
         </div>
 
-      </footer>
+      </footer >
     </>
   )
 }

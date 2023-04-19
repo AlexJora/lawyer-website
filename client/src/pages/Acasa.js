@@ -12,6 +12,9 @@ const Acasa = () => {
         {/* banner */}
         <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}>Birou de insolventa si avocatura - Bucuresti </div>
         {/*intro*/}
+        <section>
+          <img src='books.jpg' class="img-fluid" alt='books' />
+        </section>
         <section id="intro" class="bg-light mt-5">
           <div class="container">
             <div class="row mt-4 gx-5 flex-column flex-md-row">
