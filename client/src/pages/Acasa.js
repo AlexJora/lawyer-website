@@ -10,7 +10,7 @@ const Acasa = () => {
         {/*navbar*/}
         <Navbar />
         {/* banner */}
-        <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> AVOCAT BUCURESTI: ALINA MARIN</div>
+        <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}>Birou de insolventa si avocatura - Bucuresti </div>
         {/*intro*/}
         <section id="intro" class="bg-light mt-5">
           <div class="container">

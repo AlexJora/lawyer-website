@@ -1,5 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
   return (
@@ -15,38 +16,33 @@ const Footer = () => {
                 <a href='' class='logo'>LOGO2</a>
               </h2>
               <p class='menu'>
-                <a href='#'>Acasa</a>
-                <a href='#'>Prezentare</a>
-                <a href='#'>Domenii de activitate</a>
-                <a href='#'>Contact</a>
+                <a href='#' class='p-2'>Acasa</a>
+                <a href='#' class='p-2'>Prezentare</a>
+                <a href='#' class='p-2'>Domenii de activitate</a>
+                <a href='#' class='p-2'>Contact</a>
               </p>
-              <ul class='ftco-footer-social p-0'>
-                <li class='ftco-animate'>
-                  <a href='' data-toggle='tooltip' data-placement='to p' title data-original-title='Facebook'>
-                    <span class=''></span>
-                  </a>
-                </li>
-                <li class='ftco-animate'>
-                  <a href='' data-toggle='tooltip' data-placement='to p' title data-original-title='Facebook'>
-                    <span class=''></span>
-                  </a>
-                </li>
-                <li class='ftco-animate'>
-                  <a href='' data-toggle='tooltip' data-placement='to p' title data-original-title='Facebook'>
-                    <span class=''><FontAwesomeIcon icon={faEnvelope} /></span>
-                  </a>
-                </li>
-                <li class='ftco-animate'>
-                  <a href='' data-toggle='tooltip' data-placement='to p' title data-original-title='Facebook'>
-                    <span class=''><FontAwesomeIcon icon={faPhone} /></span>
-                  </a>
-                </li>
-              </ul>
+              <div class='ftco-footer-social'>
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="icon"
+                  title="av_alinamarin@yahoo.com"
+                />
+                <a href="https://wa.me/0040769935716"
+                  className="icon" class='p-4'>
+                  <FontAwesomeIcon
+                    icon={faWhatsapp} />
+                </a>
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  className="icon"
+                  title="0769.935.716"
+                />
+              </div>
             </div>
           </div>
           <div class='row mt-5'>
             <div class='col-md-12 text center'>
-              <p class='copyright'>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
+              <p class='copyright' style={{ fontSize: '0.7rem' }}>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
 
             </div>
           </div>
