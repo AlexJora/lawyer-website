@@ -8,9 +8,7 @@ const Insolventa = () => {
 
         <Navbar />
         <section>
-          {/* banner */}
-          <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> DOMENII DE ACTIVITATE </div>
-
+          <img src="insolvency.png" className="img-fluid" alt="books" />
         </section>
         <Footer />
       </div>
