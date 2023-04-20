@@ -5,9 +5,6 @@ import { faEnvelope, faPhone, faAngleUp } from '@fortawesome/free-solid-svg-icon
 const Footer = () => {
   return (
     <>
-
-
-
       <footer style={{ backgroundColor: '#272B2E ' }}>
         <div class='container py-3'>
           <div class='row justify-content-center'>

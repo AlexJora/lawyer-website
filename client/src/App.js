@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import './App.css';
+
 import Prezentare from './pages/Prezentare';
 import Domenii from './pages/Domenii';
 import Contact from './pages/Contact';

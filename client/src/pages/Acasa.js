@@ -15,14 +15,14 @@ const Acasa = () => {
         <section>
           <img src='books.jpg' class="img-fluid" alt='books' />
         </section>
-        <section id="intro" class="bg-light mt-5">
+        <section id="intro" className="bg-light mt-5">
           <div class="container">
-            <div class="row mt-4 gx-5 flex-column flex-md-row">
-              <div class="col col-md-6 order-md-2">
+            <div className="row mt-4 gx-5 flex-column flex-md-row">
+              <div className="col col-md-6 order-md-2">
                 <img src="welcome-img.jpg" class="img-fluid" alt="two people signing documents" />
               </div>
-              <div class="col col-md-6 order-md-1 mt-5 mt-md-0">
-                <h4 class='mb-4'>Te confrunți cu o problemă juridică?</h4>
+              <div className="col col-md-6 order-md-1 mt-5 mt-md-0">
+                <h4 className='mb-4'>Te confrunți cu o problemă juridică?</h4>
                 <p>CABINET DE AVOCAT ALINA MARIN îți stă la dispoziție. Imi asum misiunea de a oferi clienților mei cele mai bune sfaturi juridice și de a lupta pentru drepturile lor legale. Am cunoștințe solide de drept, o vastă experiență și abilitățile necesare pentru a trata cu seriozitate și profesionalism toate cazurile mele. Misiunea mea este să obțin rezultate pozitive pentru clienții mei și să-i ajut să-și atingă obiectivele juridice.</p>
                 <div class="btn-group">
                   <button type="button" class="btn btn-outline-secondary">SUNA ACUM</button>
