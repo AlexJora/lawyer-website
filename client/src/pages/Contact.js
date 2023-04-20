@@ -10,39 +10,39 @@ export const Contact = () => {
       <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> CONTACT</div>
       <section>
         <section id="contact">
-          <div class="container-lg">
+          <div className="container-lg">
 
-            <div class="text-center">
+            <div className="text-center">
               <h2>Get in Touch</h2>
-              <p class="lead">Questions to ask? Fill out the form to contact me directly...</p>
+              <p className="lead">Questions to ask? Fill out the form to contact me directly...</p>
             </div>
-            <div class="row justify-content-center my-5">
-              <div class="col-lg-6">
+            <div className="row justify-content-center my-5">
+              <div className="col-lg-6">
 
                 <form>
-                  <label for="email" class="form-label">Email address:</label>
-                  <div class="input-group mb-4">
-                    <span class="input-group-text">
-                      <i class="bi bi-envelope-fill text-secondary"></i>
+                  <label for="email" className="form-label">Email address:</label>
+                  <div className="input-group mb-4">
+                    <span className="input-group-text">
+                      <i className="bi bi-envelope-fill text-secondary"></i>
                     </span>
-                    <input type="text" id="email" class="form-control" placeholder="e.g. mario@example.com" />
+                    <input type="text" id="email" className="form-control" placeholder="e.g. mario@example.com" />
 
                   </div>
-                  <label for="name" class="form-label">Name:</label>
-                  <div class="mb-4 input-group">
-                    <span class="input-group-text">
-                      <i class="bi bi-person-fill text-secondary"></i>
+                  <label for="name" className="form-label">Name:</label>
+                  <div className="mb-4 input-group">
+                    <span className="input-group-text">
+                      <i className="bi bi-person-fill text-secondary"></i>
                     </span>
-                    <input type="text" id="name" class="form-control" placeholder="e.g. Mario" />
+                    <input type="text" id="name" className="form-control" placeholder="e.g. Mario" />
 
                   </div>
 
-                  <div class="mb-4 mt-5 form-floating">
-                    <textarea class="form-control" id="query" placeholder="query"></textarea>
+                  <div className="mb-4 mt-5 form-floating">
+                    <textarea className="form-control" id="query" placeholder="query"></textarea>
                     <label for="query">Your query...</label>
                   </div>
-                  <div class="mb-4 text-center">
-                    <button type="submit" class="btn btn-secondary">Submit</button>
+                  <div className="mb-4 text-center">
+                    <button type="submit" className="btn btn-secondary">Submit</button>
                   </div>
                 </form>
               </div>

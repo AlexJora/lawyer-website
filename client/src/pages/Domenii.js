@@ -10,7 +10,7 @@ const Domenii = () => {
       <section>
         {/* banner */}
         <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> DOMENII DE ACTIVITATE </div>
-        <img src='books.jpg' class="img-fluid" alt='books' />
+        <img src='books.jpg' className="img-fluid" alt='books' />
       </section>
       <Footer />
     </>
