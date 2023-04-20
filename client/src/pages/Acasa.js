@@ -12,10 +12,18 @@ const Acasa = () => {
         {/* banner */}
 
         {/*intro*/}
-
+        {/* style={{ height: '30rem' }} */}
         <section>
-          <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}>Birou de insolventa si avocatura - Bucuresti </div>
-          {/* <img src='books.jpg' className="img-fluid" alt='books' /> */}
+          <div className='wraper'>
+            <img src="hero.jpg" className="img-fluid" alt="books" />
+            <div className='message'>
+              <p>--Cabinet de avocatura si insolventa - Bucuresti</p>
+              <h4>Orice persoana are dreptul </h4>
+              <h4>la un proces echitabil</h4>
+            </div>
+          </div>
+
+
         </section>
         <section id="intro" className="bg-light mt-5">
           <div className="container">

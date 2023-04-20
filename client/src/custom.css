@@ -85,7 +85,21 @@
 
 }
 
-/* FOOTER====================== */
+/* ACASA====================== */
+.wraper {
+  position: relative;
+}
+
+.message {
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+
 /* FOOTER====================== */
 /* FOOTER====================== */
 /* FOOTER====================== */
