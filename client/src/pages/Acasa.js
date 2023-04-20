@@ -10,10 +10,12 @@ const Acasa = () => {
         {/*navbar*/}
         <Navbar />
         {/* banner */}
-        <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}>Birou de insolventa si avocatura - Bucuresti </div>
+
         {/*intro*/}
+
         <section>
-          <img src='books.jpg' className="img-fluid" alt='books' />
+          <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}>Birou de insolventa si avocatura - Bucuresti </div>
+          {/* <img src='books.jpg' className="img-fluid" alt='books' /> */}
         </section>
         <section id="intro" className="bg-light mt-5">
           <div className="container">

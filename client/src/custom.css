@@ -1,6 +1,28 @@
 /* NAVBAR====================== */
-.slide-in {
+.nav .logo-image {
+  max-width: 70px;
+}
+
+.nav .logo-text {
+  max-width: 200px;
+  margin-left: -2rem;
+}
+
+.nav .slide-in {
+  background-color: #272B2E;
+  padding-top: 0;
+  padding-top: 0;
   animation: slide-in 0.5s ease-out;
+
+}
+
+.nav .home {
+  color: '#c2b697'
+}
+
+.nav .phone {
+  font-size: 0.8rem;
+
 }
 
 @keyframes slide-in {
@@ -14,6 +36,55 @@
 }
 
 /* FOOTER====================== */
+.foo {
+  background-color: #272B2E;
+
+}
+
+.foo .logo-image {
+  max-width: 50px;
+}
+
+.foo .logo-text {
+  max-width: 150px;
+  margin-left: -1.5rem;
+}
+
+.footer-social span {
+  color: #c2b697;
+  border: 1px solid #c2b697;
+  border-radius: 50%;
+  margin: 1rem;
+}
+
+.scroll-to-top {
+  position: absolute;
+  bottom: rem;
+  right: 0.2rem;
+  background-color: #c2b697;
+  color: #fff;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  border-radius: 5%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.scroll-to-top:hover {
+  background-color: #27bcda;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.7rem;
+  color: darkgrey;
+  margin-bottom: -0.5rem;
+
+}
+
 /* FOOTER====================== */
 /* FOOTER====================== */
 /* FOOTER====================== */

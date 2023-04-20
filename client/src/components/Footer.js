@@ -5,13 +5,13 @@ import { faEnvelope, faPhone, faAngleUp } from '@fortawesome/free-solid-svg-icon
 const Footer = () => {
   return (
     <>
-      <footer style={{ backgroundColor: '#272B2E ' }}>
+      <footer className='foo'>
         <div className='container py-3'>
           <div className='row justify-content-center'>
             <div className='col-md-12 text-center'>
               <span>
-                <img src='LOGO2.png' className="img-fluid" alt='measuring scale law logo' style={{ maxWidth: '50px' }} />
-                <img src='Component 12 (6).png' className="img-fluid px-0" alt='alina marin cabinet de avocatura si insolventa' style={{ maxWidth: '150px', marginLeft: '-1.5rem' }} />
+                <img src='LOGO2.png' className="img-fluid logo-image" alt='measuring scale law logo' />
+                <img src='Component 12 (6).png' className="img-fluid px-0 logo-text" alt='alina marin cabinet de avocatura si insolventa' />
               </span>
 
               <div className='menu my-3'>
@@ -22,14 +22,14 @@ const Footer = () => {
               </div>
 
               <div className="footer-social ">
-                <span className='p-2 fs-5' style={{ color: '#c2b697', border: '2px solid #c2b697', borderRadius: '50%' }}>
+                <span className='p-2 fs-5'>
 
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                <span className=" p-2 fs-5" style={{ color: '#c2b697', border: '2px solid #c2b697', borderRadius: '50%', padding: '0.2rem' }}>
+                <span className=" p-2 fs-5">
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </span>
-                <span className=" p-2 fs-5" style={{ color: '#c2b697', border: '2px solid #c2b697', borderRadius: '50%', padding: '0.2rem' }}>
+                <span className=" p-2 fs-5">
                   <FontAwesomeIcon icon={faPhone} />
                 </span>
               </div>
@@ -46,7 +46,7 @@ const Footer = () => {
           </button>
           <div className='row mt-5'>
             <div className='col-md-12 text center'>
-              <p className='copyright' style={{ fontSize: '0.7rem', color: 'gray', marginTop: 'rem', marginBottom: '-5rem' }}>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
+              <p className='copyright'>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
 
             </div>
           </div>
