@@ -30,20 +30,25 @@ const Navbar = () => {
                 <a className="nav-link text-light" href="/prezentare">Prezentare</a>
               </li>
               <li className="nav-item mx-2">
-                <a className="nav-link  text-light" href="/domenii">Domenii de activitate</a>
+                <a className="nav-link  text-light" href="/avocatura">Avocatura</a>
+              </li>
+              <li className="nav-item mx-2">
+                <a className="nav-link  text-light" href="/insolventa">Insolventa</a>
               </li>
               <li className="nav-item mx-2">
                 <a className="nav-link  text-light mx-3" href="/contact">Contact</a>
               </li>
               <li className="nav-item mx-2">
-                <a className="text-light nav-link fs-6" href=" /contact"><FontAwesomeIcon
+                < a className="text-light nav-link fs-6" href=" /contact"><FontAwesomeIcon
                   icon={faPhone}
                   className="icon"
                 /><span className=" mx-2 phone" >0769 935 716</span></a>
+                {/* <span className=" mx-2 phone" >Bucuresti</span>*/}
               </li>
+
             </ul>
           </div>
-        </div>
+        </div >
       </nav >
     </div >
   )

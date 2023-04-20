@@ -17,7 +17,8 @@ const Footer = () => {
               <div className='menu my-3'>
                 <a href='#' className='p-2 text-decoration-none text-light'>Acasa</a>
                 <a href='#' className='p-2 text-decoration-none text-light'>Prezentare</a>
-                <a href='#' className='p-2 text-decoration-none text-light'>Domenii de activitate</a>
+                <a href='#' className='p-2 text-decoration-none text-light'>Avocatura</a>
+                <a href='#' className='p-2 text-decoration-none text-light'>Insolventa</a>
                 <a href='#' className='p-2 text-decoration-none text-light'>Contact</a>
               </div>
 
