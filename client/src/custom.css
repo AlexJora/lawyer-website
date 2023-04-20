@@ -1,0 +1,25 @@
+/* NAVBAR====================== */
+.slide-in {
+  animation: slide-in 0.5s ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */
+/* FOOTER====================== */

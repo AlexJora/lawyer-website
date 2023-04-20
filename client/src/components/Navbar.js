@@ -6,7 +6,7 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 const Navbar = () => {
   return (
     <div >
-      <nav className="navbar navbar-dark fixed-top navbar-expand-md" style={{ backgroundColor: '#272B2E ', paddingTop: '0', paddingBottom: '0' }}>
+      <nav className="navbar navbar-dark fixed-top navbar-expand-md slide-in" style={{ backgroundColor: '#272B2E ', paddingTop: '0', paddingBottom: '0' }}>
         <div className="container-xxl">
           {/* logo */}
           <a className="navbar-brand" href="#intro">
