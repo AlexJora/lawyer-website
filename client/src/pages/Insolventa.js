@@ -8,6 +8,9 @@ const Insolventa = () => {
 
         <Navbar />
         <section>
+          <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center" }}> Servicii de insolventa</div>
+        </section>
+        <section>
           <img src="insolvency.png" className="img-fluid" alt="books" />
         </section>
         <Footer />

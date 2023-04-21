@@ -50,11 +50,15 @@
   margin-left: -1.5rem;
 }
 
+.footer-social {
+  margin-bottom: -2rem;
+
+}
+
 .footer-social span {
   color: #c2b697;
-  border: 1px solid #c2b697;
-  border-radius: 50%;
   margin: 1rem;
+
 }
 
 .scroll-to-top {
@@ -97,6 +101,21 @@
   left: 20%;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+
+.decorative-line {
+  display: inline-block;
+  width: 30px;
+  height: 1px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  background-color: #c2b697;
+}
+
+.text-separator {
+  border-left: 1px solid #c2b697;
+  padding-left: 2rem;
+  text-indent: 1rem;
 }
 
 

@@ -22,15 +22,15 @@ const Footer = () => {
                 <a href='#' className='p-2 text-decoration-none text-light'>Contact</a>
               </div>
 
-              <div className="footer-social ">
-                <span className='p-2 fs-5'>
+              <div className="footer-social " >
+                <span className='fs-3'>
 
                   <FontAwesomeIcon icon={faEnvelope} />
                 </span>
-                <span className=" p-2 fs-5">
+                <span className="fs-3">
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </span>
-                <span className=" p-2 fs-5">
+                <span className="fs-3">
                   <FontAwesomeIcon icon={faPhone} />
                 </span>
               </div>

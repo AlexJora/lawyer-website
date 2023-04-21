@@ -9,6 +9,9 @@ const Avocatura = () => {
       <div>
         <Navbar />
         <section>
+          <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center" }}> Avocatura - domenii de practica</div>
+        </section>
+        <section>
           <img src="books 1.png" className="img-fluid" alt="books" />
           {/* services */}
           <section id="services" className="bg-light mt-5 ">

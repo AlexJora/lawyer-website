@@ -6,8 +6,10 @@ export const Contact = () => {
   return (
     <>
       <Navbar />
-      {/* banner */}
-      <div style={{ backgroundColor: 'gray', width: '100', height: '4rem', color: 'white' }}> CONTACT</div>
+      <section>
+        <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center" }}> Contact</div>
+      </section>
+
       <section>
         <section id="contact">
           <div className="container-lg">
