@@ -26,20 +26,16 @@ const Acasa = () => {
 
 
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
-        <section className='problem container mt-5 p-3'>
+        <section className='problem container mt-5 p-1'>
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-5 order-md-2">
               <div className="d-flex align-items-center">
                 <div className="decorative-line"></div>
-                <h4 className="h-50 lh-base">Te confrunți cu o problemă juridică?</h4>
+                <h4 className="h-50 lh-base fst-italic">Te confrunți cu o problemă juridică sau de insolventa?</h4>
               </div>
             </div >
             <div className="col col-md-7 order-md-2">
-              <p className='text-separator'><span className='fst-italic fs-3'>C</span>ABINET DE AVOCAT ALINA MARIN îți stă la dispoziție. Imi asum misiunea de a oferi clienților mei cele
-                mai bune sfaturi juridice și de a lupta pentru drepturile lor legale. Am cunoștințe solide de drept, o
-                vastă experiență și abilitățile necesare pentru a trata cu seriozitate și profesionalism toate cazurile
-                mele. Misiunea mea este să obțin rezultate pozitive pentru clienții mei și să-i ajut să-și atingă
-                obiectivele juridice.</p>
+              <p className='text-separator fw-light'><span className='fst-italic fs-3'>C</span>abinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice. Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.</p>
             </div>
           </div >
         </section >
@@ -58,7 +54,11 @@ const Acasa = () => {
               </div>
               <div className="col col-md-6 order-md-1 mt-5 mt-md-0">
                 <h4 className='mb-4'>Cine suntem?</h4>
-                <p>CABINET DE AVOCAT ALINA MARIN îți stă la dispoziție. Imi asum misiunea de a oferi clienților mei cele mai bune sfaturi juridice și de a lupta pentru drepturile lor legale. Am cunoștințe solide de drept, o vastă experiență și abilitățile necesare pentru a trata cu seriozitate și profesionalism toate cazurile mele. Misiunea mea este să obțin rezultate pozitive pentru clienții mei și să-i ajut să-și atingă obiectivele juridice.</p>
+                <p>Suntem o echipă tânără și dinamică de avocați și specialiști în insolvență și domeniul financiar-juridic. Cu o experiență de peste 10 ani în acest domeniu, oferim servicii de consultanță, asistență și reprezentare în fața instanțelor și autorităților publice. Ne-am propus să găsim cele mai bune soluții pentru problemele tale comerciale, fiscale și contractuale, într-un mod profesionist și benefic pentru imaginea ta în lumea afacerilor. Contactează-ne și vom fi partenerul tău de încredere în rezolvarea tuturor problemelor tale.
+
+                  pozitii din care a promovat cele mai eficiente solutii pentru apararea intereselor clientilor, implicandu-se activ in reusita diverselor proiecte derulate, dovedind astfel temeinice cunostinte juridice si o buna comunicare cu clientii.
+                  Coordonatorul cabinetului este membru titular definitiv al Baroului Bucuresti din anul 2006 si al Filialei Bucuresti a Uniunii Nationale a Practicienilor in Insolventa din Romania din anul 2016.
+                </p>
 
               </div>
             </div>
