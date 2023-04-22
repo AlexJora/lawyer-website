@@ -103,20 +103,21 @@
   z-index: 1;
 }
 
-.decorative-line {
+/* .decorative-line {
   display: inline-block;
-  width: 30px;
+  width: 20px;
   height: 1px;
   margin-bottom: 40px;
   margin-right: 10px;
   background-color: #c2b697;
-}
+} */
 
 .text-separator {
   border-left: 1px solid #c2b697;
   padding-left: 2rem;
   text-indent: 1rem;
 }
+
 
 
 /* FOOTER====================== */
