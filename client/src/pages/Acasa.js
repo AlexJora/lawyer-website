@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhone, faAngleUp, faCalendarCheck, faFileCircleCheck, faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
 
 const Acasa = () => {
   return (
@@ -10,23 +13,42 @@ const Acasa = () => {
         <Navbar />
         {/*BANNER========= */}
         <section>
-          <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center", fontStyle: 'italic' }}> Cabinet de avocatura si insolventa BUCURESTI</div>
+          <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center", fontStyle: 'italic' }}>Acasa</div>
         </section>
         {/* HERO=========== */}
         <section>
           <div className='wraper'>
             <img src="hero.jpg" className="img-fluid" alt="books" />
-            <div className='message'>
-              <p>--Cabinet de avocatura si insolventa - Bucuresti</p>
+            <div className='message text-center hl-lg'>
+              <h2>ALINA MARIN</h2>
+              <h3>CABINET DE AVOCATURA SI INSOLVENTA - BUCURESTI</h3>
               <h4>Orice persoana are dreptul </h4>
               <h4>la un proces echitabil</h4>
+            </div>
+            {/* HORIZONTAL */}
+            <div className="d-none d-md-flex hero-buttons gap-1 justify-content-center align-items-end w-100 h-100">
+              <div className="col flex-grow-1">
+                <button className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fst-italic"><span className='p-2' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+              </div>
+              <div className="col flex-grow-1">
+                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><FontAwesomeIcon icon={faFileCircleCheck} />Cere o evaluare</button>
+              </div>
+              <div className="col flex-grow-1">
+                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><FontAwesomeIcon icon={faCommentsDollar} />Onorarii</button>
+              </div>
+            </div>
+            {/* VERTICAL */}
+            <div className="d-md-none d-flex flex-column align-items-center mt-3 gap-1">
+              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm">Solicita o programare</button>
+              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm">Cere o evaluare</button>
+              <button className="btn btn-outline-dark type-button p-3 w-100 btn-sm">Onorarii</button>
             </div>
           </div>
         </section>
 
 
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
-        <section className='problem container mt-5 p-1'>
+        < section className='problem container mt-5 p-1' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-4 order-md-2">
               <div className="d-flex align-items-center">
@@ -38,7 +60,7 @@ const Acasa = () => {
               <p className='text-separator fw-light'><span className='fst-italic fs-3 fw-normal'>C</span>abinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice. Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.</p>
             </div>
           </div >
-        </section >
+        </ section>
 
 
 
@@ -46,7 +68,7 @@ const Acasa = () => {
 
 
 
-        <section className='problem container mt-5 p-1'>
+        < section className='presentation container mt-5 p-1' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-4 order-md-2">
               <div className="d-flex align-items-center">
@@ -58,7 +80,7 @@ const Acasa = () => {
               <p className='text-separator fw-light'><span className='fst-italic fs-3 fw-normal'>S</span>untem o echipă tânără și dinamică de avocați și specialiști în insolvență și domeniul financiar-juridic. Cu o experiență de peste 10 ani în acest domeniu, oferim servicii de consultanță, asistență și reprezentare în fața instanțelor și autorităților publice. Ne-am propus să găsim cele mai bune soluții pentru problemele tale comerciale, fiscale și contractuale, într-un mod profesionist și benefic pentru imaginea ta în lumea afacerilor.</p>
             </div>
           </div >
-        </section >
+        </ section>
 
 
 
@@ -73,7 +95,7 @@ const Acasa = () => {
 
 
         {/*DOMENII DE PRACTICA========= */}
-        <section className='domenii container mt-5 p-1'>
+        < section className='services container mt-5 p-1' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-4 order-md-2">
               <div className="d-flex align-items-center">
@@ -97,10 +119,53 @@ const Acasa = () => {
               </div>
             </div>
           </div >
-        </section >
+        </ section>
+
+
+
+        {/* <section className="hero-wrap">
+          <div className="overlay">
+            <div className="content-wrap">
+              <div className="left-box"> */}
+
+        < section className='recomandation container mt-5 p-3 bg-image' >
+          <div className="row mt-4 gx-3 flex-column flex-md-row">
+            <div className="col col-md-4 order-md-2">
+              <div className="d-flex align-items-center">
+                <div className="decorative-line"></div>
+                <h4 className="h-50 lh-base fst-italic fw-normal">Ce ne recomanda?</h4>
+
+              </div>
+            </div >
+
+            <div className="col col-md-8 order-md-2">
+              <ul className='fw-normal'>
+                <li>Vastele cunostinte juridice de specialitate</li>
+                <li>Bogata experienta in domeniu</li>
+                <li>Inaltul nivel de profesionalism</li>
+                <li>Implicarea activa in sustinerea proiectelor</li>
+                <li>Comunicarea directa si deschisa cu clientul</li>
+                <li>Raspunsul rapid la nevoile clientului</li>
+                <li>Furnizarea de solutii complete prin colaborarea cu alti profesionisti</li>
+              </ul>
+
+            </div>
+          </div >
+        </ section>
+
+
+        {/* </div>
+
+            </div>
+          </div>
+        </section> */}
+
+
+
+
 
         {/*CE NE RECOMANDA========= */}
-        <section className='recomanda container mt-5 p-3'>
+        {/* <section className='recomandation container mt-5 p-3'>
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-4 order-md-2">
               <div className="d-flex align-items-center">
@@ -122,7 +187,7 @@ const Acasa = () => {
 
             </div>
           </div >
-        </section >
+        </section > */}
 
         {/*FOOTER======= */}
         < Footer />

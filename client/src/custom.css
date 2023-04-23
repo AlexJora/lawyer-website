@@ -21,7 +21,8 @@
 }
 
 .nav .phone {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+  color: #FCA311;
 
 }
 
@@ -78,7 +79,7 @@
 }
 
 .scroll-to-top:hover {
-  background-color: #27bcda;
+  background-color: #FCA311;
 }
 
 .copyright {
@@ -95,13 +96,31 @@
 }
 
 .message {
-  color: #fff;
+  color: black;
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 20%;
+  left: 33%;
   transform: translate(-50%, -50%);
   z-index: 1;
 }
+
+.hero-buttons {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  /* margin-top: -10rem; */
+  transform: translateX(-50%);
+  z-index: 1;
+
+
+
+}
+
+.hero-buttons .btn {
+  background-color: #c2b697;
+}
+
 
 /* .decorative-line {
   display: inline-block;
@@ -116,6 +135,23 @@
   border-left: 1px solid #c2b697;
   padding-left: 2rem;
   text-indent: 1rem;
+}
+
+.presentation {
+  background-color: gray;
+  color: white
+}
+
+.recomandation {
+  color: white;
+}
+
+.bg-image {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\bg2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: ;
 }
 
 
