@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
 /* NAVBAR====================== */
 .nav .logo-image {
   max-width: 70px;
@@ -17,17 +27,17 @@
 }
 
 .nav .home {
-  color: '#c2b697'
+  color: ' #C79C65ff'
 }
 
 .nav .phone {
   font-size: 0.9rem;
-  color: #FCA311;
+  color: #C79C65ff;
 
 }
 
 .phone-icon {
-  color: #ffa008;
+  color: #C79C65ff;
 }
 
 .phone-icon {
@@ -136,7 +146,7 @@
 }
 
 .scroll-to-top:hover {
-  background-color: #FCA311;
+  background-color: #C79C65ff;
 }
 
 .copyright {
@@ -148,36 +158,65 @@
 }
 
 /* ACASA====================== */
-
-.hero-wraper {
+.hero-section {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\hero.jpg');
+  height: 550px;
+  /* Set the height of the hero section */
+  background-size: cover;
+  background-position: center;
   position: relative;
+  display: flex;
 }
 
-.hero-wraper::before {
-  content: "";
-  display: block;
+.hero-overlay {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background-color: rgba(33, 40, 58, 0.7);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(9, 7, 21, 0.7);
-  /* adjust the opacity as needed */
-  z-index: 0;
+
 }
 
-.message {
-  color: #EBE2D6ff;
-  position: absolute;
-  top: 40%;
-  left: 35%;
-  transform: translate(-50%, -50%);
+.text-container {
+  position: relative;
   z-index: 1;
+  margin-top: 11rem;
+  margin-left: 2rem;
+}
+
+.text-1,
+.text-2 {
+  color: #EBE2D6ff;
+  padding-bottom: 1rem;
+  font-family: 'Marmelad', sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+
+
+.text-2 span {
+  color: #C79C65ff;
+  font-style: italic;
+}
+
+.text-3 {
+  color: #EBE2D6ff;
+  font-size: 0.9rem;
+  padding-top: 1.5rem;
+  width: 52%;
+}
+
+.text-3 span {
+  font-size: 0.7rem;
 
 }
+
+/* buttons */
 
 .hero-buttons {
-  color: #fff;
+  /* color: #fff; */
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -190,7 +229,13 @@
 }
 
 .hero-buttons .btn {
-  background-color: #c2b697;
+  background-color: #C79C65ff;
+  color: #053661;
+}
+
+.hero-buttons .btn:hover {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
 }
 
 
@@ -210,7 +255,7 @@
 }
 
 .presentation {
-  background-color: gray;
+  background-color: #C79C65ff;
   color: white
 }
 

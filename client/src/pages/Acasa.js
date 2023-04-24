@@ -13,38 +13,40 @@ const Acasa = () => {
         <Navbar />
 
         {/* HERO=========== */}
-        <section>
-          <div className='hero-wraper'>
-            <img src="hero.jpg" className="img-fluid" alt="books" />
-            <div className='message hl-lg d-flex justify-content-start align-items-start'>
-              <div>
-                <h2 style={{ fontSize: '2.3rem' }}>ALINA MARIN</h2>
-                <h4>BIROU DE AVOCATURA SI INSOLVENTA -<span style={{ color: '#c2b697', fontStyle: 'italic' }}> Bucuresti</span></h4>
-                <h6 style={{ fontStyle: 'italic', fontSize: '1rem', paddingTop: '1.5rem', lineHeight: '2', fontWeight: 'normal', width: '80%' }} >"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - Lucius Annaeus Seneca.</h6>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="hero-section">
+              <div className="hero-overlay"></div>
+              <div className="text-container d-flex flex-column justify-content-start align-items-start pt-6">
+                <div className="text-1 fs-2">ALINA MARIN</div>
+                <div className="text-2 fs-4">BIROU DE AVOCATURA SI INSOLVENTA - <span className='fw-bold'>Bucuresti </span></div>
+                <div className="text-3 fst-italic lh-6 fw-lighter">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
-            </div>
+              {/* HORIZONTAL */}
+              <div className="d-none d-md-flex hero-buttons gap-0 justify-content-center align-items-end w-100 h-100">
+                <div className="col flex-grow-1">
+                  <button className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+                </div>
+                <div className="col flex-grow-1">
+                  <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
+                </div>
+                <div className="col flex-grow-1">
+                  <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} /></span>Onorarii
+                  </button>
+                </div>
+              </div>
+            </div >
 
-            {/* HORIZONTAL */}
-            <div className="d-none d-md-flex hero-buttons gap-0 justify-content-center align-items-end w-100 h-100">
-              <div className="col flex-grow-1">
-                <button className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fst-italic"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
-              </div>
-              <div className="col flex-grow-1">
-                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
-              </div>
-              <div className="col flex-grow-1">
-                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} /></span>Onorarii
-                </button>
-              </div>
-            </div>
             {/* VERTICAL */}
             <div className="d-md-none d-flex flex-column align-items-center mt-3 gap-1">
               <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm">Solicita o programare</button>
               <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm">Cere o evaluare</button>
               <button className="btn btn-outline-dark type-button p-3 w-100 btn-sm">Onorarii</button>
             </div>
+
           </div>
-        </section>
+        </div>
+
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
         < section className='problem container mt-5 p-1' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
@@ -58,7 +60,7 @@ const Acasa = () => {
               <p className='text-separator fw-light'><span className='fst-italic fs-3 fw-normal'>C</span>abinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice. Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.</p>
             </div>
           </div >
-        </ section>
+        </ section >
 
 
 
@@ -78,7 +80,7 @@ const Acasa = () => {
               <p className='text-separator fw-light'><span className='fst-italic fs-3 fw-normal'>S</span>untem o echipă tânără și dinamică de avocați și specialiști în insolvență și domeniul financiar-juridic. Cu o experiență de peste 10 ani în acest domeniu, oferim servicii de consultanță, asistență și reprezentare în fața instanțelor și autorităților publice. Ne-am propus să găsim cele mai bune soluții pentru problemele tale comerciale, fiscale și contractuale, într-un mod profesionist și benefic pentru imaginea ta în lumea afacerilor.</p>
             </div>
           </div >
-        </ section>
+        </ section >
 
 
 
@@ -117,7 +119,7 @@ const Acasa = () => {
               </div>
             </div>
           </div >
-        </ section>
+        </ section >
 
 
 
@@ -149,7 +151,7 @@ const Acasa = () => {
 
             </div>
           </div >
-        </ section>
+        </ section >
 
 
         {/* </div>
