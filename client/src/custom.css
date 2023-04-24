@@ -160,7 +160,7 @@
 /* ACASA====================== */
 .hero-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\hero.jpg');
-  height: 550px;
+  height: 600px;
   /* Set the height of the hero section */
   background-size: cover;
   background-position: center;
@@ -170,7 +170,7 @@
 
 .hero-overlay {
   /* background-color: rgba(0, 0, 0, 0.6); */
-  background-color: rgba(33, 40, 58, 0.7);
+  background-color: rgba(37, 43, 57, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -188,7 +188,8 @@
 
 .text-1,
 .text-2 {
-  color: #EBE2D6ff;
+  /* color: #EBE2D6ff; */
+  color: white;
   padding-bottom: 1rem;
   font-family: 'Marmelad', sans-serif;
   letter-spacing: 0.1rem;
@@ -215,12 +216,10 @@
 
 /* buttons */
 
-.hero-buttons {
-  /* color: #fff; */
+.horizontal-btn {
   position: absolute;
   left: 50%;
   bottom: 0;
-  /* margin-top: -10rem; */
   transform: translateX(-50%);
   z-index: 1;
 
@@ -228,12 +227,32 @@
 
 }
 
-.hero-buttons .btn {
-  background-color: #C79C65ff;
+#first-btn {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
+}
+
+#first-btn:hover {
+  background-color: #c2b697;
+  color: #042B4E;
+}
+
+.horizontal-btn .btn {
+  background-color: #c2b697;
   color: #053661;
 }
 
-.hero-buttons .btn:hover {
+.horizontal-btn .btn:hover {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
+}
+
+.vertical-btn .btn {
+  background-color: #c2b697;
+  color: #053661;
+}
+
+.vertical-btn .btn:hover {
   background-color: #042B4E;
   color: #EBE2D6ff;
 }
@@ -249,7 +268,7 @@
 } */
 
 .text-separator {
-  border-left: 1px solid #c2b697;
+  border-left: 1px solid;
   padding-left: 2rem;
   text-indent: 1rem;
 }

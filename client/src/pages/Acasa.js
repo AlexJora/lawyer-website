@@ -2,8 +2,8 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone, faAngleUp, faCalendarCheck, faFileCircleCheck, faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
+
+import { faCalendarCheck, faFileCircleCheck, faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
 
 const Acasa = () => {
   return (
@@ -23,9 +23,9 @@ const Acasa = () => {
                 <div className="text-3 fst-italic lh-6 fw-lighter">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
               {/* HORIZONTAL */}
-              <div className="d-none d-md-flex hero-buttons gap-0 justify-content-center align-items-end w-100 h-100">
-                <div className="col flex-grow-1">
-                  <button className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+              <div className="horizontal-btn d-none d-md-flex gap-3 justify-content-around align-items-end w-100 h-100">
+                <div className=" col flex-grow-1">
+                  <button id='first-btn' className="first btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
                 </div>
                 <div className="col flex-grow-1">
                   <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
@@ -38,10 +38,10 @@ const Acasa = () => {
             </div >
 
             {/* VERTICAL */}
-            <div className="d-md-none d-flex flex-column align-items-center mt-3 gap-1">
-              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm">Solicita o programare</button>
-              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm">Cere o evaluare</button>
-              <button className="btn btn-outline-dark type-button p-3 w-100 btn-sm">Onorarii</button>
+            <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
+              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
+              <button className="btn btn-outline-dark type-button p-3 w-100 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} /></span>Onorarii</button>
             </div>
 
           </div>
