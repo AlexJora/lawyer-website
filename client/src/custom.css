@@ -9,7 +9,7 @@
 }
 
 .nav .slide-in {
-  background-color: #272B2E;
+  background-color: #02182B;
   padding-top: 0;
   padding-top: 0;
   animation: slide-in 0.5s ease-out;
@@ -26,6 +26,63 @@
 
 }
 
+.phone-icon {
+  color: #ffa008;
+}
+
+.phone-icon {
+  animation: ring 5s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+@keyframes ring {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+
+  10% {
+    transform: scale(1.1) rotate(10deg);
+  }
+
+  20% {
+    transform: scale(1) rotate(-10deg);
+  }
+
+  30% {
+    transform: scale(1.1) rotate(10deg);
+  }
+
+  40% {
+    transform: scale(1) rotate(-10deg);
+  }
+
+  50% {
+    transform: scale(1.1) rotate(10deg);
+  }
+
+  60% {
+    transform: scale(1) rotate(-10deg);
+  }
+
+  70% {
+    transform: scale(1.1) rotate(10deg);
+  }
+
+  80% {
+    transform: scale(1) rotate(-10deg);
+  }
+
+  90% {
+    transform: scale(1.1) rotate(10deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+
+
 @keyframes slide-in {
   from {
     transform: translateY(-100%);
@@ -38,7 +95,7 @@
 
 /* FOOTER====================== */
 .foo {
-  background-color: #272B2E;
+  background-color: #02182B;
 
 }
 
@@ -91,17 +148,32 @@
 }
 
 /* ACASA====================== */
-.wraper {
+
+.hero-wraper {
   position: relative;
 }
 
-.message {
-  color: black;
+.hero-wraper::before {
+  content: "";
+  display: block;
   position: absolute;
-  top: 20%;
-  left: 33%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 7, 21, 0.7);
+  /* adjust the opacity as needed */
+  z-index: 0;
+}
+
+.message {
+  color: #EBE2D6ff;
+  position: absolute;
+  top: 40%;
+  left: 35%;
   transform: translate(-50%, -50%);
   z-index: 1;
+
 }
 
 .hero-buttons {

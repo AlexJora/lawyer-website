@@ -11,30 +11,30 @@ const Acasa = () => {
       <section>
         {/*NAVBAR=========*/}
         <Navbar />
-        {/*BANNER========= */}
-        <section>
-          <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center", fontStyle: 'italic' }}>Acasa</div>
-        </section>
+
         {/* HERO=========== */}
         <section>
-          <div className='wraper'>
+          <div className='hero-wraper'>
             <img src="hero.jpg" className="img-fluid" alt="books" />
-            <div className='message text-center hl-lg'>
-              <h2>ALINA MARIN</h2>
-              <h3>CABINET DE AVOCATURA SI INSOLVENTA - BUCURESTI</h3>
-              <h4>Orice persoana are dreptul </h4>
-              <h4>la un proces echitabil</h4>
+            <div className='message hl-lg d-flex justify-content-start align-items-start'>
+              <div>
+                <h2 style={{ fontSize: '2.3rem' }}>ALINA MARIN</h2>
+                <h4>BIROU DE AVOCATURA SI INSOLVENTA -<span style={{ color: '#c2b697', fontStyle: 'italic' }}> Bucuresti</span></h4>
+                <h6 style={{ fontStyle: 'italic', fontSize: '1rem', paddingTop: '1.5rem', lineHeight: '2', fontWeight: 'normal', width: '80%' }} >"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - Lucius Annaeus Seneca.</h6>
+              </div>
             </div>
+
             {/* HORIZONTAL */}
-            <div className="d-none d-md-flex hero-buttons gap-1 justify-content-center align-items-end w-100 h-100">
+            <div className="d-none d-md-flex hero-buttons gap-0 justify-content-center align-items-end w-100 h-100">
               <div className="col flex-grow-1">
-                <button className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fst-italic"><span className='p-2' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+                <button className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fst-italic"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
               </div>
               <div className="col flex-grow-1">
-                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><FontAwesomeIcon icon={faFileCircleCheck} />Cere o evaluare</button>
+                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
               </div>
               <div className="col flex-grow-1">
-                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><FontAwesomeIcon icon={faCommentsDollar} />Onorarii</button>
+                <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fst-italic"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} /></span>Onorarii
+                </button>
               </div>
             </div>
             {/* VERTICAL */}
@@ -45,8 +45,6 @@ const Acasa = () => {
             </div>
           </div>
         </section>
-
-
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
         < section className='problem container mt-5 p-1' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">

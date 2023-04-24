@@ -39,10 +39,10 @@ const Navbar = () => {
                 <a className="nav-link  text-light mx-3" href="/contact">Contact</a>
               </li>
               <li className="nav-item mx-2">
-                < a className="text-light nav-link fs-6" href=" /contact"><FontAwesomeIcon
+                < a className="  text-light nav-link fs-6" href=" /contact"><FontAwesomeIcon
                   icon={faPhone}
-                  className="icon"
-                /><span className=" mx-2 phone" >0769 935 716</span></a>
+                  className="phone-icon"
+                /><span className=" mx-2 phone" >+40769 935 716</span></a>
                 {/* <span className=" mx-2 phone" >Bucuresti</span>*/}
               </li>
 
