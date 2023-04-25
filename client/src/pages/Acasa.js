@@ -3,7 +3,8 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faCalendarCheck, faFileCircleCheck, faCommentsDollar } from '@fortawesome/free-solid-svg-icons';
+import { faCalendarCheck, faFileCircleCheck, faCommentsDollar, faGavel } from '@fortawesome/free-solid-svg-icons';
+
 
 const Acasa = () => {
   return (
@@ -23,7 +24,7 @@ const Acasa = () => {
                 <div className="text-3 fst-italic lh-6 fw-lighter">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
               {/* horizontal buttons */}
-              <div className="horizontal-btn d-none d-md-flex gap-0 justify-content-center  align-items-end w-100 h-100">
+              <div className="horizontal-btn d-none d-md-flex gap-4 justify-content-center  align-items-end w-100 h-100">
                 <div className=" col flex-grow-1">
                   <button id='first-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Programare</button>
                 </div>
@@ -52,8 +53,9 @@ const Acasa = () => {
           <div className="row mt-4 gx-4 flex-column flex-md-row gap-6">
             <div className="col col-md-6 order-md-2">
               <div className="d-flex align-items-center">
-                <img src='welcome-img.jpg' className='welcome-img img-fluid mx-auto d-block' alt='two people on desk' />
-
+                <div className='intro-img'>
+                  <img src='law-question.jpg' className='intro-img img-fluid mx-auto d-block' alt='two people on desk' />
+                </div>
               </div>
             </div >
             <div className="col col-md-6 order-md-2">
@@ -90,7 +92,7 @@ const Acasa = () => {
                         societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
                         insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
                       <div className='text-center mt-3'>
-                        <button className='btn btn-primary'>Learn more</button>
+                        <button type="button" class="btn btn-outline-warning">Afla mai multe...</button>
                       </div>
                     </div>
                     <div className='col-md-6'>
@@ -106,7 +108,7 @@ const Acasa = () => {
                         insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si
                         administrativa, recuperari creante, evaluare si valorificare active.</p>
                       <div className='text-center mt-3'>
-                        <button className='btn btn-primary'>Learn more</button>
+                        <button type="button" class="btn btn-outline-warning">Afla mai multe...</button>
                       </div>
                     </div>
                   </div>
@@ -121,33 +123,34 @@ const Acasa = () => {
 
 
         {/* CINE SUNTEM */}
-        < section className='presentation container mt-5 p-1' >
-          <div className="row mt-4 gx-3 flex-column flex-md-row">
-            <div className="col col-md-4 order-md-2">
+        < section className='about container mt-5 p-1' >
+          <div className="row mt-4 gx-4 flex-column flex-md-row gap-6">
+            <div className="col col-md-6 order-md-2">
+              <h6>DESPRE NOI</h6>
+              <h4 className=" lh-base fw-bold text-center">Cine suntem?</h4>
+
+              <p className='text-separator fw-light' >Suntem o echipă tânără și dinamică de avocați și specialiști în insolvență și domeniul financiar-juridic. Cu o experiență de peste 10 ani în acest domeniu, oferim servicii de consultanță, asistență și reprezentare în fața instanțelor și autorităților publice. Ne-am propus să găsim cele mai bune soluții pentru problemele tale comerciale, fiscale și contractuale, într-un mod profesionist și benefic pentru imaginea ta în lumea afacerilor.</p>
+            </div>
+            <div className="col col-md-6 order-md-2">
               <div className="d-flex align-items-center">
-                <div className="decorative-line"></div>
-                <h4 className="h-50 lh-base fst-italic fw-normal">Cine suntem?</h4>
+                <img src='welcome-img.jpg' className='welcome-img img-fluid mx-auto d-block' alt='two people on desk' />
+
               </div>
             </div >
-            <div className="col col-md-8 order-md-2">
-              <p className='text-separator fw-light'><span className='fst-italic fs-3 fw-normal'>S</span>untem o echipă tânără și dinamică de avocați și specialiști în insolvență și domeniul financiar-juridic. Cu o experiență de peste 10 ani în acest domeniu, oferim servicii de consultanță, asistență și reprezentare în fața instanțelor și autorităților publice. Ne-am propus să găsim cele mai bune soluții pentru problemele tale comerciale, fiscale și contractuale, într-un mod profesionist și benefic pentru imaginea ta în lumea afacerilor.</p>
-            </div>
+
           </div >
         </ section >
 
         {/*CE NE RECOMANDA========= */}
 
-        < section className='recomandation container mt-5 p-3 bg-image' >
-          <div className="row mt-4 gx-3 flex-column flex-md-row">
-            <div className="col col-md-4 order-md-2">
-              <div className="d-flex align-items-center">
-                <div className="decorative-line"></div>
-                <h4 className="h-50 lh-base fst-italic fw-normal">Ce ne recomanda?</h4>
-
-              </div>
-            </div >
-
-            <div className="col col-md-8 order-md-2">
+        {/* style={{ backgroundColor: ' pink' }} */}
+        <section className='recomandation container mt-5 p-3 bg-image m-3' >
+          <div className='container d-flex flex-column justify-content-center align-items-center'>
+            <h6>DE CE NOI?</h6>
+            <h4 className="h-50 lh-base fw-normal">Ce ne recomanda</h4>
+          </div>
+          <div className="row mt-4 flex-column flex-md-row">
+            <div className="col col-md-7 order-md-2">
               <ul className='fw-normal'>
                 <li>Vastele cunostinte juridice de specialitate</li>
                 <li>Bogata experienta in domeniu</li>
@@ -157,12 +160,16 @@ const Acasa = () => {
                 <li>Raspunsul rapid la nevoile clientului</li>
                 <li>Furnizarea de solutii complete prin colaborarea cu alti profesionisti</li>
               </ul>
-
             </div>
-          </div >
-        </ section >
-
-
+            <div className="col col-md-5 order-md-2">
+              <div className='container d-flex flex-column bg-warning justify-content-center align-items-center p-4 w-50'>
+                <div><FontAwesomeIcon icon={faGavel} /></div>
+                <div>10+</div>
+                <div>ani de experienta</div>
+              </div>
+            </div>
+          </div>
+        </section>
 
 
 
