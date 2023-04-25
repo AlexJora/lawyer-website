@@ -91,8 +91,8 @@ const Acasa = () => {
                       <p className='pt-3'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
                         societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
                         insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
-                      <div className='text-center mt-3'>
-                        <button type="button" class="btn btn-outline-warning">Afla mai multe...</button>
+                      <div className='text-center mt-4 mb-5'>
+                        <button type="button" class="btn btn-outline-warning ">Afla mai multe...</button>
                       </div>
                     </div>
                     <div className='col-md-6'>
@@ -149,19 +149,20 @@ const Acasa = () => {
             <h6>DE CE NOI?</h6>
             <h4 className="h-50 lh-base fw-normal">Ce ne recomanda</h4>
           </div>
-          <div className="row mt-4 flex-column flex-md-row">
+          <div className="row mt-4 flex-column flex-md-row mb-3">
             <div className="col col-md-7 order-md-2">
-              <ul className='fw-normal'>
-                <li>Vastele cunostinte juridice de specialitate</li>
-                <li>Bogata experienta in domeniu</li>
-                <li>Inaltul nivel de profesionalism</li>
-                <li>Implicarea activa in sustinerea proiectelor</li>
-                <li>Comunicarea directa si deschisa cu clientul</li>
-                <li>Raspunsul rapid la nevoile clientului</li>
-                <li>Furnizarea de solutii complete prin colaborarea cu alti profesionisti</li>
+
+              <ul class="list-group">
+                <li class="list-group-item"> - Experiență vastă în domeniu</li>
+                <li class="list-group-item"> - Profesionalism ridicat și abordare orientată spre clienți</li>
+                <li class="list-group-item"> - Implicare activă în proiecte și sprijinirea acestora</li>
+                <li class="list-group-item"> - Comunicare directă și transparentă cu clienții</li>
+                <li class="list-group-item"> - Raspunsul rapid la nevoile clientului</li>
+                <li class="list-group-item"> - Furnizarea de solutii complete prin colaborarea cu alti profesionisti</li>
+
               </ul>
             </div>
-            <div className="col col-md-5 order-md-2">
+            <div className="col col-md-5 order-md-2 mt-5">
               <div className='container d-flex flex-column bg-warning justify-content-center align-items-center p-4 w-50'>
                 <div><FontAwesomeIcon icon={faGavel} /></div>
                 <div>10+</div>
