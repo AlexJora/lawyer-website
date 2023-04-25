@@ -23,9 +23,9 @@ const Acasa = () => {
                 <div className="text-3 fst-italic lh-6 fw-lighter">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
               {/* HORIZONTAL */}
-              <div className="horizontal-btn d-none d-md-flex gap-3 justify-content-around align-items-end w-100 h-100">
+              <div className="horizontal-btn d-none d-md-flex gap-0 justify-content-center  align-items-end w-100 h-100">
                 <div className=" col flex-grow-1">
-                  <button id='first-btn' className="first btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+                  <button id='first-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Programare</button>
                 </div>
                 <div className="col flex-grow-1">
                   <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
@@ -39,9 +39,9 @@ const Acasa = () => {
 
             {/* VERTICAL */}
             <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
-              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
-              <button className="btn btn-outline-dark type-button p-3 w-100 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
-              <button className="btn btn-outline-dark type-button p-3 w-100 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} /></span>Onorarii</button>
+              <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
+              <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
+              <button className="btn btn-outline-dark type-button p-3 w-80 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} /></span>Onorarii</button>
             </div>
 
           </div>
@@ -49,15 +49,18 @@ const Acasa = () => {
 
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
         < section className='problem container mt-5 p-1' >
-          <div className="row mt-4 gx-3 flex-column flex-md-row">
-            <div className="col col-md-4 order-md-2">
+          <div className="row mt-4 gx-4 flex-column flex-md-row gap-6">
+            <div className="col col-md-6 order-md-2">
               <div className="d-flex align-items-center">
-                <div className="decorative-line"></div>
-                <h4 className="h-50 lh-base fst-italic fw-normal">Te confrunți cu o problemă juridică sau de insolventa?</h4>
+                <img src='welcome-img.jpg' className='welcome-img img-fluid mx-auto d-block' alt='two people on desk' />
+
               </div>
             </div >
-            <div className="col col-md-8 order-md-2">
-              <p className='text-separator fw-light'><span className='fst-italic fs-3 fw-normal'>C</span>abinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice. Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.</p>
+            <div className="col col-md-6 order-md-2">
+              <h6>INTRO</h6>
+              <h4 className=" lh-base fw-bold text-center">Va confrunți cu o problemă juridică sau de insolventa?</h4>
+              <h6 className=" lh-base fw-bold text-center">Suntem gata sa va ajutam!</h6>
+              <p className='text-separator fw-light' ><span className='fst-italic fs-3 fw-normal'>C</span>abinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice. Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.</p>
             </div>
           </div >
         </ section >
@@ -99,8 +102,8 @@ const Acasa = () => {
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-4 order-md-2">
               <div className="d-flex align-items-center">
-                <div className="decorative-line"></div>
-                <h4 className="h-50 lh-base fst-italic fw-normal">Domenii de practica</h4>
+                <h6>SERVICII</h6>
+                <h4 className="h-50 lh-base fw-normal">Domenii de practica</h4>
               </div>
             </div >
             <div className="col col-md-8 order-md-2">
@@ -120,13 +123,6 @@ const Acasa = () => {
             </div>
           </div >
         </ section >
-
-
-
-        {/* <section className="hero-wrap">
-          <div className="overlay">
-            <div className="content-wrap">
-              <div className="left-box"> */}
 
         < section className='recomandation container mt-5 p-3 bg-image' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
@@ -154,11 +150,6 @@ const Acasa = () => {
         </ section >
 
 
-        {/* </div>
-
-            </div>
-          </div>
-        </section> */}
 
 
 

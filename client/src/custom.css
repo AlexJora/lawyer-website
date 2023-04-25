@@ -189,10 +189,10 @@
 .text-1,
 .text-2 {
   /* color: #EBE2D6ff; */
-  color: white;
-  padding-bottom: 1rem;
+  color: whitesmoke;
   font-family: 'Marmelad', sans-serif;
   letter-spacing: 0.1rem;
+  width: 70%;
 }
 
 
@@ -207,6 +207,7 @@
   font-size: 0.9rem;
   padding-top: 1.5rem;
   width: 52%;
+
 }
 
 .text-3 span {
@@ -250,6 +251,7 @@
 .vertical-btn .btn {
   background-color: #c2b697;
   color: #053661;
+
 }
 
 .vertical-btn .btn:hover {
@@ -273,10 +275,13 @@
   text-indent: 1rem;
 }
 
-.presentation {
-  background-color: #C79C65ff;
-  color: white
+.welcome-img {
+  border-radius: 5px;
+  box-shadow: 0 1px 73px 0 rgba(38, 43, 62, 0.1);
+
 }
+
+
 
 .recomandation {
   color: white;
