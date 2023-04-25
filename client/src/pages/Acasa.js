@@ -8,7 +8,7 @@ import { faCalendarCheck, faFileCircleCheck, faCommentsDollar } from '@fortaweso
 const Acasa = () => {
   return (
     <>
-      <section>
+      <div className='home-page'>
         {/*NAVBAR=========*/}
         <Navbar />
 
@@ -22,7 +22,7 @@ const Acasa = () => {
                 <div className="text-2 fs-4">BIROU DE AVOCATURA SI INSOLVENTA - <span className='fw-bold'>Bucuresti </span></div>
                 <div className="text-3 fst-italic lh-6 fw-lighter">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
-              {/* HORIZONTAL */}
+              {/* horizontal buttons */}
               <div className="horizontal-btn d-none d-md-flex gap-0 justify-content-center  align-items-end w-100 h-100">
                 <div className=" col flex-grow-1">
                   <button id='first-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Programare</button>
@@ -37,7 +37,7 @@ const Acasa = () => {
               </div>
             </div >
 
-            {/* VERTICAL */}
+            {/* vertical buttons*/}
             <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
               <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} /></span>Solicita o programare</button>
               <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} /></span>Cere o evaluare</button>
@@ -67,10 +67,60 @@ const Acasa = () => {
 
 
 
+        {/*DOMENII DE PRACTICA========= */}
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+              <div className="services-section">
+                <div className="services-overlay"></div>
+                <div className='services-content container mt-5 p-1'>
+                  <h6 className='text-center mb-4'>SERVICII</h6>
+                  <h4 className=" lh-base fw-bold text-center">Domenii de activitate</h4>
+                  <div className="row mt-4 gx-3 flex-column flex-md-row">
+                    <div className='col-md-6'>
+                      <h3 className='text-center mb-4'>Cabinet de avocatura</h3>
+                      <div className='d-flex align-items-center'>
+                        <img src="barou.jpg" className="img-fluid mx-auto d-block" alt="sigla barou" style={{
+                          maxWidth:
+                            '120px',
+                          borderRadius: '5px'
+                        }} />
+                      </div>
+                      <p className='pt-3'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
+                        societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
+                        insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
+                      <div className='text-center mt-3'>
+                        <button className='btn btn-primary'>Learn more</button>
+                      </div>
+                    </div>
+                    <div className='col-md-6'>
+                      <h3 className='text-center mb-4'>Cabinet de insolventa</h3>
+                      <div className='d-flex align-items-center'>
+                        <img src="unpir.jpg" className="img-fluid mx-auto d-block" alt="sigla unpir" style={{
+                          maxWidth:
+                            '120px',
+                          borderRadius: '5px'
+                        }} />
+                      </div>
+                      <p className='pt-3'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
+                        insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si
+                        administrativa, recuperari creante, evaluare si valorificare active.</p>
+                      <div className='text-center mt-3'>
+                        <button className='btn btn-primary'>Learn more</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
         {/* CINE SUNTEM */}
-
-
-
         < section className='presentation container mt-5 p-1' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
             <div className="col col-md-4 order-md-2">
@@ -85,44 +135,7 @@ const Acasa = () => {
           </div >
         </ section >
 
-
-
-
-
-
-
-
-
-
-
-
-
-        {/*DOMENII DE PRACTICA========= */}
-        < section className='services container mt-5 p-1' >
-          <div className="row mt-4 gx-3 flex-column flex-md-row">
-            <div className="col col-md-4 order-md-2">
-              <div className="d-flex align-items-center">
-                <h6>SERVICII</h6>
-                <h4 className="h-50 lh-base fw-normal">Domenii de practica</h4>
-              </div>
-            </div >
-            <div className="col col-md-8 order-md-2">
-              <div className="row mt-1 gx-3 flex-column flex-md-row text-separator">
-                <div className='col col-md-6 fw-light'>
-                  <h5 className='mb-4 text-center fw-light'>Cabinet de avocatura</h5>
-                  <img src="barou.jpg" className="img-fluid mx-auto d-block" alt="sigla barou" style={{ maxWidth: '120px' }} />
-                  <p className='pt-3'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
-                </div>
-                <div className='col col-md-6  fw-light'>
-                  <h5 className='mb-4 text-center fw-light'>Cabinet de insolventa</h5>
-
-                  <img src="unpir.jpg" className="img-fluid mx-auto d-block" alt="sigla unpir" style={{ maxWidth: '120px' }} />
-                  <p className='pt-3'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale, insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si administrativa, recuperari creante, evaluare si valorificare active.</p>
-                </div>
-              </div>
-            </div>
-          </div >
-        </ section >
+        {/*CE NE RECOMANDA========= */}
 
         < section className='recomandation container mt-5 p-3 bg-image' >
           <div className="row mt-4 gx-3 flex-column flex-md-row">
@@ -155,34 +168,13 @@ const Acasa = () => {
 
 
 
-        {/*CE NE RECOMANDA========= */}
-        {/* <section className='recomandation container mt-5 p-3'>
-          <div className="row mt-4 gx-3 flex-column flex-md-row">
-            <div className="col col-md-4 order-md-2">
-              <div className="d-flex align-items-center">
-                <div className="decorative-line"></div>
-                <h4 className="h-50 lh-base fst-italic fw-normal">Ce ne recomanda?</h4>
-              </div>
-            </div >
 
-            <div className="col col-md-8 order-md-2">
-              <ul className='fw-light'>
-                <li>Vastele cunostinte juridice de specialitate</li>
-                <li>Bogata experienta in domeniu</li>
-                <li>Inaltul nivel de profesionalism</li>
-                <li>Implicarea activa in sustinerea proiectelor</li>
-                <li>Comunicarea directa si deschisa cu clientul</li>
-                <li>Raspunsul rapid la nevoile clientului</li>
-                <li>Furnizarea de solutii complete prin colaborarea cu alti profesionisti</li>
-              </ul>
 
-            </div>
-          </div >
-        </section > */}
 
         {/*FOOTER======= */}
         < Footer />
-      </section >
+      </div >
+
 
     </>
   )
