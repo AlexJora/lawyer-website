@@ -285,12 +285,19 @@
 /* services */
 .services-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\pillars.jpg');
-  height: 520px;
-  /* Set the height of the hero section */
+
+
   background-size: cover;
   background-position: center;
   position: relative;
   display: flex;
+}
+
+.services-section img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
 }
 
 .services-overlay {
