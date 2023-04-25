@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 * {
   font-family: 'Open Sans', sans-serif;
+
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 
@@ -169,8 +173,8 @@
 }
 
 .hero-overlay {
-  /* background-color: rgba(0, 0, 0, 0.6); */
-  background-color: rgba(37, 43, 57, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(37, 43, 57, 0.7); */
   position: absolute;
   top: 0;
   left: 0;
@@ -182,14 +186,13 @@
 .text-container {
   position: relative;
   z-index: 1;
-  margin-top: 11rem;
-  margin-left: 2rem;
+  margin-top: 12rem;
+  margin-left: 3rem;
 }
 
 .text-1,
 .text-2 {
-  /* color: #EBE2D6ff; */
-  color: whitesmoke;
+  color: #fff;
   font-family: 'Marmelad', sans-serif;
   letter-spacing: 0.1rem;
   width: 70%;
@@ -198,14 +201,15 @@
 
 
 .text-2 span {
-  color: #C79C65ff;
-  font-style: italic;
+  color: rgb(232, 189, 134);
+  font-size: 1.3rem;
 }
 
 .text-3 {
   color: #EBE2D6ff;
   font-size: 0.9rem;
-  padding-top: 1.5rem;
+  padding-top: 4rem;
+  line-height: 1.8rem;
   width: 52%;
 
 }
@@ -234,12 +238,12 @@
 }
 
 #first-btn:hover {
-  background-color: #c2b697;
+  background-color: rgb(232, 189, 134);
   color: #042B4E;
 }
 
 .horizontal-btn .btn {
-  background-color: #c2b697;
+  background-color: rgb(232, 189, 134);
   color: #053661;
 }
 
@@ -259,38 +263,33 @@
   color: #EBE2D6ff;
 }
 
+
+
 /* end buttons===== */
 
-/* .decorative-line {
-  display: inline-block;
-  width: 20px;
-  height: 1px;
-  margin-bottom: 40px;
-  margin-right: 10px;
-  background-color: #c2b697;
-} */
 
 .text-separator {
-  border-left: 1px solid;
+  border-left: 2px solid #be7413;
   padding-left: 2rem;
   text-indent: 1rem;
 }
 
 /* intro */
-.intro-img {
-  border-radius: 5px;
-  /* box-shadow: 0 1px 73px 0 rgba(38, 43, 62, 0.1); */
-  width: 100%;
-  height: 100%;
-
+.guide-text {
+  color: #be7413;
+  font-weight: 900;
 }
 
 
 
+
+
+
+
 /* services */
+
 .services-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\pillars.jpg');
-
 
   background-size: cover;
   background-position: center;
@@ -300,13 +299,11 @@
 
 .services-section img {
   object-fit: cover;
-  width: 100%;
-  height: 100%;
-
+  width: 150px;
 }
 
 .services-overlay {
-  background-color: rgba(15, 20, 31, 0.9);
+  background-color: rgba(1, 12, 34, 0.7);
   position: absolute;
   top: 0;
   left: 0;
@@ -323,12 +320,24 @@
 
 }
 
-
-.recomandation {
-  color: black;
+.color {
+  color: #be7413;
 }
 
+.services-section .btn {
+  background-color: #be7413;
+  color: #042B4E;
+}
 
+.services-section .btn:hover {
+  background-color: #042B4E;
+  color: #be7413;
+}
+
+/* recomandation */
+.recomandation {
+  background-color: #E7EAEF;
+}
 
 
 /* FOOTER====================== */
