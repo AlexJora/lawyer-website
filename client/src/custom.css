@@ -339,6 +339,34 @@
   background-color: #E7EAEF;
 }
 
+/* .recomandation ul {
+  margin-left: 30px;
+  list-style-type: square;
+} */
+.my-list {
+  list-style-type: none;
+}
+
+.my-list li {
+  position: relative;
+  margin-left: 25px;
+  /* adjust the margin to fit the size of the square */
+}
+
+.my-list li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  background-color: #072e53;
+  border-radius: 2px;
+
+}
+
 
 /* FOOTER====================== */
 /* FOOTER====================== */
