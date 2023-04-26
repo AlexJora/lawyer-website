@@ -25,13 +25,13 @@ const Footer = () => {
               <div className="footer-social " >
                 <span className='fs-3'>
 
-                  <FontAwesomeIcon icon={faEnvelope} />
+                  <FontAwesomeIcon icon={faEnvelope} size="1x" />
                 </span>
                 <span className="fs-3">
-                  <FontAwesomeIcon icon={faWhatsapp} />
+                  <FontAwesomeIcon icon={faWhatsapp} size="1x" />
                 </span>
                 <span className="fs-3">
-                  <FontAwesomeIcon icon={faPhone} />
+                  <FontAwesomeIcon icon={faPhone} size="1x" />
                 </span>
               </div>
             </div>

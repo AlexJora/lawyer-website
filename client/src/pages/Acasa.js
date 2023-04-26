@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,6 +11,9 @@ const Acasa = () => {
   return (
     <>
       <div className='home-page'>
+        {/*TOPBANNER=========*/}
+
+
         {/*NAVBAR=========*/}
         <Navbar />
 
@@ -47,7 +51,6 @@ const Acasa = () => {
 
           </div>
         </div>
-
 
 
 

@@ -12,6 +12,12 @@
 
 }
 
+/* TOPBANNER====================== */
+.banner {
+  background-color: #c2b697;
+  color: #053661;
+}
+
 /* NAVBAR====================== */
 .nav .logo-image {
   max-width: 70px;
@@ -34,15 +40,6 @@
   color: ' #C79C65ff'
 }
 
-.nav .phone {
-  font-size: 0.9rem;
-  color: #C79C65ff;
-
-}
-
-.phone-icon {
-  color: #C79C65ff;
-}
 
 .phone-icon {
   animation: ring 5s ease-in-out infinite;
@@ -162,6 +159,8 @@
 }
 
 /* ACASA====================== */
+
+
 .hero-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\hero.jpg');
   height: 650px;
