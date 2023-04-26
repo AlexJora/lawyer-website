@@ -269,7 +269,7 @@
 
 
 .text-separator {
-  border-left: 2px solid #be7413;
+  border-left: 3px solid #be7413;
   padding-left: 2rem;
   text-indent: 1rem;
 }
@@ -334,23 +334,21 @@
   color: #be7413;
 }
 
-/* recomandation */
-.recomandation {
+/* recommendation */
+.recommendation {
   background-color: #E7EAEF;
 }
 
-/* .recomandation ul {
-  margin-left: 30px;
-  list-style-type: square;
-} */
+
 .my-list {
   list-style-type: none;
+  /* margin-left: 1rem; */
 }
 
 .my-list li {
   position: relative;
   margin-left: 25px;
-  /* adjust the margin to fit the size of the square */
+
 }
 
 .my-list li::before {
@@ -367,6 +365,15 @@
 
 }
 
+.square {
+  background-color: #be7413;
+  color: #fff;
+  height: 8rem;
+  margin-top: -3rem;
+
+
+
+}
 
 /* FOOTER====================== */
 /* FOOTER====================== */

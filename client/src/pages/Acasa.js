@@ -151,7 +151,7 @@ const Acasa = () => {
         {/*CE NE RECOMANDA========= */}
 
         {/* style={{ backgroundColor: ' pink' }} */}
-        <section className='recomandation mt-5 p-3 bg-image m-3 px-0' >
+        <section className='recommendation mt-5 p-3 bg-image m-3 px-0' >
           <div className='container d-flex flex-column justify-content-center align-items-center'>
             <h6 className='guide-text ps-2 '>EXPERTIZA NOASTRA</h6>
             <h4 className="h-50 lh-base fw-bold pb-4">Ce ne recomanda</h4>
@@ -160,8 +160,8 @@ const Acasa = () => {
             <div className="col col-md-7 order-md-2">
 
               <ul className='my-list'>
-                <li>  Experiență vastă în domeniu</li>
-                <li>  Profesionalism ridicat și abordare orientată spre clienți.</li>
+                <li>Experiență vastă în domeniu</li>
+                <li>Profesionalism ridicat și abordare orientată spre clienți.</li>
                 <li>  Implicare activă în proiecte și sprijinirea acestora.</li>
                 <li>  Comunicare directă și transparentă cu clienții.</li>
                 <li>  Angajament față de satisfacția clienților.</li>
@@ -169,8 +169,8 @@ const Acasa = () => {
 
               </ul>
             </div>
-            <div className="col col-md-5 order-md-2 mt-5">
-              <div className='container d-flex flex-column bg-warning justify-content-center align-items-center p-6 w-50'>
+            <div className=" col col-md-5 order-md-2 mt-5">
+              <div className='square container d-flex flex-column justify-content-center align-items-center py-5 w-50 border border-white border-4 fw-bold'>
                 <div><FontAwesomeIcon icon={faGavel} size="2x" /></div>
                 <div>10+</div>
                 <div>ani de experienta</div>
