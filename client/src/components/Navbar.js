@@ -29,19 +29,19 @@ const Navbar = () => {
             <div className="collapse navbar-collapse justify-content-end align-center" id="main-nav">
               <ul className="navbar-nav">
                 <li className="nav-item mx-2">
-                  <a className="nav-link home" href="/">Acasa</a>
+                  <a className="nav-link text-light home" href="/">Acasa</a>
                 </li>
                 <li className="nav-item mx-2">
                   <a className="nav-link text-light" href="/prezentare">Prezentare</a>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link  text-light" href="/avocatura">Avocatura</a>
+                  <a className="nav-link text-light" href="/avocatura">Avocatura</a>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link  text-light" href="/insolventa">Insolventa</a>
+                  <a className="nav-link text-light" href="/insolventa">Insolventa</a>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link  text-light mx-3" href="/contact">Contact</a>
+                  <a className="nav-link text-light" href="/contact">Contact</a>
                 </li>
               </ul>
             </div>

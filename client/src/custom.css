@@ -3,9 +3,7 @@
 
 * {
   font-family: 'Open Sans', sans-serif;
-
   line-height: 1.5rem;
-  font-size: 0.9rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -16,9 +14,18 @@
 .banner {
   background-color: #c2b697;
   color: #053661;
+  font-size: 0.8rem;
+
+
 }
 
+
+
 /* NAVBAR====================== */
+.nav {
+  font-size: 1rem;
+}
+
 .nav .logo-image {
   max-width: 70px;
 }
@@ -37,8 +44,17 @@
 }
 
 .nav .home {
-  color: ' #C79C65ff'
+  border-bottom: 5px solid #be7413;
+
 }
+
+
+
+.nav-link:hover {
+
+  border-bottom: 5px solid #be7413;
+}
+
 
 
 .phone-icon {
@@ -159,12 +175,13 @@
 }
 
 /* ACASA====================== */
-
+.home-page {
+  font-size: 0.8rem;
+}
 
 .hero-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\hero.jpg');
   height: 650px;
-  /* Set the height of the hero section */
   background-size: cover;
   background-position: center;
   position: relative;

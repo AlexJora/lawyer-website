@@ -6,15 +6,15 @@ const TopBanner = () => {
   return (
     <div className='banner w-100 py-1'>
       <div className='container'>
-        <div className='row'>
-          <div className='col text-center'>
-            <FontAwesomeIcon icon={faLocationDot} className='pe-2' size='1x' /><p className='d-none d-md-block'> Bucuresti</p>
+        <div className='row '>
+          <div className='col col-md-4 text-center'>
+            <FontAwesomeIcon icon={faLocationDot} className='pe-2' size='1x' />Bucuresti
           </div>
-          <div className='col text-center'>
-            <FontAwesomeIcon icon={faEnvelope} className='pe-2' size='1x' /><p className='d-none d-md-block'> av_alinamarin@yahoo.com</p>
+          <div className='col col-md-4 text-center'>
+            <FontAwesomeIcon icon={faEnvelope} className='pe-2' size='1x' />av_alinamarin@yahoo.com
           </div>
-          <div className='col text-center'>
-            <FontAwesomeIcon icon={faPhone} className='phone-icon pe-2' size='1x' /><p className="phone d-none d-md-block" > +40769 935 716</p>
+          <div className='col col-md-4 text-center'>
+            <FontAwesomeIcon icon={faPhone} className='phone-icon pe-2' size='1x' /> +40769 935 716
           </div>
         </div>
       </div>
