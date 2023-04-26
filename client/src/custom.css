@@ -44,7 +44,7 @@
 }
 
 .nav .home {
-  border-bottom: 5px solid #be7413;
+  border-bottom: 2px solid #be7413;
 
 }
 
@@ -52,7 +52,7 @@
 
 .nav-link:hover {
 
-  border-bottom: 5px solid #be7413;
+  border-bottom: 2px solid #be7413;
 }
 
 
@@ -190,7 +190,6 @@
 
 .hero-overlay {
   background-color: rgba(0, 0, 0, 0.6);
-  /* background-color: rgba(37, 43, 57, 0.7); */
   position: absolute;
   top: 0;
   left: 0;
@@ -293,14 +292,9 @@
 /* intro */
 .guide-text {
   color: #be7413;
-  font-weight: 900;
+
+
 }
-
-
-
-
-
-
 
 /* services */
 
@@ -391,7 +385,14 @@
 
 }
 
-/* FOOTER====================== */
+/* AVOCATURA====================== */
+.card {
+  background-color: #56568a;
+  margin: 10px !important;
+  height: 70vh;
+  width: auto;
+}
+
 /* FOOTER====================== */
 /* FOOTER====================== */
 /* FOOTER====================== */

@@ -8,9 +8,7 @@ const Avocatura = () => {
     <>
       <div>
         <Navbar />
-        <section>
-          <div style={{ backgroundColor: '#c2b697', height: '3rem', color: ' #272B2E', marginTop: '5.5rem', textAlign: "center" }}> Avocatura - domenii de practica</div>
-        </section>
+
         <section>
           <img src="books 1.png" className="img-fluid" alt="books" />
           {/* services */}
@@ -20,9 +18,9 @@ const Avocatura = () => {
                 <h5>Domenii de activitate</h5>
                 <h6 className="text-muted">Vă asigurăm servicii juridice în diverse domenii ale dreptului la standarde profesionale.</h6>
               </div>
-              <div className="row  my-5 g-3 align-items-center">
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+              <div className="row my-5 g-3 align-items-center ">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faScaleBalanced} />
                       <h6 className="card-title">DREPT CIVIL</h6>
@@ -36,8 +34,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
 
                       <FontAwesomeIcon icon={faGavel} />
@@ -51,8 +49,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faTruck} />
                       <h6 className="card-title">EXECUTARE SILITA</h6>
@@ -63,8 +61,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faGem} />
                       <h6 className="card-title">RECUPERARE CREANTE</h6>
@@ -75,8 +73,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faPeopleLine} />
                       <h6 className="card-title">DREPTUL FAMILIEI - DIVORT SI PARTAJ</h6>
@@ -87,8 +85,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faBriefcase} />
                       <h6 className="card-title">DREPTUL MUNCII</h6>
@@ -99,8 +97,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faScroll} />
                       <h6 className="card-title">DREPTUL COMERCIAL SI SOCIETAR</h6>
@@ -111,8 +109,8 @@ const Avocatura = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-3 col-md-6 col-sm-12">
-                  <div className="card">
+                <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="card h-100">
                     <div className="card-body text-center py-4">
                       <FontAwesomeIcon icon={faMoneyBill1Wave} />
                       <h6 className="card-title">PENSII SI ALTE DREPTURI DE ASIGURARI SOCIALE</h6>
@@ -130,6 +128,14 @@ const Avocatura = () => {
 
 
         </section>
+
+
+
+
+
+
+
+
         <Footer />
       </div>
     </>
