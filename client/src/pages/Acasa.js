@@ -159,7 +159,7 @@ const Acasa = () => {
         <section className='recommendation mt-5 p-3 bg-image m-3 px-0' >
           <div className='container d-flex flex-column justify-content-center align-items-center'>
             <h6 className='guide-text ps-2 '>EXPERTIZA NOASTRA</h6>
-            <h4 className="h-50 lh-base fw-bold pb-4">Ce ne recomanda</h4>
+            <h4 className="h-50 lh-base fw-bold pb-4">Ce ne recomanda?</h4>
           </div>
           <div className="row mt-4 flex-column flex-md-row mb-3">
             <div className="col col-md-7 order-md-2">

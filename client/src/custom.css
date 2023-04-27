@@ -386,12 +386,18 @@
 }
 
 /* AVOCATURA====================== */
-.card {
-  background-color: #56568a;
-  margin: 10px !important;
-  height: 70vh;
-  width: auto;
+.avocatura {
+  font-size: 0.8rem;
+  /* background-color: #03223d; */
 }
+
+.card {
+
+  background-color: #042B4E;
+}
+
+
+
 
 /* FOOTER====================== */
 /* FOOTER====================== */
