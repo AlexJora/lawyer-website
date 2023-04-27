@@ -18,11 +18,13 @@ const Avocatura = () => {
             <h6>Vă asigurăm servicii juridice în diverse domenii ale dreptului la standarde profesionale.</h6>
           </div>
 
-          <div className="row g-5 px-5 pt-5">
+          <div className="row g-5 px-5 pt-5 ">
 
             <div className="col-lg-4 col-md-6 col-sm-12">
-              <div className="card h-100">
-                <div class="card-img"></div>
+              <div className="card h-100 ">
+                <div class="civil card-img-top" >
+                  <div class="overlay"></div>
+                </div>
                 <div className="card-body text-center py-4">
                   <FontAwesomeIcon icon={faScaleBalanced} size='2x' className='pb-3' />
                   <h6 className="card-title">DREPT CIVIL</h6>
@@ -31,10 +33,19 @@ const Avocatura = () => {
                     reprezentare în fața instanțelor de judecată, redactare cereri de chemare
                     în judecată. Vă ajutăm să rezolvați rapid problema juridică.</p>
                 </div>
+
               </div>
             </div>
+
+
+
+
+
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
+                <div class="criminal card-img-top" >
+                  <div class="overlay"></div>
+                </div>
                 <div className="card-body text-center py-4">
                   <FontAwesomeIcon icon={faGavel} size='2x' className='pb-3' />
                   <h6 className="card-title">DREPT PENAL</h6>
@@ -46,6 +57,9 @@ const Avocatura = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
+                <div class="executare card-img-top" >
+                  <div class="overlay"></div>
+                </div>
                 <div className="card-body text-center py-4">
                   <FontAwesomeIcon icon={faTruck} size='2x' className='pb-3' />
                   <h6 className="card-title">EXECUTARE SILITA</h6>
@@ -56,6 +70,9 @@ const Avocatura = () => {
 
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
+                <div class="family card-img-top" >
+                  <div class="overlay"></div>
+                </div>
                 <div className='card-body text-center py-4'>
                   <FontAwesomeIcon icon={faPeopleLine} size='2x' className='pb-3' />
                   <h6 className="card-title">DREPTUL FAMILIEI - DIVORT SI PARTAJ</h6>
@@ -65,6 +82,9 @@ const Avocatura = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
+                <div class="labor card-img-top" >
+                  <div class="overlay"></div>
+                </div>
                 <div className="card-body text-center py-4">
                   <FontAwesomeIcon icon={faBriefcase} size='2x' className='pb-3' />
                   <h6 className="card-title">DREPTUL MUNCII</h6>
@@ -74,6 +94,9 @@ const Avocatura = () => {
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100">
+                <div class="business card-img-top" >
+                  <div class="overlay"></div>
+                </div>
                 <div className="card-body text-center py-4">
                   <FontAwesomeIcon icon={faScroll} size='2x' className='pb-3' />
                   <h6 className="card-title">DREPTUL COMERCIAL SI SOCIETAR</h6>

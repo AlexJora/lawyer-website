@@ -388,16 +388,72 @@
 /* AVOCATURA====================== */
 .avocatura {
   font-size: 0.8rem;
-  /* background-color: #03223d; */
+
 }
 
 .card {
 
-  background-color: #042B4E;
+  color: #fff;
 }
 
+.card-body {
+  background-color: #072e53;
+}
 
+.civil {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\civil-law.jpg');
+}
 
+.criminal {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\criminal-law.jpg');
+}
+
+.executare {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\executare.jpg');
+}
+
+.family {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\family-law.jpg');
+}
+
+.labor {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\labor-law.jpg');
+}
+
+.business {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\business-law.jpg');
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img-top {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.1);
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
 
 /* FOOTER====================== */
 /* FOOTER====================== */
