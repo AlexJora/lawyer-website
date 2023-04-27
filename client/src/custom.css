@@ -387,17 +387,36 @@
 
 /* AVOCATURA====================== */
 .avocatura {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  background-color: #E7EAEF;
 
 }
 
-.card {
 
-  color: #fff;
-}
 
 .card-body {
   background-color: #072e53;
+  border-bottom: 5px solid #c2b697;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #fff;
+  font-weight: lighter;
+
+}
+
+.card-img-top {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.law-icon {
+  color: #c2b697;
 }
 
 .civil {
