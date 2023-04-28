@@ -9,9 +9,15 @@ const Insolventa = () => {
         <Navbar />
 
         <section>
-          <img src="Slice 1.png" className="img-fluid" alt="books" />
-          <div className='container'>
-            {/* <p>Consultanta si reprezentare in cadrul procedurii de insolventa
+          <div className=" pt-4 text-center">
+            <h6 className='guide-text pt-3 pb-1' >SERVICII DE AVOCATURA</h6>
+            <h5 className="lh-base text-center pb-3 fw-bold">Oferim consultanță juridică și asistare în următoarele arii de practică:pentru o arie largă de probleme juridice
+              {/* Ofertă completă de consultanță juridică în orice domeniu, asistare și reprezentare în fața instanţelor de judecată și a tuturor instituțiilor de stat și particulare în vederea apărării intereselor dumeavoastră. */}
+            </h5>
+          </div>
+          {/* <img src="Slice 1.png" className="img-fluid" alt="books" /> */}
+          {/* <div className='container'> */}
+          {/* <p>Consultanta si reprezentare in cadrul procedurii de insolventa
               - Lichidare
               judiciara / procedura falimentului
               - Redactare actiuni avand ca obiect cereri de deschidere a procedurii de insolventa si
@@ -37,7 +43,7 @@ const Insolventa = () => {
               - Redactare de cereri precum si orice alte documente specifice activitatii avocatului.
               - Consultanta si asistenta juridica privitoare la modul de aplicare si executare a
               reglementarilor legale .</p> */}
-          </div>
+          {/* </div> */}
           {/* <img src="insolvency.png" className="img-fluid" alt="books" /> */}
         </section>
         <Footer />
