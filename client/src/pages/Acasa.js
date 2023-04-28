@@ -78,7 +78,7 @@ const Acasa = () => {
 
 
 
-        {/*DOMENII DE PRACTICA========= */}
+        {/*SERVICII========= */}
         < div className="mt-5 " >
 
           <div className="row">

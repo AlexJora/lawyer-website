@@ -182,7 +182,7 @@
 
 .hero-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\hero.jpg');
-  height: 650px;
+  height: 700px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -319,7 +319,6 @@
 
 .services-section {
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\pillars.jpg');
-
   background-size: cover;
   background-position: center;
   position: relative;
@@ -504,9 +503,43 @@
   font-size: 0.8rem;
 }
 
-/* FOOTER====================== */
-/* FOOTER====================== */
-/* FOOTER====================== */
-/* FOOTER====================== */
-/* FOOTER====================== */
-/* FOOTER====================== */
+/* CONTACT====================== */
+.contact-page {
+  background-color: #eae8e3;
+  font-size: 0.8rem;
+}
+
+.form-wrap {
+  position: relative;
+  background-image: url("C:\CODE YOUR FUTURE\lawyer-website\client\public\books.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.form-overlay {
+  background-color: rgba(22, 22, 54, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* .contact-form {
+  position: relative;
+  z-index: 2;
+
+} */
+
+
+
+.contact-form,
+.form-label,
+.form-control,
+.btn {
+  position: relative;
+  z-index: 2;
+}
