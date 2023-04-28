@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGavel, faScaleBalanced, faTruck, faGem, faPeopleLine, faBriefcase, faScroll, faMoneyBill1Wave } from '@fortawesome/free-solid-svg-icons';
+import { faGavel, faScaleBalanced, faTruck, faPeopleLine, faBriefcase, faScroll } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 const Avocatura = () => {
@@ -8,18 +8,16 @@ const Avocatura = () => {
     <>
       <div>
         <Navbar />
-        <section className='avocatura'>
-          {/* <img src="Slice 1.png" className="img-fluid" alt="books" /> */}
+        <div className='avocatura'>
+
 
 
 
           <div className=" pt-4 text-center">
-            <h5>Domenii de activitate</h5>
-            <h6>Vă asigurăm servicii juridice în diverse domenii ale dreptului la standarde profesionale.</h6>
+            <h6 className='guide-text pt-3 pb-1' >SERVICII DE AVOCATURA</h6>
+            <h5 className="lh-base text-center pb-3 fw-bold">Vă asigurăm servicii juridice în diverse domenii ale dreptului la standarde profesionale.</h5>
           </div>
-
           <div className="row g-5 px-5 pt-5 ">
-
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100 ">
                 <div class="civil card-img-top" >
@@ -28,7 +26,6 @@ const Avocatura = () => {
                 <div className="card-body text-center py-4">
                   <FontAwesomeIcon icon={faScaleBalanced} size='2x' className='law-icon pb-3' />
                   <h6 className="card-title pb-2">DREPT CIVIL</h6>
-
                   <p className="card-text mx-1">Servicii de consultanță juridică, asistare și
                     reprezentare în fața instanțelor de judecată, redactare cereri de chemare
                     în judecată. Vă ajutăm să rezolvați rapid problema juridică.</p>
@@ -71,7 +68,8 @@ const Avocatura = () => {
                 <div className='card-body text-center py-4'>
                   <FontAwesomeIcon icon={faPeopleLine} size='2x' className='pb-3 law-icon' />
                   <h6 className="card-title pb-2">DREPTUL FAMILIEI - DIVORT SI PARTAJ</h6>
-                  <p className="card-text mx-1">Servicii de asistare și reprezentare juridică în procesele de divorț, partaj, exercitarea autorității părintești, pensie de întreținere, program de vizită minor.</p>
+                  <p className="card-text mx-1">Servicii de asistare și reprezentare juridică în procesele de divorț,
+                    partaj, exercitarea autorității părintești, pensie de întreținere, program de vizită minor.</p>
                 </div>
               </div>
             </div>
@@ -102,10 +100,13 @@ const Avocatura = () => {
 
 
           </div>
-          <p className='text-danger'>Alte domenii de activitate în care vă oferim consultanță, asistare și reprezentare în fața instanțelor de judecată sau a altor instituții ale statului:RECUPERARE CREANTE, PENSII SI ALTE DREPTURI DE ASIGURARI SOCIALE, ASOCIAȚII DE PROPRIETARI, PLÂNGERI CONTRAVENȚIONALE AMENZI, DESPĂGUBIRI ACCIDENTE AUTO.</p>
-        </section >
-        <Footer />
-      </div >
+          <div className='container py-4 '>
+            <p className='more-services'>Alte domenii de activitate în care vă oferim consultanță, asistare și reprezentare în fața instanțelor de judecată sau a altor instituții ale statului: RECUPERARE CREANTE, PENSII SI ALTE DREPTURI DE ASIGURARI SOCIALE, ASOCIAȚII DE PROPRIETARI, PLÂNGERI CONTRAVENȚIONALE AMENZI, DESPĂGUBIRI ACCIDENTE AUTO,redactare de cereri precum si orice alte documente specifice activitatii</p>
+          </div>
+        </div>
+      </div>
+      <Footer />
+
     </>
   )
 }

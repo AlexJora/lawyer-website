@@ -234,6 +234,24 @@
 
 }
 
+.slide {
+  opacity: 0;
+  transform: translateX(-100%);
+  animation: slideLeft 1s forwards;
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 /* buttons-hero */
 
 .horizontal-btn {
@@ -472,6 +490,11 @@
 
 .card:hover .overlay {
   opacity: 1;
+}
+
+.more-services {
+  text-indent: 1rem;
+  font-size: 0.8rem;
 }
 
 /* FOOTER====================== */

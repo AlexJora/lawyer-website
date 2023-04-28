@@ -22,8 +22,8 @@ const Acasa = () => {
           <div className="row">
             <div className="hero-section">
               <div className="hero-overlay"></div>
-              <div className="text-container d-flex flex-column justify-content-start align-items-start pt-6">
-                <div className="text-1 fs-1 pb-4">ALINA MARIN</div>
+              <div className="text-container d-flex flex-column justify-content-start align-items-start pt-6 slide">
+                <div className="text-1 fs-2 pb-4">ALINA MARIN</div>
                 <div className="text-2 fs-4">BIROU DE AVOCATURA SI INSOLVENTA<span className='fw-bold'> - Bucuresti </span></div>
                 <div className="text-3 fst-italic fw-light">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
