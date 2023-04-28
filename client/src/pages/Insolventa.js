@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 const Insolventa = () => {
   return (
     <>
-      <div>
+      <div className='insolventa-page'>
 
         <Navbar />
 
@@ -14,10 +14,10 @@ const Insolventa = () => {
             <h5 className="lh-base text-center pb-3 fw-bold">Oferim consultanță juridică și asistare în următoarele arii de practică:pentru o arie largă de probleme juridice
             </h5>
           </div> */}
-          <div className='container'>
-            <h6 className='guide-text pt-3 pb-1 text-center' >SERVICII DE INSOLVENTA</h6>
-            <h5 class="card-title text-center pb-4">Consultanta si reprezentare in cadrul procedurii de insolventa</h5>
-            <div className='card py-1'>
+          <div className='container pb-5'>
+            <h6 className='guide-text pt-4 pb-1 text-center' >SERVICII DE INSOLVENTA</h6>
+            <h5 class="card-title text-center pb-5">Consultanta si reprezentare in cadrul procedurii de insolventa</h5>
+            <div className='card'>
               <div class="insolvency card-img-top" >
                 <div class="overlay"></div>
               </div>
@@ -35,6 +35,7 @@ const Insolventa = () => {
                       identifica societatile care au intrat in procedura insolventei.</li>
                     <br></br>
                     <li>Infiintare Societati, filiale, puncte de lucru.</li>
+                    <br></br>
                     <li>Modificarea capitalului social, conversia creantelor in actiuni, analiza cerintelor legale
                       privind fuziunea, desfiintarea, divizarea, dizolvarea societatilor;</li>
                     <br></br>
