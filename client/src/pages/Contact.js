@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 
@@ -13,7 +16,46 @@ export const Contact = () => {
           <div className="container-lg">
             <h6 className='guide-text pt-4 pb-1 text-center' >CONTACT</h6>
 
-
+            <div className='contact-info '>
+              <div className='row no-gutters'>
+                <div className='col-lg-3 col-md-6 col-12'>
+                  <div className='contact-inner'>
+                    <div className='info-i'>
+                      <span><FontAwesomeIcon icon={faLocationDot} className='p-1' size='1x' /></span>
+                    </div>
+                    <h5>Locatie:</h5>
+                    <p>Bucuresti</p>
+                  </div>
+                </div>
+                <div className='col-lg-3 col-md-6 col-12'>
+                  <div className='contact-inner'>
+                    <div className='info-i'>
+                      <span><FontAwesomeIcon icon={faLocationDot} className='pe-2' size='1x' /></span>
+                    </div>
+                    <h5>Program:</h5>
+                    <p>Luni – Vineri: 9 – 17</p>
+                  </div>
+                </div>
+                <div className='col-lg-3 col-md-6 col-12'>
+                  <div className='contact-inner'>
+                    <div className='info-i'>
+                      <span><FontAwesomeIcon icon={faEnvelope} className='pe-2' size='1x' /></span>
+                    </div>
+                    <h5>E-mail</h5>
+                    <p>av_alinamarin@yahoo.com</p>
+                  </div>
+                </div>
+                <div className='col-lg-3 col-md-6 col-12'>
+                  <div className='contact-inner'>
+                    <div className='info-i'>
+                      <span><FontAwesomeIcon icon={faPhone} className='pe-2' size='1x' /></span>
+                    </div>
+                    <h5>Telefon</h5>
+                    <p>+40769 935 716</p>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
 
