@@ -370,7 +370,7 @@
 
 .my-list {
   list-style-type: none;
-  /* margin-left: 1rem; */
+
 }
 
 .my-list li {
@@ -388,7 +388,7 @@
   transform: translateY(-50%);
   width: 10px;
   height: 10px;
-  background-color: #072e53;
+  background-color: #e7a10c;
   border-radius: 2px;
 
 }
@@ -429,7 +429,7 @@
 }
 
 .card-img-top {
-  height: 150px;
+  height: 100px;
   background-size: cover;
   background-position: center;
 }
@@ -462,6 +462,9 @@
   background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\business-law.jpg');
 }
 
+.insolvency {
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\Guide.jpg');
+}
 
 .card-img-top {
   height: 200px;

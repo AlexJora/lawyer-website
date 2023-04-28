@@ -8,44 +8,64 @@ const Insolventa = () => {
 
         <Navbar />
 
-        <section>
-          <div className=" pt-4 text-center">
-            <h6 className='guide-text pt-3 pb-1' >SERVICII DE AVOCATURA</h6>
+        <div>
+          {/* <div className=" pt-4 text-center">
+            <h6 className='guide-text pt-3 pb-1' >SERVICII DE INSOLVENTA</h6>
             <h5 className="lh-base text-center pb-3 fw-bold">Oferim consultanță juridică și asistare în următoarele arii de practică:pentru o arie largă de probleme juridice
-              {/* Ofertă completă de consultanță juridică în orice domeniu, asistare și reprezentare în fața instanţelor de judecată și a tuturor instituțiilor de stat și particulare în vederea apărării intereselor dumeavoastră. */}
             </h5>
+          </div> */}
+          <div className='container'>
+            <h6 className='guide-text pt-3 pb-1 text-center' >SERVICII DE INSOLVENTA</h6>
+            <h5 class="card-title text-center pb-4">Consultanta si reprezentare in cadrul procedurii de insolventa</h5>
+            <div className='card py-1'>
+              <div class="insolvency card-img-top" >
+                <div class="overlay"></div>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  <ul className='my-list pt-3'>
+                    <li>Lichidare judiciara / procedura falimentului;</li>
+                    <br></br>
+                    <li>Redactare actiuni avand ca obiect cereri de deschidere a procedurii de insolventa si
+                      reprezentarea clientului in fata instantelor de judecata, pentru debitorii
+                      comunicati/aprobat de UAT;</li>
+                    <br></br>
+                    <li>Intocmirea unei situatii de analiză a societatilor debitoare prin verificare recom si
+                      buletinul procedurilor de insolventa (exista abonament BPI), scopul verificarii fiind de a
+                      identifica societatile care au intrat in procedura insolventei.</li>
+                    <br></br>
+                    <li>Infiintare Societati, filiale, puncte de lucru.</li>
+                    <li>Modificarea capitalului social, conversia creantelor in actiuni, analiza cerintelor legale
+                      privind fuziunea, desfiintarea, divizarea, dizolvarea societatilor;</li>
+                    <br></br>
+                    <li>Contracte comerciale si rezolvarea tuturor problemelor contractuale</li>
+                    <br></br>
+                    <li>Recuperarea de creante:
+                      <br></br>Notificari, Somatii de plata, Cerere cu valoare redusa
+                      <br></br>Declaratii de creanta
+                      <br></br>Reprezentarea clientilor atat in fata instantelor de judecata de drept comun, cat si
+                      in fata instantelor specializate</li>
+                    <br></br>
+                    <li>Intocmire de rapoarte lunare privind activitatea desfasurata</li>
+                    <br></br>
+                    <li>Analiza, intocmire si avizare raspunsuri catre petenti.</li>
+                    <br></br>
+                    <li>Analiza, intocmire si avizare notificari/adrese catre persoane fizice/persoane juridice.</li>
+                    <br></br>
+                    <li>Analiza si avizare de alte acte juridice cu conotatie juridica.</li>
+                    <br></br>
+                    <li>Redactare de cereri precum si orice alte documente specifice activitatii avocatului.</li>
+                    <br></br>
+                    <li>Consultanta si asistenta juridica privitoare la modul de aplicare si executare a
+                      reglementarilor legale .</li>
+                  </ul>
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
           </div>
-          {/* <img src="Slice 1.png" className="img-fluid" alt="books" /> */}
-          {/* <div className='container'> */}
-          {/* <p>Consultanta si reprezentare in cadrul procedurii de insolventa
-              - Lichidare
-              judiciara / procedura falimentului
-              - Redactare actiuni avand ca obiect cereri de deschidere a procedurii de insolventa si
-              reprezentarea clientului in fata instantelor de judecata, pentru debitorii
-              comunicati/aprobat de UAT
-              - Intocmirea unei situatii de analiză a societatilor debitoare prin verificare recom si
-              buletinul procedurilor de insolventa (exista abonament BPI), scopul verificarii fiind de a
-              identifica societatile care au intrat in procedura insolventei.
-              -Infiintare Societati, filiale, puncte de lucru
-              -Modificari acte constitutive, cesiuni de creanta
-              - Modificarea capitalului social, conversia creantelor in actiuni, analiza cerintelor legale
-              privind fuziunea, desfiintarea, divizarea, dizolvarea societatilor;
-              - Contracte comerciale si rezolvarea tuturor problemelor contractuale
-              -Recuperarea de creante:
-              Notificari, Somatii de plata, Cerere cu valoare redusa
-              Declaratii de creanta
-              Reprezentarea clientilor atat in fata instantelor de judecata de drept comun, cat si
-              in fata instantelor specializate
-              - Intocmire de rapoarte lunare privind activitatea desfasurata
-              - Analiza, intocmire si avizare raspunsuri catre petenti.
-              - Analiza, intocmire si avizare notificari/adrese catre persoane fizice/persoane juridice.
-              - Analiza si avizare de alte acte juridice cu conotatie juridica.
-              - Redactare de cereri precum si orice alte documente specifice activitatii avocatului.
-              - Consultanta si asistenta juridica privitoare la modul de aplicare si executare a
-              reglementarilor legale .</p> */}
-          {/* </div> */}
-          {/* <img src="insolvency.png" className="img-fluid" alt="books" /> */}
-        </section>
+
+        </div>
         <Footer />
       </div>
     </>
@@ -53,3 +73,6 @@ const Insolventa = () => {
 }
 
 export default Insolventa
+{/* <img src="insolvency.png" className="img-fluid" alt="books" /> */ }
+
+{/* <img src="Slice 1.png" className="img-fluid" alt="books" /> */ }

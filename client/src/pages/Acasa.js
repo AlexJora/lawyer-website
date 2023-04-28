@@ -163,7 +163,6 @@ const Acasa = () => {
           </div>
           <div className="row mt-4 flex-column flex-md-row mb-3">
             <div className="col col-md-7 order-md-2">
-
               <ul className='my-list'>
                 <li>Experiență vastă în domeniu</li>
                 <li>Profesionalism ridicat și abordare orientată spre clienți.</li>
@@ -171,7 +170,6 @@ const Acasa = () => {
                 <li>  Comunicare directă și transparentă cu clienții.</li>
                 <li>  Angajament față de satisfacția clienților.</li>
                 <li>  Furnizarea de solutii complete prin colaborarea cu alti profesionisti.</li>
-
               </ul>
             </div>
             <div className=" col col-md-5 order-md-2 mt-5">
@@ -182,7 +180,7 @@ const Acasa = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section >
 
 
 
