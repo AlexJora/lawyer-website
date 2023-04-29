@@ -31,14 +31,15 @@ const Navbar = () => {
                 <li className="nav-item mx-2">
                   <a className="nav-link text-light home" href="/">Acasa</a>
                 </li>
-                <li className="nav-item mx-2">
-                  <a className="nav-link text-light" href="/prezentare">Prezentare</a>
-                </li>
+
                 <li className="nav-item mx-2">
                   <a className="nav-link text-light" href="/avocatura">Avocatura</a>
                 </li>
                 <li className="nav-item mx-2">
                   <a className="nav-link text-light" href="/insolventa">Insolventa</a>
+                </li>
+                <li className="nav-item mx-2">
+                  <a className="nav-link text-light" href="/prezentare">Informatii utile</a>
                 </li>
                 <li className="nav-item mx-2">
                   <a className="nav-link text-light" href="/contact">Contact</a>

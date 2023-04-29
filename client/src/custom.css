@@ -318,7 +318,7 @@
 /* services */
 
 .services-section {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\pillars.jpg');
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\column3.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -331,7 +331,7 @@
 }
 
 .services-overlay {
-  background-color: rgba(1, 12, 34, 0.7);
+  background-color: rgba(1, 13, 37, 0.8);
   position: absolute;
   top: 0;
   left: 0;
@@ -463,7 +463,7 @@
 }
 
 .insolvency {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\insolvency.jpg');
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\insolvency6.jpg');
 }
 
 .card-img-top {
@@ -511,7 +511,7 @@
 
 .form-wrap {
   position: relative;
-  background-image: url("C:\CODE YOUR FUTURE\lawyer-website\client\public\books.jpg");
+  background-image: url("C:\CODE YOUR FUTURE\lawyer-website\client\public\column2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -519,7 +519,8 @@
 }
 
 .form-overlay {
-  background-color: rgba(22, 22, 54, 0.8);
+  background-color: rgba(12, 27, 59, 0.8);
+  /* background-color: rgba(22, 22, 54, 0.8); */
   position: absolute;
   top: 0;
   left: 0;
@@ -528,18 +529,14 @@
 
 }
 
-/* .contact-form {
-  position: relative;
-  z-index: 2;
-
-} */
-
-
-
 .contact-form,
 .form-label,
 .form-control,
 .btn {
   position: relative;
   z-index: 2;
+}
+
+.contact-text {
+  margin-top: 2rem;
 }

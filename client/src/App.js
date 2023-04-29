@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
-import Prezentare from './pages/Prezentare';
+import Info from './pages/Info';
 import Avocatura from './pages/Avocatura';
 import Insolventa from './pages/Insolventa';
 import Contact from './pages/Contact';
@@ -11,7 +11,7 @@ function App() {
       <>
         <Routes>
           <Route path="/" element={<Acasa />} />
-          <Route path="/prezentare" element={<Prezentare />} />
+          <Route path="/informatii-utile" element={<Info />} />
           <Route path="/avocatura" element={<Avocatura />} />
           <Route path="/insolventa" element={<Insolventa />} />
           <Route path="/contact" element={<Contact />} />

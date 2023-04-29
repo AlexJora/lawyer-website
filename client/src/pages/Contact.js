@@ -56,11 +56,54 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-        {/* contact form============ */}
+        {/* contact form and text============ */}
 
 
 
-        <div className='form-wrap p-5 mb-5'>
+
+        <div class="container-lg">
+          <div class="row g-5">
+            <div class="col-sm-6 order-sm-first ">
+              <div className='contact-text d-flex flex-column '>
+                <h5 className='text-center pb-5 '>Nu ezitati sa ne contactati!</h5>
+                <p>Suntem aici pentru a va oferi sprijinul nostru in toate problemele legale cu care va confruntati. </p>
+                <p>Va rugam sa ne contactati completand formularul de mai jos si vom fi bucurosi sa va oferim ajutorul nostru.</p>
+                <p>Vom prelua solicitarea dvs. si vom reveni in scurt timp pentru mai multe detalii.</p>
+              </div>
+            </div>
+
+
+            <div class="col-sm-6 ">
+              <div class='form-wrap p-5 mb-5 h-80'>
+                <div class='form-overlay'></div>
+                <div class=" contact-form text-center">
+                  <p class="lead text-light">Solicită consultanță</p>
+                </div>
+                <div class="row justify-content-center ">
+                  <div class="col-lg-12">
+                    <form>
+                      <label for="name" class="form-label text-light">Nume Prenume:</label>
+                      <div class="mb-4 input-group">
+                        <input type="text" id="name" class="form-control" />
+                      </div>
+                      <label for="email" class="form-label text-light">Adresa de e-mail:</label>
+                      <div class="input-group mb-4">
+                        <input type="text" id="email" class="form-control" />
+                      </div>
+                      <label for="query" class="form-label text-light">Mesajul dvs.:</label>
+                      <textarea class="form-control" id="query"></textarea>
+                      <div class="my-4 text-center pt-2">
+                        <button type="submit" class="btn btn-light ">Trimite mesaj</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* <div className='form-wrap p-5 mb-5'>
           <div className='form-overlay'></div>
           <div className=" contact-form text-center">
 
@@ -84,17 +127,18 @@ export const Contact = () => {
 
                 </div>
 
-                <div className="mb-4 mt-5 form-floating">
-                  <textarea className="form-control" id="query" placeholder="query">vvvv</textarea>
-                  <label for="query">Mesajul dumneavoastră</label>
-                </div>
-                <div className="mb-4 text-center">
+
+                <label for="query" className="form-label text-light">Mesajul dumneavoastră</label>
+                <textarea className="form-control" id="query"></textarea>
+
+
+                <div className="my-4 text-center">
                   <button type="submit" className="btn btn-light">Trimite mesaj</button>
                 </div>
               </form>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
 
