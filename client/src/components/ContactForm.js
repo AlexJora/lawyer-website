@@ -33,10 +33,10 @@ const ContactForm = () => {
           <form onSubmit={handleSubmit}>
             <label htmlFor="name" className="form-label text-light">Nume Prenume:</label>
             <input type="text" id="name" className="form-control" required />
-            <label htmlFor="email" className="form-label text-light">Adresa de e-mail:</label>
+            <label htmlFor="email" className="form-label text-light pt-2">Adresa de e-mail:</label>
             <input type="email" id="email" className="form-control" required />
             <div>
-              <label htmlFor="query" className="form-label text-light">Mesajul dvs.:</label>
+              <label htmlFor="query" className="form-label text-light pt-2">Mesajul dvs.:</label>
               <textarea className="form-control" id="query" required></textarea>
             </div>
             <div className="my-4 text-center pt-2">
