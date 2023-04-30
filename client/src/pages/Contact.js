@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocationDot, faClock } from '@fortawesome/free-solid-svg-icons';
 import Navbar from '../components/Navbar'
@@ -8,9 +9,6 @@ export const Contact = () => {
   return (
     <>
       <Navbar />
-
-
-
       <section className="contact-page">
         <h6 className='guide-text pt-4 pb-5 text-center' >CONTACT</h6>
         {/* contact info============ */}
@@ -57,10 +55,6 @@ export const Contact = () => {
           </div>
         </div>
         {/* contact form and text============ */}
-
-
-
-
         <div class="container-lg">
           <div class="row g-5">
             <div class="col-sm-6 order-sm-first ">
@@ -71,77 +65,12 @@ export const Contact = () => {
                 <p>Vom prelua solicitarea dvs. si vom reveni in scurt timp pentru mai multe detalii.</p>
               </div>
             </div>
-
-
             <div class="col-sm-6 ">
-              <div class='form-wrap p-5 mb-5 h-80'>
-                <div class='form-overlay'></div>
-                <div class=" contact-form text-center">
-                  <p class="lead text-light">Solicită consultanță</p>
-                </div>
-                <div class="row justify-content-center ">
-                  <div class="col-lg-12">
-                    <form>
-                      <label for="name" class="form-label text-light">Nume Prenume:</label>
-                      <div class="mb-4 input-group">
-                        <input type="text" id="name" class="form-control" />
-                      </div>
-                      <label for="email" class="form-label text-light">Adresa de e-mail:</label>
-                      <div class="input-group mb-4">
-                        <input type="text" id="email" class="form-control" />
-                      </div>
-                      <label for="query" class="form-label text-light">Mesajul dvs.:</label>
-                      <textarea class="form-control" id="query"></textarea>
-                      <div class="my-4 text-center pt-2">
-                        <button type="submit" class="btn btn-light ">Trimite mesaj</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+              <ContactForm />
             </div>
           </div>
         </div>
-
-        {/* <div className='form-wrap p-5 mb-5'>
-          <div className='form-overlay'></div>
-          <div className=" contact-form text-center">
-
-            <p className="lead text-light">Solicită consultanță</p>
-          </div>
-          <div className="row justify-content-center my-5">
-            <div className="col-lg-6">
-
-              <form>
-                <label for="name" className="form-label text-light">Nume Prenume:</label>
-                <div className="mb-4 input-group">
-
-                  <input type="text" id="name" className="form-control" placeholder="e.g. Popescu Ion" />
-
-                </div>
-
-                <label for="email" className="form-label text-light">Adresa de e-mail:</label>
-                <div className="input-group mb-4">
-
-                  <input type="text" id="email" className="form-control" placeholder="e.g. popescu@example.com" />
-
-                </div>
-
-
-                <label for="query" className="form-label text-light">Mesajul dumneavoastră</label>
-                <textarea className="form-control" id="query"></textarea>
-
-
-                <div className="my-4 text-center">
-                  <button type="submit" className="btn btn-light">Trimite mesaj</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div> */}
       </section>
-
-
       <Footer />
     </>
   )

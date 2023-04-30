@@ -74,6 +74,3 @@ const Insolventa = () => {
 }
 
 export default Insolventa
-{/* <img src="insolvency.png" className="img-fluid" alt="books" /> */ }
-
-{/* <img src="Slice 1.png" className="img-fluid" alt="books" /> */ }
