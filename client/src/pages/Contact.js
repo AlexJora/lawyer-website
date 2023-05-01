@@ -65,7 +65,7 @@ export const Contact = () => {
                 <p>Vom prelua solicitarea dvs. si vom reveni in scurt timp pentru mai multe detalii.</p>
               </div>
             </div>
-            <div class="col-sm-6 ">
+            <div className="col-sm-6 ">
               <ContactForm />
             </div>
           </div>

@@ -11,7 +11,7 @@ const Footer = () => {
             <div className='col-md-12 text-center'>
               <span>
                 <img src='LOGO2.png' className="img-fluid logo-image" alt='measuring scale law logo' />
-                <img src='Component 12 (6).png' className="img-fluid px-0 logo-text" alt='alina marin cabinet de avocatura si insolventa' />
+                <img src='component.png' className="img-fluid px-0 logo-text" alt='alina marin cabinet de avocatura si insolventa' />
               </span>
 
               <div className='menu my-3'>
