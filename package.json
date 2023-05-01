@@ -6,8 +6,9 @@
   },
   "dependencies": {
     "dotenv": "^16.0.3",
-    "react-scripts": "^5.0.1"
-  },
+    "react-scripts": "^5.0.1",
+    "express": "^4.17.1",
+  }
   "scripts": {
     "start": "node server/server.js",
     "client": "cd client && npm start",
@@ -15,5 +16,4 @@
   },
   "name": "avocat-alinamarin",
   "version": "1.0.0",
-  "private": true
 }
