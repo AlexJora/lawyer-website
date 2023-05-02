@@ -12,6 +12,9 @@ app.use(express.json());
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'client/build')));
 
+app.get('/ex', (req, res) => {
+  res.send('This is an example GET request');
+});
 
 
 app.post('/contact', (req, res) => {
