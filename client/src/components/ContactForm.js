@@ -12,13 +12,13 @@ const ContactForm = () => {
       phone: phone.value,
       message: query.value,
     };
-    let response = await fetch("http://localhost:3100/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
+    // let response = await fetch("http://localhost:3100/contact", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json;charset=utf-8",
+    //   },
+    //   body: JSON.stringify(details),
+    // });
 
     // let response = await fetch("http://localhost:5000/contact", {
     //   method: "POST",

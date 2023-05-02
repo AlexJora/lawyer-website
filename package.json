@@ -11,6 +11,7 @@
   },
   "scripts": {
     "start": "node server/server.js",
+    "build": "cd client && npm run build && mv build ../server",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run start\" \"npm run client\""
   }
