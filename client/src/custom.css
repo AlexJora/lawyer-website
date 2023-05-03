@@ -181,7 +181,7 @@
 }
 
 .hero-section {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\assets\hero.jpg');
+  background-image: url('/public/assets/hero.jpg');
   height: 700px;
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@
 /* services */
 
 .services-section {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\assets\column3.jpg');
+  background-image: url('/public/assets/column3.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
