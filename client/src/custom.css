@@ -181,7 +181,7 @@
 }
 
 .hero-section {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\hero.jpg');
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\assets\hero.jpg');
   height: 700px;
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@
 /* services */
 
 .services-section {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\column3.jpg');
+  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\assets\column3.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -439,31 +439,31 @@
 }
 
 .civil {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\civil-law.jpg');
+  background-image: url('/public/assets/civil-law.jpg');
 }
 
 .criminal {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\criminal-law.jpg');
+  background-image: url('/public/assets/criminal-law.jpg');
 }
 
 .executare {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\executare.jpg');
+  background-image: url('/public/assets/executare.jpg');
 }
 
 .family {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\family-law.jpg');
+  background-image: url('/public/assets/family-law.jpg');
 }
 
 .labor {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\labor-law.jpg');
+  background-image: url('/public/assets/labor-law.jpg');
 }
 
 .business {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\business-law.jpg');
+  background-image: url('/public/assets/business-law.jpg');
 }
 
 .insolvency {
-  background-image: url('C:\CODE YOUR FUTURE\lawyer-website\client\public\insolvency6.jpg');
+  background-image: url('/public/assets/insolvency6.jpg');
 }
 
 .card-img-top {
@@ -511,7 +511,7 @@
 
 .form-wrap {
   position: relative;
-  background-image: url("C:\CODE YOUR FUTURE\lawyer-website\client\public\column2.jpg");
+  background-image: url("/public/assets/column2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

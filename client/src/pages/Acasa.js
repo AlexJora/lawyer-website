@@ -11,9 +11,6 @@ const Acasa = () => {
   return (
     <>
       <div className='home-page'>
-        {/*TOPBANNER=========*/}
-
-
         {/*NAVBAR=========*/}
         <Navbar />
 
@@ -60,7 +57,7 @@ const Acasa = () => {
             <div className="col-md-5">
               <div className="d-flex align-items-center">
                 <div className="intro-img-container h-100 w-auto d-flex align-items-center justify-content-center">
-                  <img src='law-justice.jpg' className='intro-img img-fluid mx-auto d-block rounded-2' alt='two people on desk' />
+                  <img src='/assets/law-justice.jpg' className='intro-img img-fluid mx-auto d-block rounded-2' alt='two people on desk' />
                 </div>
               </div>
             </div>
@@ -93,7 +90,7 @@ const Acasa = () => {
                     <div className='col-md-6'>
                       <h5 className='color text-center pb-5 fw-bold'>Cabinet de avocatura</h5>
                       <div className='d-flex align-items-center'>
-                        <img src="barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
+                        <img src="/assets/barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
                       </div>
                       <p className='pt-5 pb-1'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
                         societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
@@ -105,7 +102,7 @@ const Acasa = () => {
                     <div className='col-md-6'>
                       <h5 className='color text-center pb-5 fw-bold'>Cabinet de insolventa</h5>
                       <div className='d-flex align-items-center'>
-                        <img src="unpir.jpg" className="unpir img-fluid mx-auto d-block rounded-2" alt="sigla unpir" />
+                        <img src="/assets/unpir.jpg" className="unpir img-fluid mx-auto d-block rounded-2" alt="sigla unpir" />
                       </div>
                       <p className='pt-5 pb-4'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
                         insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si
@@ -145,7 +142,7 @@ const Acasa = () => {
             </div>
             <div className="col col-md-5 order-md-2">
               <div className="d-flex align-items-center">
-                <img src='welcome-img.jpg' className='welcome-img img-fluid mx-auto d-block rounded-2' alt='two people on desk' />
+                <img src='/assets/welcome-img.jpg' className='welcome-img img-fluid mx-auto d-block rounded-2' alt='two people on desk' />
 
               </div>
             </div >
@@ -154,8 +151,6 @@ const Acasa = () => {
         </ section >
 
         {/*CE NE RECOMANDA========= */}
-
-        {/* style={{ backgroundColor: ' pink' }} */}
         <section className='recommendation mt-5 p-3 bg-image m-3 px-0' >
           <div className='container d-flex flex-column justify-content-center align-items-center'>
             <h6 className='guide-text ps-2 '>EXPERTIZA NOASTRA</h6>
