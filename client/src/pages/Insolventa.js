@@ -18,8 +18,8 @@ const Insolventa = () => {
             <h6 className='guide-text pt-4 pb-1 text-center' >SERVICII DE INSOLVENTA</h6>
             <h5 class="card-title text-center pb-5">Consultanta si reprezentare in cadrul procedurii de insolventa</h5>
             <div className='card'>
-              <div class="insolvency card-img-top" >
-                <div class="overlay"></div>
+              <div class="insolvency card-img-top2" >
+                {/* <div class="overlay"></div> */}
               </div>
               <div class="card-body">
                 <p class="card-text">
@@ -61,14 +61,15 @@ const Insolventa = () => {
                       reglementarilor legale .</li>
                   </ul>
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+
+                <button className="btn btn-outline-dark my-4" type="button" >Cere o evaluare</button>
               </div>
             </div>
           </div>
 
         </div>
         <Footer />
-      </div>
+      </div >
     </>
   )
 }

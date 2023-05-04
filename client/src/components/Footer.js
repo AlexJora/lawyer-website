@@ -15,23 +15,39 @@ const Footer = () => {
               </span>
 
               <div className='menu my-3'>
-                <a href='#' className='p-2 text-decoration-none text-light'>Acasa</a>
-                <a href='#' className='p-2 text-decoration-none text-light'>Prezentare</a>
-                <a href='#' className='p-2 text-decoration-none text-light'>Avocatura</a>
-                <a href='#' className='p-2 text-decoration-none text-light'>Insolventa</a>
-                <a href='#' className='p-2 text-decoration-none text-light'>Contact</a>
+                <a href='/' className='p-2 text-decoration-none text-light'>Acasa</a>
+
+                <a href='/avocatura' className='p-2 text-decoration-none text-light'>Avocatura</a>
+                <a href='/insolventa' className='p-2 text-decoration-none text-light'>Insolventa</a>
+                <a href='/informatii-utile' className='p-2 text-decoration-none text-light'>Informatii utile</a>
+                <a href='/contact' className='p-2 text-decoration-none text-light'>Contact</a>
               </div>
 
               <div className="footer-social " >
                 <span className='fs-3'>
 
-                  <FontAwesomeIcon icon={faEnvelope} size="1x" />
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="icon"
+                    title="av_alinamarin@yahoo.com"
+                    size="1x"
+                  />
                 </span>
                 <span className="fs-3">
-                  <FontAwesomeIcon icon={faWhatsapp} size="1x" />
+
+
+                  <FontAwesomeIcon
+                    icon={faWhatsapp}
+                    className="icon"
+                    size="1x" />
+
                 </span>
+
                 <span className="fs-3">
-                  <FontAwesomeIcon icon={faPhone} size="1x" />
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    title="+40769 935 716"
+                    size="1x" />
                 </span>
               </div>
             </div>

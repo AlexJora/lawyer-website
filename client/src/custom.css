@@ -58,7 +58,7 @@
 
 
 .phone-icon {
-  animation: ring 5s ease-in-out infinite;
+  animation: ring 12s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
 
@@ -176,7 +176,7 @@
 
 /* ACASA====================== */
 .home-page {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   background-color: #eae8e3;
 }
 
@@ -405,7 +405,7 @@
 
 /* AVOCATURA====================== */
 .avocatura {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   line-height: 1rem;
   background-color: #eae8e3;
 
@@ -500,7 +500,20 @@
 /* INSOLVENTA====================== */
 .insolventa-page {
   background-color: #eae8e3;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.card-img-top2 {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.insolventa-page .btn {
+  background-color: #c2b697;
+  display: block;
+  margin: 0 auto;
 }
 
 /* CONTACT====================== */
@@ -539,4 +552,8 @@
 
 .contact-text {
   margin-top: 2rem;
+}
+
+.form-wrap .btn {
+  background-color: #c2b697;
 }

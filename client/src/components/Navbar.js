@@ -1,8 +1,6 @@
 import React from 'react';
 import TopBanner from '../components/TopBanner';
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+
 
 const Navbar = () => {
   return (
@@ -39,7 +37,7 @@ const Navbar = () => {
                   <a className="nav-link text-light" href="/insolventa">Insolventa</a>
                 </li>
                 <li className="nav-item mx-2">
-                  <a className="nav-link text-light" href="/prezentare">Informatii utile</a>
+                  <a className="nav-link text-light" href="/informatii-utile">Informatii utile</a>
                 </li>
                 <li className="nav-item mx-2">
                   <a className="nav-link text-light" href="/contact">Contact</a>

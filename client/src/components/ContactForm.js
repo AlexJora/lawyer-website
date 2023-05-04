@@ -5,13 +5,13 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("Se trimite...");
-    const { name, email, phone, query } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      phone: phone.value,
-      message: query.value,
-    };
+    // const { name, email, phone, query } = e.target.elements;
+    // let details = {
+    //   name: name.value,
+    //   email: email.value,
+    //   phone: phone.value,
+    //   message: query.value,
+    // };
     // let response = await fetch("http://localhost:3100/contact", {
     //   method: "POST",
     //   headers: {
@@ -51,7 +51,7 @@ const ContactForm = () => {
               <textarea className="form-control" id="query" required></textarea>
             </div>
             <div className="my-4 text-center pt-2">
-              <button type="submit" className="btn btn-light ">{status}</button>
+              <button type="submit" className="btn btn-outline-dark ">{status}</button>
             </div>
           </form>
         </div>
