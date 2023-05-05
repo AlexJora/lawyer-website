@@ -63,7 +63,7 @@ const Acasa = () => {
             </div>
             <div className="col-md-7">
               <h6 className='guide-text'>INTRO</h6>
-              <h4 className="lh-base text-center pb-4 fw-bold">Va confrunți cu o problemă juridică sau de insolventa?</h4>
+              <h4 className="lh-base text-center pb-4 fw-bold">Va confruntati cu o problemă juridică sau de insolventa?</h4>
               <p className='text-separator fw-normal'>Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice.<br></br>  <span className="ms-4"></span>Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.<span></span></p>
             </div>
           </div>
