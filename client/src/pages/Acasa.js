@@ -177,13 +177,6 @@ const Acasa = () => {
           </div>
         </section >
 
-
-
-
-
-
-
-
         {/*FOOTER======= */}
         < Footer />
       </div >

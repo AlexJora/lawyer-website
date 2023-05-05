@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone, faAngleUp } from '@fortawesome/free-solid-svg-icons';
@@ -13,7 +13,6 @@ const Footer = () => {
                 <img src='/assets/LOGO2.png' className="img-fluid logo-image" alt='measuring scale law logo' />
                 <img src='/assets/component.png' className="img-fluid px-0 logo-text" alt='alina marin cabinet de avocatura si insolventa' />
               </span>
-
               <div className='menu my-3'>
                 <a href='/' className='p-2 text-decoration-none text-light'>Acasa</a>
 
@@ -25,7 +24,6 @@ const Footer = () => {
 
               <div className="footer-social " >
                 <span className='fs-3'>
-
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     className="icon"
@@ -34,15 +32,11 @@ const Footer = () => {
                   />
                 </span>
                 <span className="fs-3">
-
-
                   <FontAwesomeIcon
                     icon={faWhatsapp}
                     className="icon"
                     size="1x" />
-
                 </span>
-
                 <span className="fs-3">
                   <FontAwesomeIcon
                     icon={faPhone}
@@ -68,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
+        <div id='whatsapp-icon' className="elfsight-app-9ac8bd49-4149-4bd4-9a06-e2987e3c3e60"></div>
       </footer >
     </>
   )
