@@ -11,7 +11,7 @@ const Avocatura = () => {
         <div className='avocatura'>
           <div className=" pt-4 text-center">
             <h6 className='guide-text pt-3 pb-1' >SERVICII DE AVOCATURA</h6>
-            <h4 className="lh-base text-center pb-4">Oferim consultanță juridică și asistare în următoarele arii de practică:</h4>
+            <h5 className="lh-base text-center pb-4">Oferim consultanță juridică și asistare în următoarele arii de practică:</h5>
           </div>
           <div className="row g-5 px-5 pt-5 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
