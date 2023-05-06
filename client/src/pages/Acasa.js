@@ -75,7 +75,7 @@ const Acasa = () => {
             </div>
             <div className="col-md-7">
               <h6 className='guide-text'>INTRO</h6>
-              <h4 className="lh-base text-center pb-4 fw-bold">Va confruntati cu o problemă juridică sau de insolventa?</h4>
+              <h5 className="lh-base text-center pb-4">Va confruntati cu o problemă juridică sau de insolventa?</h5>
               <p className='text-separator fw-normal'>Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice.<br></br>  <span className="ms-4"></span>Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.<span></span></p>
             </div>
           </div>
@@ -97,10 +97,10 @@ const Acasa = () => {
                 <div className="services-overlay "></div>
                 <div className='services-content container mt-5 p-1'>
                   <h6 className='text-center guide-text' >SERVICII</h6>
-                  <h4 className=" lh-base fw-bold text-center pb-4">Domenii de activitate</h4>
+                  <h5 className="lh-base text-center pb-4">Domenii de activitate</h5>
                   <div className="row mt-4 gx-3 flex-column flex-md-row ">
                     <div className='col-md-6'>
-                      <h5 className='color text-center pb-5 fw-bold'>Cabinet de avocatura</h5>
+                      <h5 className='color text-center pb-5'>Cabinet de avocatura</h5>
                       <div className='d-flex align-items-center'>
                         <img src="/assets/barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
                       </div>
@@ -112,7 +112,7 @@ const Acasa = () => {
                       </div>
                     </div>
                     <div className='col-md-6'>
-                      <h5 className='color text-center pb-5 fw-bold'>Cabinet de insolventa</h5>
+                      <h5 className='color text-center pb-5'>Cabinet de insolventa</h5>
                       <div className='d-flex align-items-center'>
                         <img src="/assets/unpir.jpg" className="unpir img-fluid mx-auto d-block rounded-2" alt="sigla unpir" />
                       </div>
@@ -141,7 +141,7 @@ const Acasa = () => {
           <div className="row mt-4 gx-4 flex-column flex-md-row gap-6">
             <div className="col col-md-7 order-md-2">
               <h6 className='guide-text'>DESPRE NOI</h6>
-              <h4 className=" lh-base fw-bold text-center pb-4">Cine suntem?</h4>
+              <h5 className="lh-base text-center pb-4">Cine suntem?</h5>
 
               <p className='text-separator fw-normal' >Vom fi partenerul dvs. in solutionarea intr- un mod profesionist a tuturor problemelor comerciale,
                 fiscale, contractuale.
@@ -166,7 +166,7 @@ const Acasa = () => {
         <section className='recommendation mt-5 p-3 bg-image m-3 px-0' >
           <div className='container d-flex flex-column justify-content-center align-items-center'>
             <h6 className='guide-text ps-2 '>EXPERTIZA NOASTRA</h6>
-            <h4 className="h-50 lh-base fw-bold pb-4">Ce ne recomanda?</h4>
+            <h5 className="h-50 lh-base text-center pb-4">Ce ne recomanda?</h5>
           </div>
           <div className="row mt-4 flex-column flex-md-row mb-3">
             <div className="col col-md-7 order-md-2">

@@ -10,17 +10,11 @@ const Insolventa = () => {
         <Navbar />
 
         <div>
-          {/* <div className=" pt-4 text-center">
-            <h6 className='guide-text pt-3 pb-1' >SERVICII DE INSOLVENTA</h6>
-            <h5 className="lh-base text-center pb-3 fw-bold">Oferim consultanță juridică și asistare în următoarele arii de practică:pentru o arie largă de probleme juridice
-            </h5>
-          </div> */}
           <div className='container pb-5'>
             <h6 className='guide-text pt-4 pb-1 text-center' >SERVICII DE INSOLVENTA</h6>
             <h5 class="card-title text-center pb-5">Consultanta si reprezentare in cadrul procedurii de insolventa</h5>
             <div className='card'>
               <div class="insolvency card-img-top2" >
-                {/* <div class="overlay"></div> */}
               </div>
               <div class="card-body">
                 <p class="card-text">

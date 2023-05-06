@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 * {
@@ -9,6 +10,10 @@
   margin: 0;
   padding: 0;
 
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* TOPBANNER====================== */
@@ -566,7 +571,7 @@
 }
 
 #accordion-btn {
-  background-color: #042B4E;
+  background-color: #072e53;
   color: #fff;
 }
 
@@ -598,4 +603,8 @@
 
 .info li::marker {
   color: #c2b697;
+}
+
+.info h5 {
+  color: #be7413;
 }

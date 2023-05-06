@@ -59,7 +59,7 @@ export const Contact = () => {
           <div class="row g-5">
             <div class="col-sm-6 order-sm-first ">
               <div className='contact-text d-flex flex-column '>
-                <h5 className='text-center pb-5 '>Nu ezitati sa ne contactati!</h5>
+                <h5 className='lh-base text-center pb-4'>Nu ezitati sa ne contactati!</h5>
                 <p>Suntem aici pentru a va oferi sprijinul nostru in toate problemele legale cu care va confruntati. </p>
                 <p>Va rugam sa ne contactati completand formularul de mai jos si vom fi bucurosi sa va oferim ajutorul nostru.</p>
                 <p>Vom prelua solicitarea dvs. si vom reveni in scurt timp pentru mai multe detalii.</p>
