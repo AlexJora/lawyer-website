@@ -272,12 +272,12 @@
 }
 
 #first-btn:hover {
-  background-color: rgb(232, 189, 134);
+  background-color: #c2b697;
   color: #042B4E;
 }
 
 .horizontal-btn .btn {
-  background-color: rgb(232, 189, 134);
+  background-color: #c2b697;
   color: #053661;
 }
 
@@ -564,7 +564,16 @@
   font-size: 0.8rem;
 }
 
-#accordion-btn {
+/* #accordion-btn {
   background-color: #042B4E;
   color: #fff;
+} */
+
+/* .accordion-button.collapsed {
+  color: white;
+  background: #053661;
 }
+
+.accordion-button.collapsed::after {
+  background-color: #fff;
+} */
