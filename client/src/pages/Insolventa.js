@@ -1,5 +1,6 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 const Insolventa = () => {
   return (
@@ -61,8 +62,9 @@ const Insolventa = () => {
                       reglementarilor legale .</li>
                   </ul>
                 </p>
-
-                <button className="btn btn-outline-dark my-4" type="button" >Cere o evaluare</button>
+                <Link to="/contact">
+                  <button className="btn btn-outline-dark my-4" type="button" >Cere o evaluare</button>
+                </Link>
               </div>
             </div>
           </div>

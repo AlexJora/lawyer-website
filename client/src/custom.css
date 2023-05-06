@@ -557,3 +557,14 @@
 .form-wrap .btn {
   background-color: #c2b697;
 }
+
+/* INFORMATII UTILE====================== */
+.info {
+  background-color: #eae8e3;
+  font-size: 0.8rem;
+}
+
+#accordion-btn {
+  background-color: #042B4E;
+  color: #fff;
+}
