@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { faCalendarCheck, faFileCircleCheck, faCommentsDollar, faGavel } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -20,8 +19,8 @@ const Acasa = () => {
             <div className="hero-section">
               <div className="hero-overlay"></div>
               <div className="text-container d-flex flex-column justify-content-start align-items-start pt-6 slide">
-                <div className="text-1 fs-2 pb-4">ALINA MARIN</div>
-                <div className="text-2 fs-4">BIROU DE AVOCATURA SI INSOLVENTA<span className='fw-bold'> - Bucuresti </span></div>
+                <div className="text-1 fs-2 pb-3">ALINA MARIN</div>
+                <div className="text-2 fs-4">BIROU DE AVOCATURA SI INSOLVENTA<span className='fw-bold'><br></br> Bucuresti </span></div>
                 <div className="text-3 fst-italic fw-light">"Nu este o adevărată justiție acolo unde nu există dreptate, iar dreptatea nu poate fi găsită acolo unde nu există adevăr." - <span>Lucius Annaeus Seneca.</span></div>
               </div>
               {/* horizontal buttons */}
@@ -74,7 +73,7 @@ const Acasa = () => {
               </div>
             </div>
             <div className="col-md-7">
-              <h6 className='guide-text'>INTRO</h6>
+              <p className='guide-text ps-5'>INTRO</p>
               <h5 className="lh-base text-center pb-4">Va confruntati cu o problemă juridică sau de insolventa?</h5>
               <p className='text-separator fw-normal'>Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice.<br></br>  <span className="ms-4"></span>Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.<span></span></p>
             </div>
@@ -104,11 +103,13 @@ const Acasa = () => {
                       <div className='d-flex align-items-center'>
                         <img src="/assets/barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
                       </div>
-                      <p className='pt-5 pb-1'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
+                      <p className=''>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
                         societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
                         insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
-                      <div className='text-center mt-4 mb-5'>
-                        <button type="button" className="btn btn-outline-warning ">Afla mai multe...</button>
+                      <div className='text-center'>
+                        <Link to="/avocatura">
+                          <button type="button" className="btn btn-outline-warning ">Afla mai multe...</button>
+                        </Link>
                       </div>
                     </div>
                     <div className='col-md-6'>
@@ -116,11 +117,13 @@ const Acasa = () => {
                       <div className='d-flex align-items-center'>
                         <img src="/assets/unpir.jpg" className="unpir img-fluid mx-auto d-block rounded-2" alt="sigla unpir" />
                       </div>
-                      <p className='pt-5 pb-4'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
+                      <p className=''>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
                         insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si
                         administrativa, recuperari creante, evaluare si valorificare active.</p>
-                      <div className='text-center mt-3'>
-                        <button type="button" className="btn btn-outline-warning">Afla mai multe...</button>
+                      <div className='text-center'>
+                        <Link to="/insolventa">
+                          <button type="button" className="btn btn-outline-warning">Afla mai multe...</button>
+                        </Link>
                       </div>
                     </div>
                   </div>
