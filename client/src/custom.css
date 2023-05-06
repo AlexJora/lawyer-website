@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Marmelad&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
 
 * {
   font-family: 'Open Sans', sans-serif;
@@ -564,16 +565,37 @@
   font-size: 0.8rem;
 }
 
-/* #accordion-btn {
+#accordion-btn {
   background-color: #042B4E;
   color: #fff;
-} */
+}
 
-/* .accordion-button.collapsed {
-  color: white;
-  background: #053661;
+.accordion-button:not(.collapsed)::after {
+  content: "\f057";
+  font-family: "Font Awesome 5 Free";
+  color: #c2b697;
+  background-image: none !important;
+  font-size: 25px;
 }
 
 .accordion-button.collapsed::after {
-  background-color: #fff;
-} */
+  content: "\f058";
+  color: #c2b697;
+  font-weight: 400;
+  font-family: "Font Awesome 5 Free";
+  background-image: none !important;
+  font-size: 25px;
+}
+
+.info p {
+  text-indent: 1rem;
+}
+
+.info ul {
+  list-style-type: square;
+
+}
+
+.info li::marker {
+  color: #c2b697;
+}

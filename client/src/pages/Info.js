@@ -20,7 +20,12 @@ const Info = () => {
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordion">
                 <div className="accordion-body">
-                  <h5>Onorarii pentru persoane juridice</h5>
+                  <h5>Principiile Generale:</h5>
+                  <p> Onorariul avocatului se stabileste tinand cond de prevederile Statutului profesiei de avocat.
+                    Texte extrase din: Statut 2004 - Statut al profesiei de avocat, 25/09/2004 Publicat in Monitorul Oficial, Partea I nr. 45 din 13/01/2005 intrat in vigoare la data de 13 ianuarie 2005;
+                    Capitolul III Activitatea profesionala a avocatului;
+                    Sectiunea a 2-a Relatiile dintre avocat si client;</p>
+                  <h5>Onorarii pentru persoane juridice:</h5>
                   <p>În stabilirea onorariilor pentru persoane juridice avem în vedere, pe lângă principiile prezentate mai jos, posibilitatea de a dezvolta modalităţile de plată a onorariilor sub diferite aspecte cum sunt:</p>
                   <ul>
                     <li>onorariul fix</li>
@@ -29,7 +34,7 @@ const Info = () => {
                     <li>onorariul procentual de rezultat</li>
                     <li>abonamentul lunar</li>
                   </ul>
-                  <h5>Onorarii pentru persoane fizice</h5>
+                  <h5>Onorarii pentru persoane fizice:</h5>
                   <p>In stabilirea onorariilor pentru persoane fizice cabinetul de avocatură promovează, în vederea stabilirii onorariului, principiul negocierii directe, principiu care are la bază urmatoarele criterii :</p>
                   <ul>
                     <li>complexitatea cauzei şi nivelul de pregătire profesională al avocatului care realizează activitatea;</li>
@@ -38,19 +43,15 @@ const Info = () => {
                     <li> istoricul colaborarii cu clientul.</li>
 
                   </ul>
-                  <h5>Principiile Generale</h5>
-                  <p> Onorariul avocatului se stabileste tinand cond de prevederile Statutului profesiei de avocat.
-                    Texte extrase din: Statut 2004 - Statut al profesiei de avocat, 25/09/2004 Publicat in Monitorul Oficial, Partea I nr. 45 din 13/01/2005 intrat in vigoare la data de 13 ianuarie 2005;
-                    Capitolul III Activitatea profesionala a avocatului;
-                    Sectiunea a 2-a Relatiile dintre avocat si client;</p>
+
                 </div>
               </div>
             </div>
-            {/* insolventa========== */}
+            {/* 2.insolventa========== */}
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTwo">
                 <button id='accordion-btn' className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  Ce este insolventa?
+                  - Insolventa
                 </button>
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordion">
@@ -65,27 +66,32 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Ce este reorganizarea?
+                  - Reorganizarea
                 </button>
               </h2>
-              <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion">
+              <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
                 <div className="accordion-body">
+                  <p>Reoganizarea societatii inseamna redresarea acesteia sub umbrela Legii Insolventei.</p>
+
                   <p>Scopul insolventei nu este de a ajunge la faliment si de a inchide societatea, ci de a o ajuta sa se redreseze dupa un plan stabilit.
 
                     Practic, se va deschide o procedura de insolventa generala cu intentia de a reorganiza societatea dupa un plan de reorganizare.
 
-                    Acest plan va fi supus confirmarii judecatorului-sindic de catre debitor, administratorului judiciar sau creditorilor.
+                    Potrivit dispozițiilor art. 5 pct. 54. din Legea nr. 85/2014, reorganizarea este „procedura ce se aplica debitorului in insolventa, persoana juridica, in vederea achitarii datoriilor acestuia, conform programului de plata a creanțelor.</p>
 
-                    Totodata, planul va trebui sa cuprinda o esalonare a datoriilor pe o durata de 3 ani.
+                  <p>Planul de reorganizare presupune intocmirea, aprobarea, confirmarea, implementarea și respectarea unui plan, care poate sa prevada:</p>
+                  <ul>
+                    <li>restructurarea operaționala si/sau financiara a debitorului;</li>
+                    <li>restructurarea corporativa prin modificarea structurii de capital social;</li>
+                    <li>restrangerea activitații prin lichidarea parțiala sau totala a activului din averea debitorului;</li>
+                  </ul>
 
-                    De la data deschiderii procedurii de insolventa se vor suspenda de drept toate actiunile judiciare, extrajudiciare si masurile de executare silita asupra averii societatii.
 
-                    Mai mult, societatea isi poate desfasura activitatea in continuare sub controlul Administratorului Judiciar desemnat.
+                  <p>Pentru aceasta procedura, importanta deosebita prezinta, pentru participanți, programul de plata a creanțelor.</p>
 
-                    Doar in cazul in care acest plan de reorganizare si salvare a societatii esueaza, se va trece la procedura de faliment.</p>
-                  <p></p>
-                  <p></p>
-                  <p></p>
+                  <p>Creditorii trebuie sa cunoasca ce sume vor primi din creantele pe care le detin impotriva averii debitorului și cand li se vor plati pentru a‑si face propria analiza economica.</p>
+
+                  <p>Prin pct. 53. din art. 5 se definește programul de plata a creanțelor ca fiind „graficul de achitare a acestora mentionat in planul de reorganizare. Doar in cazul in care acest plan de reorganizare si salvare a societatii esueaza, se va trece la procedura de faliment.</p>
                 </div>
               </div>
             </div>
@@ -93,26 +99,26 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFour">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Ce este
-                  falimentul ?
+                  - Falimentul
                 </button>
               </h2>
               <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
                 <div className="accordion-body">
-                  <p>Falimentul intervine ca o ultima solutie atunci cand redresarea si planul de reorganizare nu mai sunt posibile.
+                  <p>Falimentul intervine ca o ultima solutie atunci cand redresarea si planul de reorganizare nu mai sunt posibile.</p>
 
-                    O definitie mai complexa a falimentului ar suna asa:
 
-                    „Falimentul este a doua etapa a procedurii de insolventa care se aplica debitorului in vederea lichidarii averii acestuia pentru acoperirea pasivului, urmata de radierea debitorului din registrul in care este inmatriculat.”
 
-                    Daca se constata ca nu exista bunuri in patrimoniul debitorului sau ca acestea sunt insuficiente pentru a acoperi cheltuielile administrative, se poate da o hotarare prin care se dispune radierea societatii.
+                  <p>Falimentul este a doua etapa a procedurii de insolventa care se aplica debitorului in vederea lichidarii averii acestuia pentru acoperirea pasivului, urmata de radierea debitorului din registrul in care este inmatriculat.</p>
 
-                    Prin hotararea prin care se decide intrarea in faliment, judecatorul-sindic va pronunta dizolvarea debitorului persoana juridica si va dispune:
+                  <p>Daca se constata ca nu exista bunuri in patrimoniul debitorului sau ca acestea sunt insuficiente pentru a acoperi cheltuielile administrative, se poate da o hotarare prin care se dispune radierea societatii.</p>
 
-                    • Ridicarea dreptului de administrare al debitorului
-                    • Desemnarea unui lichidator juridic in cazul procedurii generale
-                    • Lichidarea bunurilor din averea firmei
-                    • Radierea societatii</p>
+                  <p>Prin hotararea prin care se decide intrarea in faliment, judecatorul-sindic va pronunta dizolvarea debitorului persoana juridica si va dispune:</p>
+                  <ul>
+                    <li>Ridicarea dreptului de administrare al debitorului;</li>
+                    <li>Desemnarea unui lichidator juridic in cazul procedurii generale;</li>
+                    <li>Lichidarea bunurilor din averea firmei;</li>
+                    <li>Radierea societatii.</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -120,7 +126,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFive">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  Ce este dizolvarea?
+                  - Dizolvarea
                 </button>
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
@@ -133,7 +139,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSix">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  Ce este lichidarea?
+                  - Lichidarea
                 </button>
               </h2>
               <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
@@ -148,7 +154,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSeven">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  Ce este radierea?
+                  - Radierea
                 </button>
               </h2>
               <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
@@ -161,7 +167,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingEight">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  Ce este fuziunea?
+                  - Fuziunea
                 </button>
               </h2>
               <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
@@ -174,13 +180,13 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingNine">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  Ce este divizarea?
+                  - Divizarea
                 </button>
               </h2>
               <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordion">
                 <div className="accordion-body">
                   <p>Divizarea este operatia prin care o societate, dupa ce este dizolvata fara a intra în lichidare, transfera mai multor societati totalitatea patrimoniului sau, in schimbul repartizarii catre actionarii societatii divizate de actiuni la societatile beneficiare.</p>
-                  <h5>Etapele procesului de Fuziune sau Divizare</h5>
+                  <h5>Etapele procesului de Fuziune sau Divizare:</h5>
                   <h6>Etapa 1</h6>
                   <ul>
                     <li>Depunerea proiectului de fuziune și  hotararea adunarii generale a societatii participante la fuziune ( prin care se renunță la examinarea proiectului) </li>
@@ -198,7 +204,7 @@ const Info = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section >
       <Footer />
     </>
   )
