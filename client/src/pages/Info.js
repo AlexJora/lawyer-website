@@ -41,7 +41,6 @@ const Info = () => {
                     <li>urgenţa activităţii;</li>
                     <li>cauza si posibilităţile clienţilor;</li>
                     <li> istoricul colaborarii cu clientul.</li>
-
                   </ul>
 
                 </div>
@@ -51,7 +50,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingTwo">
                 <button id='accordion-btn' className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                  - Insolventa
+                  Insolventa
                 </button>
               </h2>
               <div id="collapseTwo" className="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordion">
@@ -66,7 +65,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingThree">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  - Reorganizarea
+                  Reorganizarea
                 </button>
               </h2>
               <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion">
@@ -85,12 +84,8 @@ const Info = () => {
                     <li>restructurarea corporativa prin modificarea structurii de capital social;</li>
                     <li>restrangerea activitații prin lichidarea parțiala sau totala a activului din averea debitorului;</li>
                   </ul>
-
-
                   <p>Pentru aceasta procedura, importanta deosebita prezinta, pentru participanți, programul de plata a creanțelor.</p>
-
                   <p>Creditorii trebuie sa cunoasca ce sume vor primi din creantele pe care le detin impotriva averii debitorului și cand li se vor plati pentru a‑si face propria analiza economica.</p>
-
                   <p>Prin pct. 53. din art. 5 se definește programul de plata a creanțelor ca fiind „graficul de achitare a acestora mentionat in planul de reorganizare. Doar in cazul in care acest plan de reorganizare si salvare a societatii esueaza, se va trece la procedura de faliment.</p>
                 </div>
               </div>
@@ -99,19 +94,14 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFour">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  - Falimentul
+                  Falimentul
                 </button>
               </h2>
               <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordion">
                 <div className="accordion-body">
                   <p>Falimentul intervine ca o ultima solutie atunci cand redresarea si planul de reorganizare nu mai sunt posibile.</p>
-
-
-
                   <p>Falimentul este a doua etapa a procedurii de insolventa care se aplica debitorului in vederea lichidarii averii acestuia pentru acoperirea pasivului, urmata de radierea debitorului din registrul in care este inmatriculat.</p>
-
                   <p>Daca se constata ca nu exista bunuri in patrimoniul debitorului sau ca acestea sunt insuficiente pentru a acoperi cheltuielile administrative, se poate da o hotarare prin care se dispune radierea societatii.</p>
-
                   <p>Prin hotararea prin care se decide intrarea in faliment, judecatorul-sindic va pronunta dizolvarea debitorului persoana juridica si va dispune:</p>
                   <ul>
                     <li>Ridicarea dreptului de administrare al debitorului;</li>
@@ -126,7 +116,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingFive">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                  - Dizolvarea
+                  Dizolvarea
                 </button>
               </h2>
               <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordion">
@@ -139,7 +129,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSix">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                  - Lichidarea
+                  Lichidarea
                 </button>
               </h2>
               <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordion">
@@ -154,7 +144,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingSeven">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  - Radierea
+                  Radierea
                 </button>
               </h2>
               <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordion">
@@ -167,7 +157,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingEight">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                  - Fuziunea
+                  Fuziunea
                 </button>
               </h2>
               <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordion">
@@ -180,7 +170,7 @@ const Info = () => {
             <div className="accordion-item">
               <h2 className="accordion-header" id="headingNine">
                 <button id='accordion-btn' className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                  - Divizarea
+                  Divizarea
                 </button>
               </h2>
               <div id="collapseNine" className="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordion">
