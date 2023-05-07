@@ -9,7 +9,7 @@ const Insolventa = () => {
         <Navbar />
         <div>
           <h6 className='guide-text ms-3 mt-4' >SERVICII DE INSOLVENTA</h6>
-          <div className='container pt-4'>
+          <div className='container py-5'>
             <h5 class="card-title text-center pb-5">Consultanta si reprezentare in cadrul procedurii de insolventa</h5>
             <div className='card'>
               <div class="insolvency card-img-top2" >
@@ -55,7 +55,7 @@ const Insolventa = () => {
                   </ul>
                 </p>
                 <Link to="/contact">
-                  <button className="btn btn-outline-dark my-4" type="button" >Cere o evaluare</button>
+                  <button className="btn my-4" type="button" >Cere o evaluare</button>
                 </Link>
               </div>
             </div>

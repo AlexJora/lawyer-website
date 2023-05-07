@@ -88,7 +88,7 @@ const Acasa = () => {
 
 
         {/*SERVICII========= */}
-        < div className="mt-5 " >
+        < div className="my-3 " >
 
           <div className="row">
 
@@ -96,34 +96,34 @@ const Acasa = () => {
               <div className="services-section ">
                 <div className="services-overlay "></div>
 
-                <div className='services-content container mt-5 p-1'>
+                <div className='services-content container mt-3'>
                   <h6 className=' guide-text' >SERVICII</h6>
 
-                  <h5 className="lh-base text-center pb-4">Domenii de activitate</h5>
-                  <div className="row mt-4 gx-3 flex-column flex-md-row ">
+                  <h5 className="lh-base text-center pb-3">Domenii de activitate</h5>
+                  <div className="row mt-3 gx-3 flex-column flex-md-row ">
                     <div className='col-md-6'>
-                      <h5 className='color text-center pb-5'>Cabinet de avocatura</h5>
+                      <h5 className='color text-center pb-4'>Cabinet de avocatura</h5>
                       <div className='d-flex align-items-center'>
                         <img src="/assets/barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
                       </div>
-                      <p className=''>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
+                      <p className='pt-4'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
                         societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
                         insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
-                      <div className='text-center'>
+                      <div className='py-3 text-center'>
                         <Link to="/avocatura">
                           <button type="button" className="btn btn-outline-warning ">Afla mai multe...</button>
                         </Link>
                       </div>
                     </div>
                     <div className='col-md-6'>
-                      <h5 className='color text-center pb-5'>Cabinet de insolventa</h5>
+                      <h5 className='color text-center pb-4'>Cabinet de insolventa</h5>
                       <div className='d-flex align-items-center'>
                         <img src="/assets/unpir.jpg" className="unpir img-fluid mx-auto d-block rounded-2" alt="sigla unpir" />
                       </div>
-                      <p className=''>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
+                      <p className='pt-4'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
                         insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si
                         administrativa, recuperari creante, evaluare si valorificare active.</p>
-                      <div className='text-center'>
+                      <div className='py-3 text-center'>
                         <Link to="/insolventa">
                           <button type="button" className="btn btn-outline-warning">Afla mai multe...</button>
                         </Link>

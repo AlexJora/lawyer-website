@@ -184,7 +184,7 @@ h5 {
 /* ACASA====================== */
 .home-page {
   font-size: 0.9rem;
-  background-color: #eae8e3;
+  /* background-color: #f1f1f0; */
 }
 
 .hero-section {
@@ -312,7 +312,7 @@ h5 {
 
 
 .text-separator {
-  border-left: 3px solid #be7413;
+  border-left: 2px solid #b6ab91;
   padding-left: 2rem;
   text-indent: 1rem;
 }
@@ -320,12 +320,11 @@ h5 {
 /* intro */
 
 .guide-text {
-  color: #be7413;
+  color: #b6ab91;
   font-family: 'Montserrat', sans-serif;
-  border-left: 3px solid #be7413;
+  border-left: 2px solid #b6ab91;
   padding-left: 5px;
-  /* width: 50%; */
-  font-weight: bolder;
+  font-weight: bold;
 
 }
 
@@ -364,17 +363,18 @@ h5 {
 }
 
 .color {
-  color: #be7413;
+  color: #c2b697;
 }
 
 .services-section .btn {
-  background-color: #be7413;
-  color: #042B4E;
+  background-color: #c2b697;
+
+  color: #073155;
 }
 
 .services-section .btn:hover {
-  background-color: #042B4E;
-  color: #be7413;
+  background-color: #073155;
+  color: #c2b697;
 }
 
 /* recommendation */
@@ -422,7 +422,7 @@ h5 {
 .avocatura {
   font-size: 0.8rem;
   line-height: 1rem;
-  background-color: #eae8e3;
+  /* background-color: #eae8e3; */
 
 }
 
@@ -514,7 +514,7 @@ h5 {
 
 /* INSOLVENTA====================== */
 .insolventa-page {
-  background-color: #eae8e3;
+  /* background-color: #eae8e3; */
   font-size: 0.9rem;
 }
 
@@ -533,7 +533,7 @@ h5 {
 
 /* CONTACT====================== */
 .contact-page {
-  background-color: #eae8e3;
+  /* background-color: #eae8e3; */
   font-size: 0.8rem;
 }
 
@@ -573,9 +573,17 @@ h5 {
   background-color: #c2b697;
 }
 
+.form-wrap .btn:hover {
+  background-color: #2d6da5;
+}
+
+.contact-page p {
+  text-indent: 1rem;
+}
+
 /* INFORMATII UTILE====================== */
 .info {
-  background-color: #eae8e3;
+  /* background-color: #eae8e3; */
   font-size: 0.8rem;
 }
 
