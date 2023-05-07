@@ -4,21 +4,34 @@ import { faPhone, faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-
 
 const TopBanner = () => {
   return (
-    <div className='banner w-100 py-1'>
-      <div className='container'>
-        <div className='row '>
-          <div className='col col-md-4 text-center'>
+
+    <div class='banner w-100 py-1'>
+      <div class='container'>
+        <div class='row'>
+          {/* First two columns */}
+          <div class='col-12 col-md-4 text-center'>
             <FontAwesomeIcon icon={faLocationDot} className='pe-2' size='1x' />Bucuresti
           </div>
-          <div className='col col-md-4 text-center'>
+          <div class='col-12 col-md-4 text-center'>
             <FontAwesomeIcon icon={faEnvelope} className='pe-2' size='1x' />av_alinamarin@yahoo.com
           </div>
-          <div className='col col-md-4 text-center'>
+
+          {/*Third column (hidden on small screens) */}
+          <div class='col-md-4 d-none d-md-block text-center'>
+            <FontAwesomeIcon icon={faPhone} className='phone-icon pe-2' size='1x' /> +40769 935 716
+          </div>
+
+          {/* Third column (shown only on small screens)  */}
+          <div class='col-12 d-md-none text-center'>
             <FontAwesomeIcon icon={faPhone} className='phone-icon pe-2' size='1x' /> +40769 935 716
           </div>
         </div>
       </div>
     </div>
+
+
+
+
   );
 };
 
