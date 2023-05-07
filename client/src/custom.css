@@ -10,6 +10,7 @@
   margin: 0;
   padding: 0;
 
+
 }
 
 h5 {
@@ -317,18 +318,17 @@ h5 {
 }
 
 /* intro */
+
 .guide-text {
   color: #be7413;
-  /* border-bottom: 2px solid #be7413; */
-
+  font-family: 'Montserrat', sans-serif;
+  border-left: 3px solid #be7413;
+  padding-left: 5px;
+  /* width: 50%; */
+  font-weight: bolder;
 
 }
 
-/* span {
-  display: inline-block;
-  padding: 10px;
-  border: 2px solid black;
-} */
 
 /* services */
 
@@ -605,14 +605,14 @@ h5 {
   text-indent: 1rem;
 }
 
-.info ul {
+/* .info ul {
   list-style-type: square;
 
 }
 
 .info li::marker {
   color: #c2b697;
-}
+} */
 
 .info h5 {
   color: #be7413;

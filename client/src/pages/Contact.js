@@ -7,12 +7,12 @@ import Footer from '../components/Footer';
 
 export const Contact = () => {
   return (
-    <>
+    <div className='contact-page'>
       <Navbar />
-      <section className="contact-page">
-        <h6 className='guide-text pt-4 pb-5 text-center' >CONTACT</h6>
+      <section>
+        <h6 className='guide-text ms-3 mt-4' >CONTACT</h6>
         {/* contact info============ */}
-        <div className="container-lg bg-light  mb-5 shadow">
+        <div className="container-lg bg-light my-5 shadow">
           <div className='contact-info text-center py-5'>
             <div className='row no-gutters'>
               <div className='col-lg-3 col-md-6 col-12 border-end border-1'>
@@ -72,7 +72,7 @@ export const Contact = () => {
         </div>
       </section>
       <Footer />
-    </>
+    </div>
   )
 }
 export default Contact;

@@ -4,12 +4,12 @@ import Footer from '../components/Footer';
 
 const Info = () => {
   return (
-    <>
+    <div className='info'>
       <Navbar />
-      <section className='info'>
-        <div className='container'>
-          <h6 className='guide-text pt-4 pb-5 text-center' >INFORMATII UTILE</h6>
-          <div id="accordion" className="accordion pb-5">
+      <div>
+        <h6 className='guide-text ms-3 mt-4' >INFORMATII UTILE</h6>
+        <div className='container py-5'>
+          <div id="accordion" className="accordion">
 
             {/* onorariul========== */}
             <div className="accordion-item">
@@ -194,9 +194,9 @@ const Info = () => {
             </div>
           </div>
         </div>
-      </section >
+      </div >
       <Footer />
-    </>
+    </div>
   )
 }
 

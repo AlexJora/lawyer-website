@@ -73,7 +73,8 @@ const Acasa = () => {
               </div>
             </div>
             <div className="col-md-7">
-              <p className='guide-text ps-5'>INTRO</p>
+
+              <h6 className='guide-text'>INTRO</h6>
               <h5 className="lh-base text-center pb-4">Va confruntati cu o problemă juridică sau de insolventa?</h5>
               <p className='text-separator fw-normal'>Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice.<br></br>  <span className="ms-4"></span>Vrem să fim alături de tine și să găsim cele mai bune soluții pentru problemele tale menținând în același timp imaginea ta impecabilă în lumea afacerilor.<span></span></p>
             </div>
@@ -94,8 +95,10 @@ const Acasa = () => {
             <div className="col">
               <div className="services-section ">
                 <div className="services-overlay "></div>
+
                 <div className='services-content container mt-5 p-1'>
-                  <h6 className='text-center guide-text' >SERVICII</h6>
+                  <h6 className=' guide-text' >SERVICII</h6>
+
                   <h5 className="lh-base text-center pb-4">Domenii de activitate</h5>
                   <div className="row mt-4 gx-3 flex-column flex-md-row ">
                     <div className='col-md-6'>
@@ -167,8 +170,9 @@ const Acasa = () => {
 
         {/*CE NE RECOMANDA========= */}
         <section className='recommendation mt-5 p-3 bg-image m-3 px-0' >
+          <h6 className='guide-text'>EXPERTIZA NOASTRA</h6>
           <div className='container d-flex flex-column justify-content-center align-items-center'>
-            <h6 className='guide-text ps-2 '>EXPERTIZA NOASTRA</h6>
+
             <h5 className="h-50 lh-base text-center pb-4">Ce ne recomanda?</h5>
           </div>
           <div className="row mt-4 flex-column flex-md-row mb-3">
