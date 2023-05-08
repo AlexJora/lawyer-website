@@ -12,7 +12,7 @@ const Avocatura = () => {
           <h6 className='guide-text ms-3 mt-4' >SERVICII DE AVOCATURA</h6>
           <div className=" pt-4 text-center">
             <h5 className="fw-bold text-center pb-1">Servicii complete de avocatura</h5>
-            <h6 className="fw-bold subtitle lh-lg text-center px-5">Oferim consultanță juridică și asistență specializată într-o serie de arii de practică</h6>
+            <h6 className="fw-bold subtitle lh-lg text-center px-5 pb-4">Oferim consultanță juridică și asistență specializată într-o serie de arii de practică</h6>
           </div>
           <div className="row g-5 px-5 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
