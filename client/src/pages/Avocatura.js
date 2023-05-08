@@ -11,9 +11,10 @@ const Avocatura = () => {
         <div >
           <h6 className='guide-text ms-3 mt-4' >SERVICII DE AVOCATURA</h6>
           <div className=" pt-4 text-center">
-            <h5 className="lh-base text-center">Oferim consultanță juridică și asistare în următoarele arii de practică</h5>
+            <h5 className="fw-bold text-center pb-1">Servicii complete de avocatura</h5>
+            <h6 className="fw-bold subtitle lh-lg text-center px-5">Oferim consultanță juridică și asistență specializată într-o serie de arii de practică</h6>
           </div>
-          <div className="row g-5 px-5 pt-5 ">
+          <div className="row g-5 px-5 pt-4 ">
             <div className="col-lg-4 col-md-6 col-sm-12">
               <div className="card h-100 ">
                 <div class="civil card-img-top" >
@@ -97,7 +98,7 @@ const Avocatura = () => {
 
           </div>
           <div className='container py-4 '>
-            <p className='more-services'>Alte domenii de activitate în care vă oferim consultanță, asistare și reprezentare în fața instanțelor de judecată sau a altor instituții ale statului: RECUPERARE CREANTE, PENSII SI ALTE DREPTURI DE ASIGURARI SOCIALE, ASOCIAȚII DE PROPRIETARI, PLÂNGERI CONTRAVENȚIONALE AMENZI, DESPĂGUBIRI ACCIDENTE AUTO,redactare de cereri precum si orice alte documente specifice activitatii</p>
+            <p className='more-services py-4'>Alte domenii de activitate în care vă oferim consultanță, asistare și reprezentare în fața instanțelor de judecată sau a altor instituții ale statului: RECUPERARE CREANTE, PENSII SI ALTE DREPTURI DE ASIGURARI SOCIALE, ASOCIAȚII DE PROPRIETARI, PLÂNGERI CONTRAVENȚIONALE AMENZI, DESPĂGUBIRI ACCIDENTE AUTO, redactare de cereri precum si orice alte documente specifice activitatii.</p>
           </div>
         </div>
       </div>
