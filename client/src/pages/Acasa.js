@@ -14,6 +14,7 @@ const Acasa = () => {
         <Navbar />
 
         {/* HERO=========== */}
+
         <div className="container-fluid">
           <div className="row">
             <div className="hero-section">
@@ -198,6 +199,7 @@ const Acasa = () => {
 
         {/*FOOTER======= */}
         < Footer />
+
       </div >
 
 

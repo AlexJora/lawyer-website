@@ -11,6 +11,7 @@
   padding: 0;
 
 
+
 }
 
 
@@ -186,6 +187,7 @@
 /* ACASA====================== */
 .home-page {
   font-size: 0.9rem;
+  overflow: hidden;
   /* background-color: #f1f1f0; */
 }
 
@@ -424,7 +426,7 @@
 .avocatura {
   font-size: 0.8rem;
   line-height: 1rem;
-  /* background-color: #eae8e3; */
+  overflow: hidden;
 
 }
 

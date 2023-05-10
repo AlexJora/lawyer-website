@@ -3,21 +3,20 @@ import TopBanner from '../components/TopBanner';
 
 
 const Navbar = () => {
+
   return (
     <>
-
       <div className='nav'>
         <TopBanner />
         <nav className="navbar navbar-dark w-100 navbar-expand-md slide-in">
-
           <div className="container-xxl">
             {/* logo */}
-            <a className="navbar-brand" href="#intro">
+            <div className="navbar-brand">
               <span>
                 <img src='/assets/LOGO2.png' className="img-fluid logo-image" alt='measuring scale law logo' />
                 <img src='/assets/component.png' className="img-fluid px-0 logo-text" alt='alina marin cabinet de avocatura si insolventa' />
               </span>
-            </a>
+            </div>
             {/* toggle button for mobile nav */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
               aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
