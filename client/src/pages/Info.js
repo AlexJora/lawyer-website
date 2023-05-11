@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer';
+
 
 const Info = () => {
   return (
     <div className='info'>
-      <Navbar />
+
       <div>
         <h6 className='guide-text ms-3 mt-4' >INFORMATII UTILE</h6>
         <div className='container py-5'>
@@ -195,7 +194,6 @@ const Info = () => {
           </div>
         </div>
       </div >
-      <Footer />
     </div>
   )
 }

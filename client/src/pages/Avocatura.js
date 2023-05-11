@@ -1,13 +1,10 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGavel, faScaleBalanced, faTruck, faPeopleLine, faBriefcase, faScroll } from '@fortawesome/free-solid-svg-icons';
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer';
 const Avocatura = () => {
   return (
     <>
       <div className='avocatura'>
-        <Navbar />
         <div >
           <h6 className='guide-text ms-3 mt-4' >SERVICII DE AVOCATURA</h6>
           <div className=" pt-4 text-center">
@@ -102,7 +99,7 @@ const Avocatura = () => {
           </div>
         </div>
       </div>
-      <Footer />
+
 
     </>
   )

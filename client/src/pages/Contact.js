@@ -2,13 +2,12 @@ import React from 'react';
 import ContactForm from '../components/ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope, faLocationDot, faClock } from '@fortawesome/free-solid-svg-icons';
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer';
+
 
 export const Contact = () => {
   return (
     <div className='contact-page'>
-      <Navbar />
+
       <section>
         <h6 className='guide-text ms-3 mt-4' >CONTACT</h6>
         {/* contact info============ */}
@@ -71,7 +70,7 @@ export const Contact = () => {
           </div>
         </div>
       </section>
-      <Footer />
+
     </div>
   )
 }

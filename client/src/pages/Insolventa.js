@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+
 const Insolventa = () => {
   return (
     <>
       <div className='insolventa-page'>
-        <Navbar />
+
         <div>
           <h6 className='guide-text ms-3 mt-4' >SERVICII DE INSOLVENTA</h6>
           <div className='container py-5'>
@@ -64,7 +63,7 @@ const Insolventa = () => {
           </div>
 
         </div>
-        <Footer />
+
       </div >
     </>
   )

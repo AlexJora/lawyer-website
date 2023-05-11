@@ -53,19 +53,6 @@
 
 }
 
-.nav .home {
-  border-bottom: 2px solid #be7413;
-
-}
-
-
-
-.nav-link:hover {
-
-  border-bottom: 2px solid #be7413;
-}
-
-
 
 .phone-icon {
   animation: ring 12s ease-in-out infinite;

@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarCheck, faFileCircleCheck, faCommentsDollar, faGavel } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,9 +8,6 @@ const Acasa = () => {
   return (
     <>
       <div className='home-page'>
-        {/*NAVBAR=========*/}
-        <Navbar />
-
         {/* HERO=========== */}
 
         <div className="container-fluid">
@@ -196,10 +191,6 @@ const Acasa = () => {
             </div>
           </div>
         </section >
-
-        {/*FOOTER======= */}
-        < Footer />
-
       </div >
 
 
