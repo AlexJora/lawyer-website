@@ -352,6 +352,13 @@
   z-index: 1;
   color: #fff;
 
+
+}
+
+.services-content p {
+  text-indent: 1rem;
+
+
 }
 
 .color {
@@ -361,12 +368,12 @@
 .services-section .btn {
   background-color: #c2b697;
 
-  color: #073155;
+  color: #000;
 }
 
 .services-section .btn:hover {
-  background-color: #073155;
-  color: #c2b697;
+  background-color: #2d6da5;
+  color: #fff;
 }
 
 /* recommendation */

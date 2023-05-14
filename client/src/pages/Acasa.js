@@ -102,12 +102,12 @@ const Acasa = () => {
                       <div className='d-flex align-items-center'>
                         <img src="/assets/barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
                       </div>
-                      <p className='pt-4'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
+                      <p className='pt-4 px-2'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
                         societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
-                        insolventei, recuperari creante, drept administrativ, asociatii si fundatii, etc.</p>
+                        insolventei, recuperari creante, drept administrativ, asociatii si fundatii.</p>
                       <div className='py-3 text-center'>
                         <Link to="/avocatura">
-                          <button type="button" className="btn btn-outline-warning ">Afla mai multe...</button>
+                          <button type="button" className="btn btn-outline-dark mb-4">Afla mai multe...</button>
                         </Link>
                       </div>
                     </div>
@@ -116,12 +116,12 @@ const Acasa = () => {
                       <div className='d-flex align-items-center'>
                         <img src="/assets/unpir.jpg" className="unpir img-fluid mx-auto d-block rounded-2" alt="sigla unpir" />
                       </div>
-                      <p className='pt-4'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
+                      <p className='pt-4 px-2'>Servicii in etapa de preinsolventa, fuziuni si divizari societati comerciale,
                         insolventa, restructurare si reorganizare judiciara, faliment, lichidare judiciara si
                         administrativa, recuperari creante, evaluare si valorificare active.</p>
                       <div className='py-3 text-center'>
                         <Link to="/insolventa">
-                          <button type="button" className="btn btn-outline-warning">Afla mai multe...</button>
+                          <button type="button" className="btn btn-outline-dark mb-4">Afla mai multe...</button>
                         </Link>
                       </div>
                     </div>
