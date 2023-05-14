@@ -55,8 +55,8 @@ const Insolventa = () => {
                       reglementarilor legale .</li>
                   </ul>
                 </p>
-                <Link to="/contact">
-                  <button className="btn my-4" type="button" >Cere o evaluare</button>
+                <Link to="/contact" className='link'>
+                  <button className="btn btn-outline-dark my-4" type="button" >Cere o evaluare</button>
                 </Link>
               </div>
             </div>

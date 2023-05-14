@@ -523,6 +523,14 @@
   margin: 0 auto;
 }
 
+.link {
+  text-decoration: none;
+}
+
+.insolventa-page .btn:hover {
+  background-color: #2d6da5;
+}
+
 /* CONTACT====================== */
 .contact-page {
   /* background-color: #eae8e3; */
