@@ -102,9 +102,7 @@ const Acasa = () => {
                       <div className='d-flex align-items-center'>
                         <img src="/assets/barou.jpg" className="barou img-fluid mx-auto d-block rounded-2" alt="sigla barou" />
                       </div>
-                      <p className='pt-4 px-2'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari
-                        societati, drept civil, dreptul muncii, dreptul familiei, proprietete intelectuala, procedura
-                        insolventei, recuperari creante, drept administrativ, asociatii si fundatii.</p>
+                      <p className='pt-4 px-2'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari societati, drept civil, dreptul muncii, dreptul familiei, procedura insolventei, recuperari creante, drept administrativ etc.</p>
                       <div className='py-3 text-center'>
                         <Link to="/avocatura">
                           <button type="button" className="btn btn-outline-dark mb-4">Afla mai multe...</button>
