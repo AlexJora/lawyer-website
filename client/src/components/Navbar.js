@@ -30,10 +30,10 @@ const Navbar = () => {
                 <li className="nav-item mx-2">
                   <NavLink
                     to="/"
-                    className="nav-link text-light"
+                    className="nav-link"
                     style={({ isActive }) => ({
-                      borderBottom: isActive ? "#be7413 solid 2px" : '',
-                      opacity: isActive ? 1 : ""
+                      color: isActive ? "#c2b697" : '#fff',
+
                     })}
                   >
                     Acasa
@@ -42,10 +42,10 @@ const Navbar = () => {
                 <li className="nav-item mx-2">
                   <NavLink
                     to="/avocatura"
-                    className="nav-link text-light"
+                    className="nav-link"
                     style={({ isActive }) => ({
-                      borderBottom: isActive ? "#be7413 solid 2px" : '',
-                      opacity: isActive ? 1 : ""
+                      color: isActive ? "#c2b697" : '#fff',
+
                     })}>
                     Avocatura
                   </NavLink>
@@ -53,10 +53,10 @@ const Navbar = () => {
                 <li className="nav-item mx-2">
                   <NavLink
                     to="/insolventa"
-                    className="nav-link text-light"
+                    className="nav-link"
                     style={({ isActive }) => ({
-                      borderBottom: isActive ? "#be7413 solid 2px" : '',
-                      opacity: isActive ? 1 : ""
+                      color: isActive ? "#c2b697" : '#fff',
+
                     })}>
                     Insolventa
                   </NavLink>
@@ -64,10 +64,10 @@ const Navbar = () => {
                 <li className="nav-item mx-2">
                   <NavLink
                     to="/informatii-utile"
-                    className="nav-link text-light"
+                    className="nav-link"
                     style={({ isActive }) => ({
-                      borderBottom: isActive ? "#be7413 solid 2px" : '',
-                      opacity: isActive ? 1 : ""
+                      color: isActive ? "#c2b697" : '#fff',
+
                     })}>
                     Informatii utile
                   </NavLink>
@@ -75,10 +75,10 @@ const Navbar = () => {
                 <li className="nav-item mx-2">
                   <NavLink
                     to="/contact"
-                    className="nav-link text-light"
+                    className="nav-link"
                     style={({ isActive }) => ({
-                      borderBottom: isActive ? "#be7413 solid 2px" : '',
-                      opacity: isActive ? 1 : ""
+                      color: isActive ? "#c2b697" : '#fff',
+
                     })}>
                     Contact
                   </NavLink>
