@@ -23,7 +23,7 @@ const Acasa = () => {
               <div className="horizontal-btn d-none d-md-flex justify-content-center  align-items-end w-100 h-100">
                 <div className=" col flex-grow-1">
                   <Link to="/contact">
-                    <button id='first-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Programare</button>
+                    <button id='first-horizontal-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Programare</button>
                   </Link>
                 </div>
                 <div className="col flex-grow-1">
@@ -43,7 +43,7 @@ const Acasa = () => {
             {/* vertical buttons*/}
             <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
               <Link to="/contact">
-                <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Solicita o programare</button>
+                <button id='first-horizontal-btn' className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Solicita o programare</button>
               </Link>
               <Link to="/contact">
                 <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} size="1x" /></span>Cere o evaluare</button>

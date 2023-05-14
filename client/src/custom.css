@@ -267,12 +267,12 @@
 
 }
 
-#first-btn {
+#first-horizontal-btn {
   background-color: #042B4E;
   color: #EBE2D6ff;
 }
 
-#first-btn:hover {
+#first-horizontal-btn:hover {
   background-color: #c2b697;
   color: #042B4E;
 }
