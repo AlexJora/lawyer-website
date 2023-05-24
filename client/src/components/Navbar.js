@@ -33,9 +33,9 @@ const Navbar = () => {
                     className="nav-link"
                     style={({ isActive }) => ({
                       color: isActive ? "#c2b697" : '#fff',
+                      // textTransform: isActive ? "capitalize" : "none"
 
-                    })}
-                  >
+                    })}>
                     Acasa
                   </NavLink>
                 </li>

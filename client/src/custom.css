@@ -10,8 +10,6 @@
   margin: 0;
   padding: 0;
 
-
-
 }
 
 
@@ -119,16 +117,16 @@
 }
 
 /* FOOTER====================== */
-.foo {
+footer {
   background-color: #02182B;
 
 }
 
-.foo .logo-image {
+footer .logo-image {
   max-width: 50px;
 }
 
-.foo .logo-text {
+footer .logo-text {
   max-width: 150px;
   margin-left: -1.5rem;
 }

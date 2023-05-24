@@ -1,5 +1,5 @@
 // import { Route, Routes } from "react-router-dom";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Info from './pages/Info';
 import Avocatura from './pages/Avocatura';
 import Insolventa from './pages/Insolventa';
@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <>
-        <Router>
+        <BrowserRouter>
           <Navbar />
           <Routes>
 
@@ -21,8 +21,9 @@ function App() {
             <Route path="/insolventa" element={<Insolventa />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
-        </Router>
-        <Footer />
+
+          <Footer />
+        </BrowserRouter>
       </>
 
     </div>
