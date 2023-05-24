@@ -46,7 +46,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <button className="scroll-to-top"
+          <button aria-label="Navigheaza in partea de sus" className="scroll-to-top"
             onClick={() =>
               window.scrollTo({
                 top: 0,
@@ -62,7 +62,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div id='whatsapp-icon' className="elfsight-app-9ac8bd49-4149-4bd4-9a06-e2987e3c3e60"></div>
+        {/* <div id='whatsapp-icon' className="elfsight-app-9ac8bd49-4149-4bd4-9a06-e2987e3c3e60"></div> */}
       </footer >
     </>
   )
