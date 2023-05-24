@@ -23,17 +23,17 @@ const Acasa = () => {
               <div className="horizontal-btn d-none d-md-flex justify-content-center  align-items-end w-100 h-100">
                 <div className=" col flex-grow-1">
                   <Link to="/contact">
-                    <button id='first-horizontal-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Programare</button>
+                    <button id='first-horizontal-btn' className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold" aria-label="Programare"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Programare</button>
                   </Link>
                 </div>
                 <div className="col flex-grow-1">
                   <Link to="/contact">
-                    <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} size="1x" /></span>Cere o evaluare</button>
+                    <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' aria-label="Cere o evaluare"><FontAwesomeIcon icon={faFileCircleCheck} size="1x" /></span>Cere o evaluare</button>
                   </Link>
                 </div>
                 <div className="col flex-grow-1">
                   <Link to="/informatii-utile">
-                    <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} size="1x" /></span>Onorarii
+                    <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"><span className='p-3' aria-label="Onorarii"><FontAwesomeIcon icon={faCommentsDollar} size="1x" /></span>Onorarii
                     </button>
                   </Link>
                 </div>
@@ -43,13 +43,13 @@ const Acasa = () => {
             {/* vertical buttons*/}
             <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
               <Link to="/contact">
-                <button id='first-horizontal-btn' className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Solicita o programare</button>
+                <button id='first-horizontal-btn' className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm" aria-label="Programare"><span className='p-3' ><FontAwesomeIcon icon={faCalendarCheck} size="1x" /></span>Programare</button>
               </Link>
               <Link to="/contact">
-                <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faFileCircleCheck} size="1x" /></span>Cere o evaluare</button>
+                <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"><span className='p-3' aria-label="Cere o evaluare" ><FontAwesomeIcon icon={faFileCircleCheck} size="1x" /></span>Cere o evaluare</button>
               </Link>
               <Link to="/informatii-utile">
-                <button className="btn btn-outline-dark type-button p-3 w-80 btn-sm"><span className='p-3' ><FontAwesomeIcon icon={faCommentsDollar} size="1x" /></span>Onorarii</button>
+                <button className="btn btn-outline-dark type-button p-3 w-80 btn-sm"><span className='p-3' aria-label="Onorarii" ><FontAwesomeIcon icon={faCommentsDollar} size="1x" /></span>Onorarii</button>
               </Link>
             </div>
 
@@ -105,7 +105,7 @@ const Acasa = () => {
                       <p className='pt-4 px-2'>Asistenta si reprezentare juridica in domenii de drept comercial, infiintari societati, drept civil, dreptul muncii, dreptul familiei, procedura insolventei, recuperari creante, drept administrativ etc.</p>
                       <div className='py-3 text-center'>
                         <Link to="/avocatura">
-                          <button type="button" className="btn btn-outline-dark mb-4">Afla mai multe...</button>
+                          <button type="button" className="btn btn-outline-dark mb-4" aria-label="Afla mai multe">Afla mai multe...</button>
                         </Link>
                       </div>
                     </div>
@@ -119,7 +119,7 @@ const Acasa = () => {
                         administrativa, recuperari creante, evaluare si valorificare active.</p>
                       <div className='py-3 text-center'>
                         <Link to="/insolventa">
-                          <button type="button" className="btn btn-outline-dark mb-4">Afla mai multe...</button>
+                          <button type="button" className="btn btn-outline-dark mb-4" aria-label="Afla mai multe">Afla mai multe...</button>
                         </Link>
                       </div>
                     </div>

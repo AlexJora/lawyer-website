@@ -56,7 +56,7 @@ const Insolventa = () => {
                   </ul>
                 </p>
                 <Link to="/contact" className='link'>
-                  <button className="btn btn-outline-dark my-4" type="button" >Cere o evaluare</button>
+                  <button className="btn btn-outline-dark my-4" type="button" aria-label="Cere o evaluare" >Cere o evaluare</button>
                 </Link>
               </div>
             </div>

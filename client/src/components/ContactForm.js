@@ -64,7 +64,7 @@ const ContactForm = () => {
               <textarea className="form-control" id="query" required></textarea>
             </div>
             <div className="my-4 text-center pt-2">
-              <button type="submit" className="btn btn-outline-dark">
+              <button type="submit" className="btn btn-outline-dark" aria-label="Trimite mesaj">
                 {status}
               </button>
             </div>
