@@ -10,7 +10,120 @@
     content="Cabinet de avocatură și insolvență condus de Alina Marin. Consultanță, asistență și reprezentare pentru probleme juridice și de insolvență. Contactați-ne pentru soluții profesioniste." />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  <title>Cabinet de Avocatură și Insolvență în București | Alina Marin</title>
+  <title>Cabinet de Avocatură și Insolvență în București | Alina Marin</title> 
+    <style>
+    .hero-section {
+      background-image: url('/public/assets/hero2.jpg');
+      height: 700px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      display: flex;
+    }
+
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .text-container {
+      position: relative;
+      z-index: 1;
+      margin-top: 12rem;
+      margin-left: 3rem;
+    }
+
+    .text-1,
+    .text-2 {
+      color: #fff;
+      font-family: 'Marmelad', sans-serif;
+      letter-spacing: 0.1rem;
+    }
+
+    .text-2 {
+      line-height: 2rem;
+    }
+
+    .text-2 span {
+      color: rgb(232, 189, 134);
+      font-size: 1.3rem;
+    }
+
+    .text-3 {
+      color: #EBE2D6ff;
+      font-size: 0.9rem;
+      padding-top: 4rem;
+      line-height: 1.8rem;
+      width: 52%;
+    }
+
+    .text-3 span {
+      font-size: 0.7rem;
+    }
+
+    .slide {
+      opacity: 0;
+      transform: translateX(-100%);
+      animation: slideLeft 1s forwards;
+    }
+
+    @keyframes slideLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    .horizontal-btn {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  z-index: 1;
+
+
+
+}
+
+#first-horizontal-btn {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
+}
+
+#first-horizontal-btn:hover {
+  background-color: #c2b697;
+  color: #042B4E;
+}
+
+.horizontal-btn .btn {
+  background-color: #c2b697;
+  color: #053661;
+}
+
+.horizontal-btn .btn:hover {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
+}
+
+.vertical-btn .btn {
+  background-color: #c2b697;
+  color: #053661;
+
+}
+
+.vertical-btn .btn:hover {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
+}
+
+</style>
 </head>
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>

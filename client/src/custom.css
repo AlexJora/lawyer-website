@@ -171,13 +171,13 @@ footer .logo-text {
 }
 
 /* ACASA====================== */
-.home-page {
+/* .home-page {
   font-size: 0.9rem;
   overflow: hidden;
-  /* background-color: #f1f1f0; */
-}
+  
+} */
 
-.hero-section {
+/* .hero-section {
   background-image: url('/public/assets/hero2.jpg');
   height: 700px;
   background-size: cover;
@@ -250,11 +250,11 @@ footer .logo-text {
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 /* buttons-hero */
 
-.horizontal-btn {
+/* .horizontal-btn {
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -295,7 +295,7 @@ footer .logo-text {
   background-color: #042B4E;
   color: #EBE2D6ff;
 }
-
+ */
 
 
 /* end buttons===== */
