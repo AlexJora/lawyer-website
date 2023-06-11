@@ -322,7 +322,7 @@ footer .logo-text {
 /* services */
 
 .services-section {
-  background-image: url('/public/assets/column3.jpg');
+  background-image: url('/public/assets/column-services.webp');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -451,31 +451,31 @@ footer .logo-text {
 }
 
 .civil {
-  background-image: url('/public/assets/civil-law.jpg');
+  background-image: url('/public/assets/civil-law.webp');
 }
 
 .criminal {
-  background-image: url('/public/assets/criminal-law.jpg');
+  background-image: url('/public/assets/criminal-law.webp');
 }
 
 .executare {
-  background-image: url('/public/assets/executare.jpg');
+  background-image: url('/public/assets/executare.webp');
 }
 
 .family {
-  background-image: url('/public/assets/family-law.jpg');
+  background-image: url('/public/assets/family-law.webp');
 }
 
 .labor {
-  background-image: url('/public/assets/labor-law.jpg');
+  background-image: url('/public/assets/labor-law.webp');
 }
 
 .business {
-  background-image: url('/public/assets/business-law.jpg');
+  background-image: url('/public/assets/business-law.webp');
 }
 
 .insolvency {
-  background-image: url('/public/assets/insolvency6.jpg');
+  background-image: url('/public/assets/insolvency.webp');
 }
 
 .card-img-top {
@@ -544,7 +544,7 @@ footer .logo-text {
 
 .form-wrap {
   position: relative;
-  background-image: url("/public/assets/column2.jpg");
+  background-image: url("/public/assets/column-form.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -617,15 +617,6 @@ footer .logo-text {
 .info p {
   text-indent: 1rem;
 }
-
-/* .info ul {
-  list-style-type: square;
-
-}
-
-.info li::marker {
-  color: #c2b697;
-} */
 
 .info h5 {
   color: #be7413;
