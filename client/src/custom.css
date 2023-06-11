@@ -265,12 +265,21 @@ footer .logo-text {
 
 }
 
-#first-horizontal-btn {
+#horizontal1 {
   background-color: #042B4E;
   color: #EBE2D6ff;
 }
 
-#first-horizontal-btn:hover {
+#horizontal:hover {
+  background-color: #c2b697;
+  color: #042B4E;
+}
+#vertical1 {
+  background-color: #042B4E;
+  color: #EBE2D6ff;
+}
+
+#vertical1:hover {
   background-color: #c2b697;
   color: #042B4E;
 }
@@ -302,7 +311,7 @@ footer .logo-text {
 
 
 .text-separator {
-  border-left: 2px solid #b6ab91;
+  border-left: 2px solid #a07613;
   padding-left: 2rem;
   text-indent: 1rem;
 }
@@ -310,9 +319,9 @@ footer .logo-text {
 /* intro */
 
 .guide-text {
-  color: #b6ab91;
+  color: #a07613;
   font-family: 'Montserrat', sans-serif;
-  border-left: 2px solid #b6ab91;
+  border-left: 2px solid #a07613;
   padding-left: 5px;
   font-weight: bold;
 

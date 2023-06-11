@@ -37,7 +37,7 @@ const Acasa = () => {
                 <div className=" col flex-grow-1">
                   <Link to="/contact">
                     <button
-                      id="first-horizontal-btn"
+                      id="horizontal1"
                       className="btn btn-outline-dark btn-lg  type-button p-4 w-100 fw-bold"
                       aria-label="Programare"
                     >
@@ -50,8 +50,11 @@ const Acasa = () => {
                 </div>
                 <div className="col flex-grow-1">
                   <Link to="/contact">
-                    <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold">
-                      <span className="p-3" aria-label="Cere o evaluare">
+                    <button
+                      className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"
+                      aria-label="Cere o evaluare"
+                    >
+                      <span className="p-3">
                         <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
                       </span>
                       Cere o evaluare
@@ -60,8 +63,11 @@ const Acasa = () => {
                 </div>
                 <div className="col flex-grow-1">
                   <Link to="/informatii-utile">
-                    <button className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold">
-                      <span className="p-3" aria-label="Onorarii">
+                    <button
+                      className="btn btn-lg btn-outline-dark type-button p-4 w-100 fw-bold"
+                      aria-label="Onorarii"
+                    >
+                      <span className="p-3">
                         <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
                       </span>
                       Onorarii
@@ -75,7 +81,7 @@ const Acasa = () => {
             <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
               <Link to="/contact">
                 <button
-                  id="first-horizontal-btn"
+                  id="vertical1"
                   className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"
                   aria-label="Programare"
                 >
@@ -86,16 +92,22 @@ const Acasa = () => {
                 </button>
               </Link>
               <Link to="/contact">
-                <button className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm">
-                  <span className="p-3" aria-label="Cere o evaluare">
+                <button
+                  className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"
+                  aria-label="Cere o evaluare"
+                >
+                  <span className="p-3">
                     <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
                   </span>
                   Cere o evaluare
                 </button>
               </Link>
               <Link to="/informatii-utile">
-                <button className="btn btn-outline-dark type-button p-3 w-80 btn-sm">
-                  <span className="p-3" aria-label="Onorarii">
+                <button
+                  className="btn btn-outline-dark type-button p-3 w-80 btn-sm"
+                  aria-label="Onorarii"
+                >
+                  <span className="p-3">
                     <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
                   </span>
                   Onorarii
