@@ -1,29 +1,67 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faPhone, faAngleUp } from '@fortawesome/free-solid-svg-icons';
+import {
+  faEnvelope,
+  faPhone,
+  faAngleUp,
+} from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <>
       <footer>
-        <div className='container py-3'>
-          <div className='row justify-content-center'>
-            <div className='col-md-12 text-center'>
+        <div className="container py-3">
+          <div className="row justify-content-center">
+            <div className="col-md-12 text-center">
               <span>
-                <img src='/assets/LOGO2.png' className="img-fluid logo-image" alt='measuring scale law logo' />
-                <img src='/assets/component.png' className="img-fluid px-0 logo-text" alt='alina marin cabinet de avocatura si insolventa' />
+                <img
+                  src="/assets/LOGO2.png"
+                  className="img-fluid logo-image"
+                  alt="scales of justice logo"
+                  width="50"
+                  height="50"
+                />
+                <img
+                  src="/assets/component.png"
+                  className="img-fluid px-0 logo-text"
+                  alt="alina marin cabinet de avocatura si insolventa"
+                  width="150"
+                  height="100"
+                />
               </span>
-              <div className='menu my-3'>
-                <a href='/' className='p-2 text-decoration-none text-light'>Acasa</a>
+              <div className="menu my-3">
+                <a href="/" className="p-2 text-decoration-none text-light">
+                  Acasa
+                </a>
 
-                <a href='/avocatura' className='p-2 text-decoration-none text-light'>Avocatura</a>
-                <a href='/insolventa' className='p-2 text-decoration-none text-light'>Insolventa</a>
-                <a href='/informatii-utile' className='p-2 text-decoration-none text-light'>Informatii utile</a>
-                <a href='/contact' className='p-2 text-decoration-none text-light'>Contact</a>
+                <a
+                  href="/avocatura"
+                  className="p-2 text-decoration-none text-light"
+                >
+                  Avocatura
+                </a>
+                <a
+                  href="/insolventa"
+                  className="p-2 text-decoration-none text-light"
+                >
+                  Insolventa
+                </a>
+                <a
+                  href="/informatii-utile"
+                  className="p-2 text-decoration-none text-light"
+                >
+                  Informatii utile
+                </a>
+                <a
+                  href="/contact"
+                  className="p-2 text-decoration-none text-light"
+                >
+                  Contact
+                </a>
               </div>
 
-              <div className="footer-social " >
-                <span className='fs-3'>
+              <div className="footer-social ">
+                <span className="fs-3">
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     className="icon"
@@ -35,37 +73,43 @@ const Footer = () => {
                   <FontAwesomeIcon
                     icon={faWhatsapp}
                     className="icon"
-                    size="1x" />
+                    size="1x"
+                  />
                 </span>
                 <span className="fs-3">
                   <FontAwesomeIcon
                     icon={faPhone}
                     title="+40769 935 716"
-                    size="1x" />
+                    size="1x"
+                  />
                 </span>
               </div>
             </div>
           </div>
-          <button aria-label="Navigheaza in partea de sus" className="scroll-to-top"
+          <button
+            aria-label="Navigheaza in partea de sus"
+            className="scroll-to-top"
             onClick={() =>
               window.scrollTo({
                 top: 0,
-                behavior: "smooth"
+                behavior: "smooth",
               })
-            }>
+            }
+          >
             <FontAwesomeIcon icon={faAngleUp} className="icon" />
           </button>
-          <div className='row mt-5'>
-            <div className='col-md-12 text center'>
-              <p className='copyright'>©2023 Avocat Marin Alina, Bucuresti, Romania</p>
-
+          <div className="row mt-5">
+            <div className="col-md-12 text center">
+              <p className="copyright">
+                ©2023 Avocat Marin Alina, Bucuresti, Romania
+              </p>
             </div>
           </div>
         </div>
         {/* <div id='whatsapp-icon' className="elfsight-app-9ac8bd49-4149-4bd4-9a06-e2987e3c3e60"></div> */}
-      </footer >
+      </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,13 +1,10 @@
-import React from 'react';
-import TopBanner from '../components/TopBanner';
-import { NavLink } from 'react-router-dom';
-
+import React from "react";
+import TopBanner from "../components/TopBanner";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-
   return (
     <>
-
       <div className="nav">
         <TopBanner />
         <nav className="navbar navbar-dark w-100 navbar-expand-md slide-in">
@@ -15,27 +12,48 @@ const Navbar = () => {
             {/* logo */}
             <div className="navbar-brand">
               <span>
-                <img src="/assets/LOGO2.png" className="img-fluid logo-image" alt="measuring scale law logo" />
-                <img src="/assets/component.png" className="img-fluid px-0 logo-text" alt="alina marin cabinet de avocatura si insolventa" />
+                <img
+                  src="/assets/LOGO2.png"
+                  className="img-fluid logo-image"
+                  alt="scales of justice logo"
+                  width="70"
+                  height="70"
+                />
+                <img
+                  src="/assets/component.png"
+                  className="img-fluid px-0 logo-text"
+                  alt="alina marin cabinet de avocatura si insolventa"
+                  width="200"
+                  height="100"
+                />
               </span>
             </div>
             {/* toggle button for mobile nav */}
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
-              aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#main-nav"
+              aria-controls="main-nav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
               <span className="navbar-toggler-icon"></span>
             </button>
             {/* navbar links  */}
-            <div className="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+            <div
+              className="collapse navbar-collapse justify-content-end align-center"
+              id="main-nav"
+            >
               <ul className="navbar-nav">
                 <li className="nav-item mx-2">
                   <NavLink
                     to="/"
                     className="nav-link"
                     style={({ isActive }) => ({
-                      color: isActive ? "#c2b697" : '#fff',
-                      // textTransform: isActive ? "capitalize" : "none"
-
-                    })}>
+                      color: isActive ? "#c2b697" : "#fff",
+                    })}
+                  >
                     Acasa
                   </NavLink>
                 </li>
@@ -44,9 +62,9 @@ const Navbar = () => {
                     to="/avocatura"
                     className="nav-link"
                     style={({ isActive }) => ({
-                      color: isActive ? "#c2b697" : '#fff',
-
-                    })}>
+                      color: isActive ? "#c2b697" : "#fff",
+                    })}
+                  >
                     Avocatura
                   </NavLink>
                 </li>
@@ -55,9 +73,9 @@ const Navbar = () => {
                     to="/insolventa"
                     className="nav-link"
                     style={({ isActive }) => ({
-                      color: isActive ? "#c2b697" : '#fff',
-
-                    })}>
+                      color: isActive ? "#c2b697" : "#fff",
+                    })}
+                  >
                     Insolventa
                   </NavLink>
                 </li>
@@ -66,9 +84,9 @@ const Navbar = () => {
                     to="/informatii-utile"
                     className="nav-link"
                     style={({ isActive }) => ({
-                      color: isActive ? "#c2b697" : '#fff',
-
-                    })}>
+                      color: isActive ? "#c2b697" : "#fff",
+                    })}
+                  >
                     Informatii utile
                   </NavLink>
                 </li>
@@ -77,21 +95,19 @@ const Navbar = () => {
                     to="/contact"
                     className="nav-link"
                     style={({ isActive }) => ({
-                      color: isActive ? "#c2b697" : '#fff',
-
-                    })}>
+                      color: isActive ? "#c2b697" : "#fff",
+                    })}
+                  >
                     Contact
                   </NavLink>
                 </li>
               </ul>
             </div>
           </div>
-        </nav >
-      </div >
-
+        </nav>
+      </div>
     </>
-
-  )
-}
+  );
+};
 
 export default Navbar;

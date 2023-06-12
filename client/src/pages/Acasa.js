@@ -126,7 +126,9 @@ const Acasa = () => {
                   <img
                     src="/assets/law-justice.webp"
                     className="intro-img img-fluid mx-auto d-block rounded-2"
-                    alt="two people on desk"
+                    alt=" a gavel, scales of justice, and law books"
+                    width="450"
+                    height="300"
                   />
                 </div>
               </div>
@@ -173,6 +175,8 @@ const Acasa = () => {
                           src="/assets/barou.webp"
                           className="barou img-fluid mx-auto d-block rounded-2"
                           alt="sigla barou Bucuresti"
+                          width="150"
+                          height="150"
                         />
                       </div>
                       <p className="pt-4 px-2">
@@ -202,6 +206,8 @@ const Acasa = () => {
                           src="/assets/unpir.webp"
                           className="unpir img-fluid mx-auto d-block rounded-2"
                           alt="sigla unpir"
+                          width="150"
+                          height="150"
                         />
                       </div>
                       <p className="pt-4 px-2">
@@ -256,11 +262,13 @@ const Acasa = () => {
               </p>
             </div>
             <div className="col col-md-5 order-md-2">
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center pt-5">
                 <img
                   src="/assets/about-us.webp"
                   className="welcome-img img-fluid mx-auto d-block rounded-2"
-                  alt="two people on desk"
+                  alt="two persons on a desk"
+                  width="400"
+                  height="400"
                 />
               </div>
             </div>
