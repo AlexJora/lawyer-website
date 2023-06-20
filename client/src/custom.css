@@ -171,14 +171,14 @@ footer .logo-text {
 }
 
 /* ACASA====================== */
-/* .home-page {
+
+.home-page {
   font-size: 0.9rem;
   overflow: hidden;
   
-} */
-
-/* .hero-section {
-  background-image: url('/public/assets/hero2.jpg');
+}
+.hero-section {
+  background-image: url('/public/assets/hero.webp');
   height: 700px;
   background-size: cover;
   background-position: center;
@@ -193,7 +193,6 @@ footer .logo-text {
   left: 0;
   width: 100%;
   height: 100%;
-
 }
 
 .text-container {
@@ -214,7 +213,6 @@ footer .logo-text {
   line-height: 2rem;
 }
 
-
 .text-2 span {
   color: rgb(232, 189, 134);
   font-size: 1.3rem;
@@ -226,12 +224,10 @@ footer .logo-text {
   padding-top: 4rem;
   line-height: 1.8rem;
   width: 52%;
-
 }
 
 .text-3 span {
   font-size: 0.7rem;
-
 }
 
 .slide {
@@ -245,67 +241,60 @@ footer .logo-text {
     opacity: 0;
     transform: translateX(-100%);
   }
-
   to {
     opacity: 1;
     transform: translateX(0);
   }
-} */
-
-/* buttons-hero */
-
-/* .horizontal-btn {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%);
-  z-index: 1;
+}
+.horizontal-btn {
+position: absolute;
+left: 50%;
+bottom: 0;
+transform: translateX(-50%);
+z-index: 1;
 
 
 
 }
-
 #horizontal1 {
-  background-color: #042B4E;
-  color: #EBE2D6ff;
+background-color: #042B4E;
+color: #EBE2D6ff;
 }
 
-#horizontal:hover {
-  background-color: #c2b697;
-  color: #042B4E;
+#horizontal1:hover {
+background-color: #c2b697;
+color: #042B4E;
 }
 #vertical1 {
-  background-color: #042B4E;
-  color: #EBE2D6ff;
+background-color: #042B4E;
+color: #EBE2D6ff;
 }
 
 #vertical1:hover {
-  background-color: #c2b697;
-  color: #042B4E;
+background-color: #c2b697;
+color: #042B4E;
 }
 
 .horizontal-btn .btn {
-  background-color: #c2b697;
-  color: #053661;
+background-color: #c2b697;
+color: #053661;
 }
 
 .horizontal-btn .btn:hover {
-  background-color: #042B4E;
-  color: #EBE2D6ff;
+background-color: #042B4E;
+color: #EBE2D6ff;
 }
 
 .vertical-btn .btn {
-  background-color: #c2b697;
-  color: #053661;
+background-color: #c2b697;
+color: #053661;
 
 }
 
 .vertical-btn .btn:hover {
-  background-color: #042B4E;
-  color: #EBE2D6ff;
+background-color: #042B4E;
+color: #EBE2D6ff;
 }
- */
-
 
 /* end buttons===== */
 
