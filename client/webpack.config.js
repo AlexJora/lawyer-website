@@ -33,4 +33,17 @@ module.exports = {
       template: "./public/index.html",
     }),
   ],
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+      minSize: 0,
+      cacheGroups: {
+        vendor: {
+          test: /[\\/]node_modules[\\/]/,
+          name: "vendor",
+          chunks: "all",
+        },
+      },
+    },
+  },
 };
