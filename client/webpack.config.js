@@ -2,6 +2,8 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const CriticalCssPlugin = require("critical-css-webpack-plugin");
+
 module.exports = {
   mode: "production",
   entry: {
@@ -32,6 +34,15 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
+    }),
+    new CriticalCssPlugin({
+      base: path.resolve(__dirname, "dist"),
+      src: "index.html",
+      // dest: "index.html",
+      inline: true,
+      // minify: true,
+      extract: true,
+      dimensions: [{ width: 1920, height: 1080 }],
     }),
   ],
   optimization: {
