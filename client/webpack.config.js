@@ -38,12 +38,21 @@ module.exports = {
     new CriticalCssPlugin({
       base: path.resolve(__dirname, "dist"),
       src: "index.html",
-      // dest: "index.html",
       inline: true,
-      // minify: true,
-      extract: true,
       dimensions: [{ width: 1920, height: 1080 }],
+      penthouse: {
+        blockJSRequests: false,
+      },
     }),
+    // new CriticalCssPlugin({
+    //   base: path.resolve(__dirname, "dist"),
+    //   src: "index.html",
+    //   // dest: "index.html",
+    //   inline: true,
+    //   // minify: true,
+    //   extract: true,
+    //   dimensions: [{ width: 1920, height: 1080 }],
+    // }),
   ],
   optimization: {
     minimize: true,
