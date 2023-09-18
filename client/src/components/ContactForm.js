@@ -1,32 +1,44 @@
-
 import { useState } from "react";
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Trimite mesaj");
 
   const sendMail = () => {
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
+    const phoneInput = document.getElementById("phone");
+    const queryInput = document.getElementById("query");
+
     const params = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      phone: document.getElementById("phone").value,
-      message: document.getElementById("query").value,
+      name: nameInput.value,
+      email: emailInput.value,
+      phone: phoneInput.value,
+      message: queryInput.value,
     };
 
     const serviceID = "service_5a3ti46";
     const templateID = "template_1kdj04j";
     const userID = "W_5JcMYz9DSqwaApi";
 
-    emailjs.send(serviceID, templateID, params, userID)
-      .then((response) => {
+    emailjs.send(serviceID, templateID, params, userID).then(
+      (response) => {
         console.log("SUCCESS!", response.status, response.text);
         setStatus("Trimite mesaj");
         alert("Mesajul tău a fost trimis cu succes!");
-      }, (error) => {
+
+        // Clear input fields after successful submission
+        nameInput.value = "";
+        emailInput.value = "";
+        phoneInput.value = "";
+        queryInput.value = "";
+      },
+      (error) => {
         console.log("FAILED...", error);
         setStatus("Trimite mesaj");
         alert("Ceva nu a mers bine. Încearcă din nou mai târziu.");
-      });
+      }
+    );
   };
 
   const handleSubmit = async (e) => {
@@ -64,7 +76,11 @@ const ContactForm = () => {
               <textarea className="form-control" id="query" required></textarea>
             </div>
             <div className="my-4 text-center pt-2">
-              <button type="submit" className="btn btn-outline-dark" aria-label="Trimite mesaj">
+              <button
+                type="submit"
+                className="btn btn-outline-dark"
+                aria-label="Trimite mesaj"
+              >
                 {status}
               </button>
             </div>
