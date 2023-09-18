@@ -3,18 +3,16 @@ import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Trimite mesaj");
-
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [query, setQuery] = useState("");
   const sendMail = () => {
-    const nameInput = document.getElementById("name");
-    const emailInput = document.getElementById("email");
-    const phoneInput = document.getElementById("phone");
-    const queryInput = document.getElementById("query");
-
     const params = {
-      name: nameInput.value,
-      email: emailInput.value,
-      phone: phoneInput.value,
-      message: queryInput.value,
+      name,
+      email,
+      phone,
+      message: query,
     };
 
     const serviceID = "service_5a3ti46";
@@ -28,10 +26,10 @@ const ContactForm = () => {
         alert("Mesajul tău a fost trimis cu succes!");
 
         // Clear input fields after successful submission
-        nameInput.value = "";
-        emailInput.value = "";
-        phoneInput.value = "";
-        queryInput.value = "";
+        setName("");
+        setEmail("");
+        setPhone("");
+        setQuery("");
       },
       (error) => {
         console.log("FAILED...", error);
