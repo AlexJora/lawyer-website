@@ -7,6 +7,7 @@ const ContactForm = () => {
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [query, setQuery] = useState("");
+
   const sendMail = () => {
     const params = {
       name,
@@ -14,10 +15,9 @@ const ContactForm = () => {
       phone,
       message: query,
     };
-
-    const serviceID = "service_5a3ti46";
-    const templateID = "template_1kdj04j";
-    const userID = "W_5JcMYz9DSqwaApi";
+    const serviceID = process.env.REACT_APP_SERVICE_ID;
+    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+    const userID = process.env.REACT_APP_USER_ID;
 
     emailjs.send(serviceID, templateID, params, userID).then(
       (response) => {
@@ -58,20 +58,47 @@ const ContactForm = () => {
             <label htmlFor="name" className="form-label text-light">
               Nume Prenume:
             </label>
-            <input type="text" id="name" className="form-control" required />
+            <input
+              type="text"
+              id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              className="form-control"
+              required
+            />
             <label htmlFor="email" className="form-label text-light pt-2">
               Adresa de e-mail:
             </label>
-            <input type="email" id="email" className="form-control" required />
+            <input
+              type="email"
+              id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="form-control"
+              required
+            />
             <label htmlFor="phone" className="form-label text-light pt-2">
               Număr de telefon:
             </label>
-            <input type="tel" id="phone" className="form-control" required />
+            <input
+              type="tel"
+              id="phone"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
+              className="form-control"
+              required
+            />
             <div>
               <label htmlFor="query" className="form-label text-light pt-2">
                 Mesajul dvs.:
               </label>
-              <textarea className="form-control" id="query" required></textarea>
+              <textarea
+                className="form-control"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                id="query"
+                required
+              ></textarea>
             </div>
             <div className="my-4 text-center pt-2">
               <button
