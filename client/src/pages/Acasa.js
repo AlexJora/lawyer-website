@@ -76,49 +76,52 @@ const Acasa = () => {
                 </div>
               </div>
             </div>
-
-            {/* vertical buttons*/}
-            <div className="vertical-btn d-md-none d-flex flex-column align-items-center mt-3 gap-1">
-              <Link to="/contact">
-                <button
-                  id="vertical1"
-                  className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"
-                  aria-label="Programare"
-                >
-                  <span className="p-3">
-                    <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
-                  </span>
-                  Programare
-                </button>
-              </Link>
-              <Link to="/contact">
-                <button
-                  className="btn btn-outline-dark type-button p-3 w-80 mb-3 btn-sm"
-                  aria-label="Cere o evaluare"
-                >
-                  <span className="p-3">
-                    <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
-                  </span>
-                  Cere o evaluare
-                </button>
-              </Link>
-              <Link to="/informatii-utile">
-                <button
-                  className="btn btn-outline-dark type-button p-3 w-80 btn-sm"
-                  aria-label="Onorarii"
-                >
-                  <span className="p-3">
-                    <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
-                  </span>
-                  Onorarii
-                </button>
-              </Link>
+            {/* small screens buttons*/}
+            <div className="mobile-btn d-md-none d-flex flex-column align-items-center mt-1 gap-1">
+              <div className="d-flex flex-row ">
+                {" "}
+                {/* Added a flex container */}
+                <Link to="/contact">
+                  <button
+                    id="small"
+                    className="btn btn-outline-dark type-button p-2 w-80 mb-1 btn-sm me-2"
+                    aria-label="Programare"
+                  >
+                    <span className="p-3">
+                      <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
+                    </span>
+                    Programare
+                  </button>
+                </Link>
+                <Link to="/contact">
+                  <button
+                    className="btn btn-outline-dark type-button p-2 w-80 mb-1 btn-sm me-2"
+                    aria-label="Cere o evaluare"
+                  >
+                    <span className="p-3">
+                      <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
+                    </span>
+                    Cere o evaluare
+                  </button>
+                </Link>
+                <Link to="/informatii-utile">
+                  <button
+                    className="btn btn-outline-dark type-button p-2 w-80 btn-sm"
+                    aria-label="Onorarii"
+                  >
+                    <span className="p-3">
+                      <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
+                    </span>
+                    Onorarii
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
 
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
-        <section className="problem container mt-4 p-1">
+        <section className="problem container mb-5">
           <div className="row mt-5 gx-4 flex-column-reverse flex-md-row gap-6">
             <div className="col-md-5">
               <div className="d-flex align-items-center">
@@ -153,7 +156,7 @@ const Acasa = () => {
         </section>
 
         {/*SERVICII========= */}
-        <div className="my-3 ">
+        <div className="my-3">
           <div className="row">
             <div className="col">
               <div className="services-section ">

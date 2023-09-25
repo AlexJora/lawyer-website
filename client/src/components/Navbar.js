@@ -46,56 +46,61 @@ const Navbar = () => {
               id="main-nav"
             >
               <ul className="navbar-nav">
-                <li className="nav-item mx-2">
+                <li className="nav-item mx-3 mb-2">
                   <NavLink
                     to="/"
-                    className="nav-link"
                     style={({ isActive }) => ({
+                      textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "3px solid #c2b697" : "none",
                     })}
                   >
                     Acasa
                   </NavLink>
                 </li>
-                <li className="nav-item mx-2">
+                <li className="nav-item mx-3 mb-2">
                   <NavLink
                     to="/avocatura"
-                    className="nav-link"
                     style={({ isActive }) => ({
+                      textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "3px solid #c2b697" : "none",
                     })}
                   >
                     Avocatura
                   </NavLink>
                 </li>
-                <li className="nav-item mx-2">
+                <li className="nav-item mx-3 mb-2">
                   <NavLink
                     to="/insolventa"
-                    className="nav-link"
                     style={({ isActive }) => ({
+                      textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "3px solid #c2b697" : "none",
                     })}
                   >
                     Insolventa
                   </NavLink>
                 </li>
-                <li className="nav-item mx-2">
+                <li className="nav-item mx-3 mb-2">
                   <NavLink
                     to="/informatii-utile"
-                    className="nav-link"
                     style={({ isActive }) => ({
+                      textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "3px solid #c2b697" : "none",
                     })}
                   >
                     Informatii utile
                   </NavLink>
                 </li>
-                <li className="nav-item mx-2">
+                <li className="nav-item mx-3 mb-2">
                   <NavLink
                     to="/contact"
-                    className="nav-link"
                     style={({ isActive }) => ({
+                      textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
+                      borderBottom: isActive ? "3px solid #c2b697" : "none",
                     })}
                   >
                     Contact

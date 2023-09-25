@@ -14,37 +14,13 @@
 .banner {
   background-color: #c2b697;
   color: #053661;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 600;
 }
-
-/* NAVBAR====================== */
-.nav {
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.nav .logo-image {
-  max-width: 70px;
-}
-
-.nav .logo-text {
-  max-width: 200px;
-  margin-left: -2rem;
-}
-
-.nav .slide-in {
-  background-color: #02182b;
-  padding-top: 0;
-  padding-top: 0;
-  animation: slide-in 0.8s ease-out;
-}
-
 .phone-icon {
   animation: ring 12s ease-in-out infinite;
   transform-origin: 50% 50%;
 }
-
 @keyframes ring {
   0% {
     transform: scale(1) rotate(0deg);
@@ -91,6 +67,27 @@
   }
 }
 
+/* NAVBAR====================== */
+.nav {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.nav .logo-image {
+  max-width: 70px;
+}
+
+.nav .logo-text {
+  max-width: 200px;
+  margin-left: -1.5rem;
+}
+
+.nav .slide-in {
+  background-color: #02182b;
+  padding-top: 0;
+  padding-top: 0;
+  animation: slide-in 0.8s ease-out;
+}
 @keyframes slide-in {
   from {
     transform: translateY(-70%);
@@ -242,12 +239,12 @@ footer .logo-text {
   background-color: #c2b697;
   color: #042b4e;
 }
-#vertical1 {
+#small {
   background-color: #042b4e;
   color: #ebe2d6ff;
 }
 
-#vertical1:hover {
+#small:hover {
   background-color: #c2b697;
   color: #042b4e;
 }
@@ -262,12 +259,12 @@ footer .logo-text {
   color: #ebe2d6ff;
 }
 
-.vertical-btn .btn {
+.mobile-btn .btn {
   background-color: #c2b697;
   color: #053661;
 }
 
-.vertical-btn .btn:hover {
+.mobile-btn .btn:hover {
   background-color: #042b4e;
   color: #ebe2d6ff;
 }
@@ -387,7 +384,6 @@ footer .logo-text {
   display: flex;
   flex-direction: column;
   height: 100%;
-  color: #fff;
   font-weight: lighter;
 }
 
