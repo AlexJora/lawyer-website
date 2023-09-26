@@ -101,6 +101,8 @@
 /* FOOTER====================== */
 footer {
   background-color: #02182b;
+  color: #e7eaef;
+  font-size: 0.7rem;
 }
 
 footer .logo-image {
@@ -111,34 +113,16 @@ footer .logo-text {
   max-width: 150px;
   margin-left: -1.5rem;
 }
-
-.footer-social {
-  margin-bottom: -2rem;
+.contact-icon {
+  color: #ef9622;
 }
-
-.footer-social span {
-  color: #c2b697;
-  margin: 1rem;
+.custom-link {
+  color: white;
 }
 
 .scroll-to-top {
-  position: absolute;
-  bottom: rem;
-  right: 0.2rem;
-  background-color: #c2b697;
-  color: #fff;
-  width: 2rem;
-  height: 2rem;
-  text-align: center;
-  border-radius: 5%;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  z-index: 999;
-}
-
-.scroll-to-top:hover {
-  background-color: #c79c65ff;
+  color: #e7eaef;
+  background-color: transparent;
 }
 
 .copyright {
