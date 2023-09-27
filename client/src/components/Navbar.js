@@ -52,7 +52,8 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                       textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "3px solid #c2b697" : "none",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
                     Acasa
@@ -64,7 +65,8 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                       textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "3px solid #c2b697" : "none",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
                     Avocatura
@@ -76,7 +78,8 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                       textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "3px solid #c2b697" : "none",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
                     Insolventa
@@ -88,7 +91,8 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                       textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "3px solid #c2b697" : "none",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
                     Informatii utile
@@ -100,7 +104,8 @@ const Navbar = () => {
                     style={({ isActive }) => ({
                       textDecoration: "none",
                       color: isActive ? "#c2b697" : "#fff",
-                      borderBottom: isActive ? "3px solid #c2b697" : "none",
+                      borderBottom: isActive ? "1px solid #c2b697" : "none",
+                      paddingBottom: isActive ? "5px" : "0",
                     })}
                   >
                     Contact

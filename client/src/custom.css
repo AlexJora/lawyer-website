@@ -17,6 +17,9 @@
   font-size: 0.8rem;
   font-weight: 600;
 }
+.banner-icon {
+  color: #be7413;
+}
 .phone-icon {
   animation: ring 12s ease-in-out infinite;
   transform-origin: 50% 50%;
@@ -114,22 +117,21 @@ footer .logo-text {
   margin-left: -1.5rem;
 }
 .contact-icon {
-  color: #ef9622;
+  color: #be7413;
+  font-size: medium;
 }
 .custom-link {
   color: white;
 }
 
-.scroll-to-top {
+/* .scroll-to-top {
   color: #e7eaef;
   background-color: transparent;
-}
+} */
 
 .copyright {
-  text-align: center;
   font-size: 0.7rem;
-  color: darkgrey;
-  margin-bottom: -0.5rem;
+  color: rgb(222, 217, 217);
 }
 
 /* ACASA====================== */
