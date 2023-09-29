@@ -20,6 +20,9 @@
 .banner-icon {
   color: #be7413;
 }
+.banner-icon:hover {
+  color: #053661;
+}
 .phone-icon {
   animation: ring 12s ease-in-out infinite;
   transform-origin: 50% 50%;
@@ -116,14 +119,19 @@ footer .logo-text {
   max-width: 150px;
   margin-left: -1.5rem;
 }
+footer .content {
+  color: #c2b697;
+}
 .contact-icon {
   color: #be7413;
-  font-size: medium;
+  font-size: large;
 }
-.custom-link {
-  color: white;
+.contact-icon:hover {
+  color: #c2b697;
 }
-
+footer h6 {
+  color: #c2b697;
+}
 /* .scroll-to-top {
   color: #e7eaef;
   background-color: transparent;
@@ -355,7 +363,9 @@ footer .logo-text {
   height: 8rem;
   margin-top: -3rem;
 }
-
+.square:hover {
+  background-color: #042b4e;
+}
 /* AVOCATURA====================== */
 .avocatura {
   font-size: 0.8rem;

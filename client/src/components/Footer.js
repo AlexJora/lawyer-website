@@ -14,10 +14,10 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="row justify-content-center pt-3 mx-2">
+        <div className="row justify-content-center py-4">
           {/* Logo Section */}
-          <div className="col-md-4 text-center pe-5 me-auto">
-            <span className="pe-5">
+          <div className="col-md-4 ps-4 mx-auto text-center">
+            <span className="">
               <img
                 src="/assets/LOGO2.png"
                 className="img-fluid logo-image me-1"
@@ -33,18 +33,18 @@ const Footer = () => {
                 height="100"
               />
             </span>
-            <p className="pt-3 fw-light">
+            <p className="content pt-3 px-3">
               Biroul nostru de avocatura si insolventa va poate ghida prin
               provocarile juridice si financiare. Suntem dedicați să vă protejăm
-              interesele și să vă oferim soluții personalizate
+              interesele și să vă oferim soluții personalizate.
             </p>
           </div>
 
           {/* Contact Section */}
           <div className="col-md-4 text-center">
-            <p className="fw-bold">Contact</p>
-            <div>
-              <span>
+            <h6 className="pb-2">Contact</h6>
+            <div className="d-flex align-items-center justify-content-center flex-column">
+              <span className="d-flex align-items-center">
                 <FontAwesomeIcon
                   icon={faEnvelope}
                   className="contact-icon "
@@ -55,8 +55,8 @@ const Footer = () => {
                 </span>
               </span>
             </div>
-            <div className="mt-2">
-              <span>
+            <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
+              <span className="d-flex align-items-center">
                 <FontAwesomeIcon
                   icon={faPhone}
                   className="contact-icon"
@@ -65,8 +65,8 @@ const Footer = () => {
                 <span className="text px-2 fw-light">+40 (769) 935 716</span>
               </span>
             </div>
-            <div className="mt-2">
-              <span>
+            <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
+              <span className="d-flex align-items-center">
                 <FontAwesomeIcon
                   icon={faLocationDot}
                   className="contact-icon"
@@ -77,23 +77,12 @@ const Footer = () => {
             </div>
           </div>
           {/* Program section */}
-          <div className="col-md-4 text-center">
+          <div className="col-md-4 text-center mt-4 mt-md-0 ">
             <div>
-              <p className="fw-bold">Program</p>
+              <h6 className="pb-2">Program</h6>
               <p className="fw-light">
                 Luni – Vineri: 9AM – 5PM <br></br> Sâmbătă – Duminică: Închis
               </p>
-            </div>
-            {/* Legal Section */}
-
-            <div class="legal-links">
-              <p className="fw-bold">Legal</p>
-              <a
-                href="/politica-de-confidentialitate"
-                className="custom-link d-block fw-light"
-              >
-                Politica de Confidentialitate
-              </a>
             </div>
           </div>
         </div>
@@ -114,7 +103,7 @@ const Footer = () => {
           </a>
         </div> */}
         {/* WhatsAppWidget */}
-        <div className="">
+        <div>
           <WhatsAppWidget
             phoneNo="+27665528814"
             position="right"

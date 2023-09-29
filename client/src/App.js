@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Acasa from "./pages/Acasa";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Confidentialitate from "./pages/Confidentialitate";
+
 function App() {
   return (
     <div className="App">
@@ -20,10 +20,6 @@ function App() {
             <Route path="/avocatura" element={<Avocatura />} />
             <Route path="/insolventa" element={<Insolventa />} />
             <Route path="/contact" element={<Contact />} />
-            <Route
-              path="/politica-de-confidentialitate"
-              element={<Confidentialitate />}
-            />
           </Routes>
           <Footer />
         </BrowserRouter>
