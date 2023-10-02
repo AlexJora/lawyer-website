@@ -140,7 +140,7 @@ const Acasa = () => {
               </p>
             </div>
 
-            <div className="col-md-5 order-md-2 mt-5 d-md-flex align-items-center">
+            <div className="col-md-5 order-md-2 d-md-flex align-items-center">
               <img
                 src="/assets/law-justice.webp"
                 className="intro-img img-fluid d-block rounded-2 h-75"
