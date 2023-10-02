@@ -50,9 +50,7 @@ const Footer = () => {
                   className="contact-icon "
                   title="av_alinamarin@yahoo.com"
                 />
-                <span className="text fw-light px-2">
-                  av_alinamarin@yahoo.com
-                </span>
+                <span className="fw-light px-2">av_alinamarin@yahoo.com</span>
               </span>
             </div>
             <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
@@ -62,7 +60,7 @@ const Footer = () => {
                   className="contact-icon"
                   title="+40769 935 716"
                 />
-                <span className="text px-2 fw-light">+40 (769) 935 716</span>
+                <span className="px-2 fw-light">+40 (769) 935 716</span>
               </span>
             </div>
             <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
@@ -72,7 +70,7 @@ const Footer = () => {
                   className="contact-icon"
                   title="Bucuresti "
                 />
-                <span className="text px-2 fw-light">Bucuresti ROMANIA</span>
+                <span className="px-2 fw-light">Bucuresti ROMANIA</span>
               </span>
             </div>
           </div>

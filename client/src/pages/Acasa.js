@@ -13,7 +13,6 @@ const Acasa = () => {
     <>
       <div className="home-page">
         {/* HERO=========== */}
-
         <div className="container-fluid">
           <div className="row">
             <div className="hero-section">
@@ -119,29 +118,17 @@ const Acasa = () => {
             </div>
           </div>
         </div>
-
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
-        <section className="problem container mb-5">
-          <div className="row mt-5 gx-4 flex-column-reverse flex-md-row gap-6">
-            <div className="col-md-5">
-              <div className="d-flex align-items-center">
-                <div className="intro-img-container h-100 w-auto d-flex align-items-center justify-content-center">
-                  <img
-                    src="/assets/law-justice.webp"
-                    className="intro-img img-fluid mx-auto d-block rounded-2"
-                    alt=" a gavel, scales of justice, and law books"
-                    width="450"
-                    height="300"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-7">
+        <section className="problem container mt-5">
+          <div className="row mt-4flex-column flex-md-row">
+            <div className="col col-md-7 order-md-2">
               <h6 className="guide-text">INTRO</h6>
               <h5 className="lh-base text-center pb-4">
                 Va confruntati cu o problemă juridică sau de insolventa?
               </h5>
+
               <p className="text-separator fw-normal">
+                {" "}
                 Cabinetul nostru de Avocatură și Insolvență, condus de Alina
                 Marin, oferă consultanță, asistență și reprezentare pentru
                 probleme juridice sau de insolvență și recuperare de creanțe în
@@ -152,9 +139,18 @@ const Acasa = () => {
                 <span></span>
               </p>
             </div>
+
+            <div className="col-md-5 order-md-2 mt-5 d-md-flex align-items-center">
+              <img
+                src="/assets/law-justice.webp"
+                className="intro-img img-fluid d-block rounded-2 h-75"
+                alt=" a gavel, scales of justice, and law books"
+                width="400"
+                height="300"
+              />
+            </div>
           </div>
         </section>
-
         {/*SERVICII========= */}
         <div className="my-3">
           <div className="row">
@@ -264,16 +260,13 @@ const Acasa = () => {
                 radiate, si/sau planuri de reorganizare etc
               </p>
             </div>
-            <div className="col col-md-5 order-md-2">
-              <div className="d-flex align-items-center pt-5">
-                <img
-                  src="/assets/about-us.webp"
-                  className="welcome-img img-fluid mx-auto d-block rounded-2"
-                  alt="two persons on a desk"
-                  width="400"
-                  height="400"
-                />
-              </div>
+
+            <div className="col-md-5 order-md-2 mt-5 d-md-flex align-items-center">
+              <img
+                src="/assets/about-us.webp"
+                className="welcome-img img-fluid d-block rounded-2 h-75"
+                alt="two persons on a desk"
+              />
             </div>
           </div>
         </section>

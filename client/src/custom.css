@@ -108,7 +108,7 @@
 footer {
   background-color: #02182b;
   color: #e7eaef;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 footer .logo-image {
@@ -486,10 +486,8 @@ footer h6 {
 
 /* CONTACT====================== */
 .contact-page {
-  /* background-color: #eae8e3; */
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
-
 .form-wrap {
   position: relative;
   background-image: url("/public/assets/column-form.webp");
