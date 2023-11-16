@@ -150,7 +150,7 @@ footer h6 {
 }
 .hero-section {
   background-image: url("/public/assets/hero.webp");
-  height: 700px;
+  height: 550px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -169,7 +169,7 @@ footer h6 {
 .text-container {
   position: relative;
   z-index: 1;
-  margin-top: 12rem;
+  margin-top: 8rem;
   margin-left: 3rem;
 }
 
@@ -192,9 +192,9 @@ footer h6 {
 .text-3 {
   color: #ebe2d6ff;
   font-size: 0.9rem;
-  padding-top: 4rem;
+  padding-top: 3rem;
   line-height: 1.8rem;
-  width: 52%;
+  width: 60%;
 }
 
 .text-3 span {
@@ -373,7 +373,7 @@ footer h6 {
   overflow: hidden;
 }
 
-.card {
+.avocatura .card {
   position: relative;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(5, 1, 25, 0.8);
@@ -383,12 +383,12 @@ footer h6 {
   font-weight: lighter;
 }
 
-.card-body {
+.avocatura .card-body {
   background-color: #072e53;
   border-bottom: 7px solid #c2b697;
 }
 
-.card-img-top {
+.avocatura .card-img-top {
   height: 100px;
   background-size: cover;
   background-position: center;

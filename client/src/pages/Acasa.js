@@ -118,39 +118,45 @@ const Acasa = () => {
             </div>
           </div>
         </div>
+
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
-        <section className="problem container mt-5">
-          <div className="row mt-4flex-column flex-md-row">
-            <div className="col col-md-7 order-md-2">
-              <h6 className="guide-text">INTRO</h6>
-              <h5 className="lh-base text-center pb-4">
-                Va confruntati cu o problemă juridică sau de insolventa?
-              </h5>
+        <section className="card mt-4 px-3 border-0">
+          <div className="row g-3">
+            <div className="col-md-7">
+              <div className="card-body">
+                <h6 className="guide-text mb-4">INTRO</h6>
+                <h5 className="lh-base text-center pb-4">
+                  Va confruntati cu o problemă juridică sau de insolventa?
+                </h5>
 
-              <p className="text-separator fw-normal">
-                {" "}
-                Cabinetul nostru de Avocatură și Insolvență, condus de Alina
-                Marin, oferă consultanță, asistență și reprezentare pentru
-                probleme juridice sau de insolvență și recuperare de creanțe în
-                fața instanțelor și autorităților publice.<br></br>{" "}
-                <span className="ms-4"></span>Vrem să fim alături de tine și să
-                găsim cele mai bune soluții pentru problemele tale menținând în
-                același timp imaginea ta impecabilă în lumea afacerilor.
-                <span></span>
-              </p>
+                <p className="text-separator fw-normal">
+                  Cabinetul nostru de Avocatură și Insolvență, condus de Alina
+                  Marin, oferă consultanță, asistență și reprezentare pentru
+                  probleme juridice sau de insolvență și recuperare de creanțe
+                  în fața instanțelor și autorităților publice.
+                  <br />
+                  <span className="ms-4"></span>Vrem să fim alături de tine și
+                  să găsim cele mai bune soluții pentru problemele tale
+                  menținând în același timp imaginea ta impecabilă în lumea
+                  afacerilor.
+                  <span></span>
+                </p>
+              </div>
             </div>
-
-            <div className="col-md-5 order-md-2 d-md-flex align-items-center">
-              <img
-                src="/assets/law-justice.webp"
-                className="intro-img img-fluid d-block rounded-2 h-75"
-                alt=" a gavel, scales of justice, and law books"
-                width="400"
-                height="300"
-              />
+            <div className="col-md-5 d-flex align-items-center justify-content-center">
+              <div className="">
+                <img
+                  src="/assets/law-justice.webp"
+                  className="intro-img img-fluid img-thumbnail d-block rounded-2"
+                  alt=" a gavel, scales of justice, and law books"
+                  border
+                  style={{ height: "250px" }}
+                />
+              </div>
             </div>
           </div>
         </section>
+
         {/*SERVICII========= */}
         <div className="my-3">
           <div className="row">
@@ -236,43 +242,47 @@ const Acasa = () => {
         </div>
 
         {/* CINE SUNTEM */}
-        <section className="about container mt-5">
-          <div className="row mt-4 gx-4 flex-column flex-md-row gap-6">
-            <div className="col col-md-7 order-md-2">
-              <h6 className="guide-text">DESPRE NOI</h6>
-              <h5 className="lh-base text-center pb-4">Cine suntem?</h5>
+        <section className="card mt-2 px-3 border-0">
+          <div className="row g-3">
+            <div className="col-md-7">
+              <div className="card-body">
+                <h6 className="guide-text mb-4">DESPRE NOI</h6>
+                <h5 className="lh-base text-center pb-4">Cine suntem?</h5>
 
-              <p className="text-separator fw-normal">
-                Vom fi partenerul dvs. in solutionarea intr- un mod profesionist
-                a tuturor problemelor comerciale, fiscale, contractuale.
-                <br></br>
-                <span className="ms-4"></span>Suntem o echipa tanara de avocati,
-                practicieni in insolventa si economisti, specialist in domeniul
-                financiar – juridic, cu o noua viziune de abordare si
-                solutionare a problemelor.
-                <br></br>
-                <span className="ms-4"></span> Ne recomanda experienta de peste
-                10 ani, profesionalismul si seriozitatea.
-                <br></br> <span className="ms-4"></span>Coordonatorul Biroului
-                de avocatura si insolventa, Marin Alina este avocat de peste 15
-                ani, in domeniul comercial, contractual etc. si practician in
-                insolventa de 8 ani, cu societati salvate de insolventa,
-                radiate, si/sau planuri de reorganizare etc
-              </p>
+                <p className="text-separator fw-normal">
+                  Vom fi partenerul dvs. in solutionarea intr- un mod
+                  profesionist a tuturor problemelor comerciale, fiscale,
+                  contractuale.
+                  <br></br>
+                  <span className="ms-4"></span>Suntem o echipa tanara de
+                  avocati, practicieni in insolventa si economisti, specialist
+                  in domeniul financiar – juridic, cu o noua viziune de abordare
+                  si solutionare a problemelor. Ne recomanda experienta de peste
+                  10 ani, profesionalismul si seriozitatea.
+                  <br></br> <span className="ms-4"></span>Coordonatorul Biroului
+                  de avocatura si insolventa, Marin Alina este avocat de peste
+                  15 ani, in domeniul comercial, contractual etc. si practician
+                  in insolventa de 8 ani, cu societati salvate de insolventa,
+                  radiate, si/sau planuri de reorganizare etc
+                </p>
+              </div>
             </div>
-
-            <div className="col-md-5 order-md-2 mt-5 d-md-flex align-items-center">
-              <img
-                src="/assets/about-us.webp"
-                className="welcome-img img-fluid d-block rounded-2 h-75"
-                alt="two persons on a desk"
-              />
+            <div className="col-md-5 d-flex align-items-center justify-content-center">
+              <div className="">
+                <img
+                  src="/assets/about-us.webp"
+                  className="intro-img img-fluid img-thumbnail d-block rounded-2"
+                  alt="two persons at a desk"
+                  border
+                  style={{ height: "300px" }}
+                />
+              </div>
             </div>
           </div>
         </section>
 
         {/*CE NE RECOMANDA========= */}
-        <section className="recommendation mt-5 p-3 bg-image m-3 px-0">
+        <section className="recommendation p-3 bg-image m-3 px-0">
           <h6 className="guide-text">EXPERTIZA NOASTRA</h6>
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <h5 className="h-50 lh-base text-center pb-4">Ce ne recomanda?</h5>
