@@ -121,7 +121,7 @@ const Acasa = () => {
 
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
         <section className="card mt-4 px-3 border-0">
-          <div className="row g-3">
+          <div className="row g-5">
             <div className="col-md-7">
               <div className="card-body">
                 <h6 className="guide-text mb-4">INTRO</h6>
