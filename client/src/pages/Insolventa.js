@@ -17,9 +17,9 @@ const Insolventa = () => {
             </h6>
 
             <div className="card">
-              <div class="insolvency card-img-top2"></div>
-              <div class="card-body">
-                <p class="card-text text-white">
+              <div className="insolvency card-img-top2"></div>
+              <div className="card-body">
+                <div className="card-text text-white py-5">
                   <ul className="my-list pt-3">
                     <li>Lichidare judiciara / procedura falimentului;</li>
                     <br></br>
@@ -90,7 +90,7 @@ const Insolventa = () => {
                       aplicare si executare a reglementarilor legale .
                     </li>
                   </ul>
-                </p>
+                </div>
                 <Link to="/contact" className="link">
                   <button
                     className="btn btn-outline-dark my-4"

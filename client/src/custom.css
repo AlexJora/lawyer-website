@@ -146,11 +146,10 @@ footer h6 {
 
 .home-page {
   font-size: 0.9rem;
-  overflow: hidden;
 }
 .hero-section {
   background-image: url("/public/assets/hero.webp");
-  height: 550px;
+  height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -469,7 +468,9 @@ footer h6 {
   background-position: center;
   transition: transform 0.3s ease-in-out;
 }
-
+.insolventa-page .card-text {
+  background-color: #072e53;
+}
 .insolventa-page .btn {
   background-color: #c2b697;
   display: block;

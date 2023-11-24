@@ -76,53 +76,50 @@ const Acasa = () => {
               </div>
             </div>
             {/* small screens buttons*/}
-            <div className="mobile-btn d-md-none d-flex flex-column align-items-center mt-1 gap-1">
-              <div className="d-flex flex-row ">
-                {" "}
-                {/* Added a flex container */}
-                <Link to="/contact">
-                  <button
-                    id="small"
-                    className="btn btn-outline-dark type-button p-2 w-80 mb-1 btn-sm me-2"
-                    aria-label="Programare"
-                  >
-                    <span className="p-3">
-                      <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
-                    </span>
-                    Programare
-                  </button>
-                </Link>
-                <Link to="/contact">
-                  <button
-                    className="btn btn-outline-dark type-button p-2 w-80 mb-1 btn-sm me-2"
-                    aria-label="Cere o evaluare"
-                  >
-                    <span className="p-3">
-                      <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
-                    </span>
-                    Cere o evaluare
-                  </button>
-                </Link>
-                <Link to="/informatii-utile">
-                  <button
-                    className="btn btn-outline-dark type-button p-2 w-80 btn-sm"
-                    aria-label="Onorarii"
-                  >
-                    <span className="p-3">
-                      <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
-                    </span>
-                    Onorarii
-                  </button>
-                </Link>
-              </div>
+            <div className="mobile-btn d-md-none d-flex justify-content-between pt-2">
+              <Link to="/contact">
+                <button
+                  id="small"
+                  className="btn btn-outline-dark type-button p-2 mb-1 btn-md me-1"
+                  aria-label="Programare"
+                >
+                  <span className="p-3">
+                    <FontAwesomeIcon icon={faCalendarCheck} size="1x" />
+                  </span>
+                  Programare
+                </button>
+              </Link>
+              <Link to="/contact">
+                <button
+                  className="btn btn-outline-dark type-button p-2 mb-1 btn-md me-1"
+                  aria-label="Cere o evaluare"
+                >
+                  <span className="p-3">
+                    <FontAwesomeIcon icon={faFileCircleCheck} size="1x" />
+                  </span>
+                  Cere o evaluare
+                </button>
+              </Link>
+              <Link to="/informatii-utile">
+                <button
+                  className="btn btn-outline-dark type-button p-2 btn-md"
+                  aria-label="Onorarii"
+                >
+                  <span className="p-3">
+                    <FontAwesomeIcon icon={faCommentsDollar} size="1x" />
+                  </span>
+                  Onorarii
+                </button>
+              </Link>
             </div>
           </div>
         </div>
 
         {/*TE CONFRUNTI CU O PROBLEMA========= */}
-        <section className="card mt-4 px-3 border-0">
-          <div className="row g-5">
-            <div className="col-md-7">
+
+        <section className="card py-5 px-3 border-0">
+          <div className="row">
+            <div className="col-lg-7">
               <div className="card-body">
                 <h6 className="guide-text mb-4">INTRO</h6>
                 <h5 className="lh-base text-center pb-4">
@@ -143,22 +140,22 @@ const Acasa = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-5 d-flex align-items-center justify-content-center">
-              <div className="">
+
+            <div className="col-lg-5 d-flex align-items-center justify-content-center">
+              <div>
                 <img
                   src="/assets/law-justice.webp"
-                  className="intro-img img-fluid img-thumbnail d-block rounded-2"
+                  className="intro-img img-fluid d-block rounded-2"
                   alt=" a gavel, scales of justice, and law books"
-                  border
-                  style={{ height: "250px" }}
+                  style={{ maxHeight: "300px" }}
                 />
               </div>
             </div>
           </div>
         </section>
 
-        {/*SERVICII========= */}
-        <div className="my-3">
+        {/* SERVICII========= */}
+        <div className="">
           <div className="row">
             <div className="col">
               <div className="services-section ">
@@ -242,9 +239,10 @@ const Acasa = () => {
         </div>
 
         {/* CINE SUNTEM */}
-        <section className="card mt-2 px-3 border-0">
-          <div className="row g-3">
-            <div className="col-md-7">
+
+        <section className="card py-4 px-3 border-0">
+          <div className="row">
+            <div className="col-lg-7">
               <div className="card-body">
                 <h6 className="guide-text mb-4">DESPRE NOI</h6>
                 <h5 className="lh-base text-center pb-4">Cine suntem?</h5>
@@ -267,14 +265,13 @@ const Acasa = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-5 d-flex align-items-center justify-content-center">
-              <div className="">
+            <div className="col-lg-5 d-flex align-items-center justify-content-center">
+              <div>
                 <img
                   src="/assets/about-us.webp"
-                  className="intro-img img-fluid img-thumbnail d-block rounded-2"
+                  className="intro-img img-fluid d-block rounded-2"
                   alt="two persons at a desk"
-                  border
-                  style={{ height: "300px" }}
+                  style={{ maxHeight: "300px" }}
                 />
               </div>
             </div>
