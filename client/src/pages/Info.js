@@ -1,8 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const Info = () => {
   return (
     <div className="info">
+      <Helmet>
+        <title>Informatii Utile | Alina Marin</title>
+        <meta
+          name="description"
+          content="Informatii utile despre cabinetul de avocatura si insolventa Alina Marin."
+        />
+      </Helmet>
       <div>
         <h6 className="guide-text ms-3 mt-4">INFORMATII UTILE</h6>
         <div className="container py-5">

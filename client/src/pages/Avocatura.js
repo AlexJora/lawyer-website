@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGavel,
@@ -12,6 +13,13 @@ const Avocatura = () => {
   return (
     <>
       <div className="avocatura">
+        <Helmet>
+          <title>Servicii de Avocatura | Alina Marin</title>
+          <meta
+            name="description"
+            content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
+          />
+        </Helmet>
         <div>
           <h6 className="guide-text ms-3 mt-4">SERVICII DE AVOCATURA</h6>
           <div className=" pt-4 text-center">

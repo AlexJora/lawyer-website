@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,6 +13,13 @@ const Acasa = () => {
   return (
     <>
       <div className="home-page">
+        <Helmet>
+          <title>Acasa | Alina Marin</title>
+          <meta
+            name="description"
+            content="Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+          />
+        </Helmet>
         {/* HERO=========== */}
         <div className="container-fluid">
           <div className="row">

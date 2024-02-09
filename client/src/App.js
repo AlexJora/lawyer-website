@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Info from "./pages/Info";
 import Avocatura from "./pages/Avocatura";
 import Insolventa from "./pages/Insolventa";
@@ -13,6 +14,15 @@ function App() {
     <div className="App">
       <>
         <BrowserRouter>
+          <Helmet>
+            <title>
+              Cabinet de Avocatură și Insolvență în București | Alina Marin
+            </title>
+            <meta
+              name="description"
+              content="Cabinet de avocatură și insolvență condus de Alina Marin. Consultanță, asistență și reprezentare pentru probleme juridice și de insolvență. Contactați-ne pentru soluții profesioniste."
+            />
+          </Helmet>
           <Navbar />
           <Routes>
             <Route path="/" element={<Acasa />} />

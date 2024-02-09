@@ -81,9 +81,13 @@ const Footer = () => {
               <p className="fw-light">
                 Luni – Vineri: 9AM – 5PM <br></br> Sâmbătă – Duminică: Închis
               </p>
+              <a href="/sitemap.xml" className="">
+                Sitemap
+              </a>
             </div>
           </div>
         </div>
+
         {/* Scroll up */}
         {/* <div>
           <a

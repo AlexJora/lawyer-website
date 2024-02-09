@@ -1,10 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Insolventa = () => {
   return (
     <>
       <div className="insolventa-page">
+        <Helmet>
+          <title>Servicii de Insolventa | Alina Marin</title>
+          <meta
+            name="description"
+            content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
+          />
+        </Helmet>
         <div>
           <h6 className="guide-text ms-3 mt-4">SERVICII DE INSOLVENTA</h6>
           <div className="container py-5">

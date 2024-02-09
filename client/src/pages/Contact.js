@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
+
 import ContactForm from "../components/ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,6 +13,13 @@ import {
 export const Contact = () => {
   return (
     <div className="contact-page">
+      <Helmet>
+        <title>Contact | Alina Marin</title>
+        <meta
+          name="description"
+          content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, Program: Luni - Vineri: 9 - 17, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."
+        />
+      </Helmet>
       <section>
         <h6 className="guide-text ms-3 mt-4">CONTACT</h6>
         {/* contact info============ */}
