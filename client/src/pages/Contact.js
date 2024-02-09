@@ -1,5 +1,5 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
+import { Helmet } from "react-helmet";
 
 import ContactForm from "../components/ContactForm";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
