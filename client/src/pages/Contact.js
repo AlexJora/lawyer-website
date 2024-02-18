@@ -14,7 +14,7 @@ export const Contact = () => {
   return (
     <div className="contact-page">
       <Helmet>
-        <title>Contact | Alina Marin</title>
+        <title>Contact | Avocat Alina Marin</title>
         <meta
           name="description"
           content="Contacteaza-ne pentru orice problema juridica cu care te confrunti. Oferim consultanta si reprezentare in diverse domenii legale. Locatie: Bucuresti, Program: Luni - Vineri: 9 - 17, E-mail: av_alinamarin@yahoo.com, Telefon: +40769 935 716."

@@ -14,7 +14,7 @@
 .banner {
   background-color: #c2b697;
   color: #053661;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 .banner-icon {
@@ -388,9 +388,10 @@ footer h6 {
 }
 
 .avocatura .card-img-top {
-  height: 100px;
+  height: 200px;
   background-size: cover;
   background-position: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .law-icon {
@@ -425,13 +426,6 @@ footer h6 {
   background-image: url("/public/assets/insolvency.webp");
 }
 
-.card-img-top {
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  transition: transform 0.3s ease-in-out;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -463,7 +457,7 @@ footer h6 {
 }
 
 .card-img-top2 {
-  height: 200px;
+  height: 250px;
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease-in-out;

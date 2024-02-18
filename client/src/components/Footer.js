@@ -14,76 +14,79 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="row justify-content-center py-4">
-          {/* Logo Section */}
-          <div className="col-md-4 ps-4 mx-auto text-center">
-            <span className="">
-              <img
-                src="/assets/LOGO2.png"
-                className="img-fluid logo-image me-1"
-                alt="scales of justice logo"
-                width="50"
-                height="50"
-              />
-              <img
-                src="/assets/component.png"
-                className="img-fluid px-0 logo-text"
-                alt="alina marin cabinet de avocatura si insolventa"
-                width="150"
-                height="100"
-              />
-            </span>
-            <p className="content pt-3 px-3">
-              Biroul nostru de avocatura si insolventa va poate ghida prin
-              provocarile juridice si financiare. Suntem dedicați să vă protejăm
-              interesele și să vă oferim soluții personalizate.
-            </p>
-          </div>
-
-          {/* Contact Section */}
-          <div className="col-md-4 text-center">
-            <h6 className="pb-2">Contact</h6>
-            <div className="d-flex align-items-center justify-content-center flex-column">
-              <span className="d-flex align-items-center">
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  className="contact-icon "
-                  title="av_alinamarin@yahoo.com"
+        <div className="container">
+          <div className="row justify-content-center py-4">
+            {/* Logo Section */}
+            <div className="col-md-4 ps-4 mx-auto text-center">
+              <span className="">
+                <img
+                  src="/assets/LOGO2.png"
+                  className="img-fluid logo-image me-1"
+                  alt="scales of justice logo"
+                  width="50"
+                  height="50"
                 />
-                <span className="fw-light px-2">av_alinamarin@yahoo.com</span>
-              </span>
-            </div>
-            <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
-              <span className="d-flex align-items-center">
-                <FontAwesomeIcon
-                  icon={faPhone}
-                  className="contact-icon"
-                  title="+40769 935 716"
+                <img
+                  src="/assets/component.png"
+                  className="img-fluid px-0 logo-text"
+                  alt="alina marin cabinet de avocatura si insolventa"
+                  width="150"
+                  height="100"
                 />
-                <span className="px-2 fw-light">+40 (769) 935 716</span>
               </span>
-            </div>
-            <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
-              <span className="d-flex align-items-center">
-                <FontAwesomeIcon
-                  icon={faLocationDot}
-                  className="contact-icon"
-                  title="Bucuresti "
-                />
-                <span className="px-2 fw-light">Bucuresti ROMANIA</span>
-              </span>
-            </div>
-          </div>
-          {/* Program section */}
-          <div className="col-md-4 text-center mt-4 mt-md-0 ">
-            <div>
-              <h6 className="pb-2">Program</h6>
-              <p className="fw-light">
-                Luni – Vineri: 9AM – 5PM <br></br> Sâmbătă – Duminică: Închis
+              <p className="content pt-3 px-3">
+                Biroul nostru de avocatura si insolventa va poate ghida prin
+                provocarile juridice si financiare. Suntem dedicați să vă
+                protejăm interesele și să vă oferim soluții personalizate.
               </p>
-              <a href="/sitemap.xml" className="">
-                Sitemap
-              </a>
+            </div>
+
+            {/* Contact Section */}
+            <div className="col-md-4 text-center">
+              <h6 className="pb-2">Contact</h6>
+              <div className="d-flex align-items-center justify-content-center flex-column">
+                <span className="d-flex align-items-center">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="contact-icon"
+                    title="av_alinamarin@yahoo.com"
+                  />
+                  <span className="fw-light px-2">av_alinamarin@yahoo.com</span>
+                </span>
+              </div>
+              <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
+                <span className="d-flex align-items-center">
+                  <FontAwesomeIcon
+                    icon={faPhone}
+                    className="contact-icon"
+                    title="+40769 935 716"
+                  />
+                  <span className="px-2 fw-light">+40 (769) 935 716</span>
+                </span>
+              </div>
+              <div className="mt-3 d-flex align-items-center justify-content-center flex-column">
+                <span className="d-flex align-items-center">
+                  <FontAwesomeIcon
+                    icon={faLocationDot}
+                    className="contact-icon"
+                    title="Bucuresti"
+                  />
+                  <span className="px-2 fw-light">Bucuresti ROMANIA</span>
+                </span>
+              </div>
+            </div>
+
+            {/* Program section */}
+            <div className="col-md-4 text-center mt-4 mt-md-0">
+              <div>
+                <h6 className="pb-2">Program</h6>
+                <p className="fw-light">
+                  Luni – Vineri: 9AM – 5PM <br /> Sâmbătă – Duminică: Închis
+                </p>
+                <a href="/sitemap.xml" className="">
+                  Sitemap
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -107,12 +110,12 @@ const Footer = () => {
         {/* WhatsAppWidget */}
         <div>
           <WhatsAppWidget
-            phoneNo="+27665528814"
+            phoneNo="+40769935716"
             position="right"
             iconSize="50"
             iconColor="white"
             iconBgColor="#25D366"
-            headerIcon="/assets/LOGO2.png"
+            headerIcon="assets/LOGO2.png"
             headerTxtColor="white"
             headerBgColor="#02182b"
             headerTitle="Birou de Avocatura si Insolventa"
@@ -135,7 +138,7 @@ const Footer = () => {
         <div>
           <div className="bg-dark d-flex align-items-center justify-content-center">
             <hr></hr>
-            <p className="copyright mb-0">©2023 Avocat Alina Marin</p>
+            <p className="copyright mb-0">©2024 Avocat Alina Marin</p>
           </div>
         </div>
       </footer>

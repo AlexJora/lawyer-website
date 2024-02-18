@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div className="info">
       <Helmet>
-        <title>Informatii Utile | Alina Marin</title>
+        <title>Informatii Utile | Avocat Alina Marin</title>
         <meta
           name="description"
           content="Informatii utile despre cabinetul de avocatura si insolventa Alina Marin."
@@ -20,11 +20,11 @@ const Info = () => {
               <h2 className="accordion-header" id="headingOne">
                 <button
                   id="accordion-btn"
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseOne"
                 >
                   ONORARIUL
@@ -86,11 +86,11 @@ const Info = () => {
               <h2 className="accordion-header" id="headingTwo">
                 <button
                   id="accordion-btn"
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
-                  aria-expanded="true"
+                  aria-expanded="false"
                   aria-controls="collapseTwo"
                 >
                   Insolventa
