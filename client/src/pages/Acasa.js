@@ -14,7 +14,8 @@ const Acasa = () => {
     <>
       <div className="home-page">
         <Helmet>
-          <title>Acasa | Avocat Alina Marin</title>
+          <title>Cabinet de avocat si insolventa Alina Marin | Bucuresti</title>
+          <link rel="canonical" href="https://alinamarin.ro/" />
           <meta
             name="description"
             content="Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."

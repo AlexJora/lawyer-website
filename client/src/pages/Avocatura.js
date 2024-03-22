@@ -14,7 +14,10 @@ const Avocatura = () => {
     <>
       <div className="avocatura">
         <Helmet>
-          <title>Servicii de Avocatura | Avocat Alina Marin</title>
+          <title>
+            Servicii de Avocatura | Cabinet de avocat si insolventa Alina Marin
+          </title>
+          <link rel="canonical" href="https://alinamarin.ro/avocatura" />
           <meta
             name="description"
             content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."
