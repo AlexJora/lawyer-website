@@ -8,7 +8,8 @@ const Insolventa = () => {
       <div className="insolventa-page">
         <Helmet>
           <title>
-            Servicii de Insolventa | Cabinet de avocat si insolventa Alina Marin
+            Servicii de Insolventa | Avocat Bucuresti | Cabinet de avocat si
+            insolventa Alina Marin
           </title>
           <link rel="canonical" href="https://alinamarin.ro/insolventa" />
           <meta

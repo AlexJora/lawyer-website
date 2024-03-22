@@ -5,7 +5,7 @@ const Info = () => {
   return (
     <div className="info">
       <Helmet>
-        <title>Informatii Utile | Cabinet de avocat si insolventa Alina Marin</title>
+        <title>Informatii Utile | Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin</title>
         <link rel="canonical" href="https://alinamarin.ro/informatii-utile" />
         <meta
           name="description"

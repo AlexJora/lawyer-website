@@ -15,7 +15,8 @@ export const Contact = () => {
     <div className="contact-page">
       <Helmet>
         <title>
-          Contact | Cabinet de avocat si insolventa Alina Marin
+          Contact | Avocat Bucuresti | Cabinet de avocat si insolventa Alina
+          Marin
         </title>
         <link rel="canonical" href="https://alinamarin.ro/contact" />
         <meta
