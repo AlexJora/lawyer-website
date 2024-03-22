@@ -14,11 +14,13 @@ const Acasa = () => {
     <>
       <div className="home-page">
         <Helmet>
-          <title>Cabinet de avocat si insolventa Alina Marin | Bucuresti</title>
+          <title>
+            Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin
+          </title>
           <link rel="canonical" href="https://alinamarin.ro/" />
           <meta
             name="description"
-            content="Cabinetul nostru de Avocatură și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
+            content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."
           />
         </Helmet>
         {/* HERO=========== */}
@@ -29,7 +31,7 @@ const Acasa = () => {
               <div className="text-container d-flex flex-column justify-content-start align-items-start pt-6 slide">
                 <div className="text-1 fs-2 pb-3">ALINA MARIN</div>
                 <div className="text-2 fs-4">
-                  BIROU DE AVOCATURA SI INSOLVENTA
+                  BIROU DE AVOCAT SI INSOLVENTA
                   <span className="fw-bold">
                     <br></br> Bucuresti{" "}
                   </span>
@@ -136,7 +138,7 @@ const Acasa = () => {
                 </h5>
 
                 <p className="text-separator fw-normal">
-                  Cabinetul nostru de Avocatură și Insolvență, condus de Alina
+                  Cabinetul nostru de Avocat și Insolvență, condus de Alina
                   Marin, oferă consultanță, asistență și reprezentare pentru
                   probleme juridice sau de insolvență și recuperare de creanțe
                   în fața instanțelor și autorităților publice.

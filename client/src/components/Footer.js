@@ -35,7 +35,7 @@ const Footer = () => {
                 />
               </span>
               <p className="content pt-3 px-3">
-                Biroul nostru de avocatura si insolventa va poate ghida prin
+                Biroul nostru de avocat si insolventa va poate ghida prin
                 provocarile juridice si financiare. Suntem dedicați să vă
                 protejăm interesele și să vă oferim soluții personalizate.
               </p>
