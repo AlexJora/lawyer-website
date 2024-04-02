@@ -75,7 +75,7 @@
 
 /* NAVBAR====================== */
 .nav {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
@@ -109,6 +109,9 @@ footer {
   background-color: #02182b;
   color: #e7eaef;
   font-size: 0.8rem;
+}
+footer .logo-text {
+  max-width: 150px;
 }
 
 footer .logo-image {

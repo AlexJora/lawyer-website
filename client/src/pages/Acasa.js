@@ -255,7 +255,7 @@ const Acasa = () => {
           <div className="row">
             <div className="col-lg-7">
               <div className="card-body">
-                <h6 className="guide-text mb-4">DESPRE NOI</h6>
+                <p className="guide-text mb-4">DESPRE NOI</p>
                 <h5 className="lh-base text-center pb-4">Cine suntem?</h5>
 
                 <p className="text-separator fw-normal">
@@ -291,7 +291,7 @@ const Acasa = () => {
 
         {/*CE NE RECOMANDA========= */}
         <section className="recommendation p-3 bg-image m-3 px-0">
-          <h6 className="guide-text">EXPERTIZA NOASTRA</h6>
+          <h6 className="guide-text ">EXPERTIZA NOASTRA</h6>
           <div className="container d-flex flex-column justify-content-center align-items-center">
             <h5 className="h-50 lh-base text-center pb-4">Ce ne recomanda?</h5>
           </div>

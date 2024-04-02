@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import Acasa from "./pages/Acasa";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
             <Route path="/avocatura" element={<Avocatura />} />
             <Route path="/insolventa" element={<Insolventa />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<ErrorPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>
