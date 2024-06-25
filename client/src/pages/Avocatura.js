@@ -18,7 +18,7 @@ const Avocatura = () => {
             Servicii de Avocatura | Avocat Bucuresti | Cabinet de avocat si
             insolventa Alina Marin
           </title>
-          <link rel="canonical" href="https://alinamarin.ro/avocatura" />
+          
           <meta
             name="description"
             content="Oferim consultanță juridică și asistență specializată într-o serie de arii de practică, inclusiv drept civil, penal, executare silită, dreptul familiei, dreptul muncii, dreptul comercial și societar."

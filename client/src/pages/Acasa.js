@@ -17,7 +17,7 @@ const Acasa = () => {
           <title>
             Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin
           </title>
-          <link rel="canonical" href="https://alinamarin.ro/" />
+          
           <meta
             name="description"
             content="Cabinetul nostru de Avocat și Insolvență, condus de Alina Marin, oferă consultanță, asistență și reprezentare pentru probleme juridice sau de insolvență și recuperare de creanțe în fața instanțelor și autorităților publice."

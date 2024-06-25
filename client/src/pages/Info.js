@@ -6,7 +6,7 @@ const Info = () => {
     <div className="info">
       <Helmet>
         <title>Informatii Utile | Avocat Bucuresti | Cabinet de avocat si insolventa Alina Marin</title>
-        <link rel="canonical" href="https://alinamarin.ro/informatii-utile" />
+        
         <meta
           name="description"
           content="Informatii utile despre cabinetul de avocatura si insolventa Alina Marin."

@@ -11,7 +11,7 @@ const Insolventa = () => {
             Servicii de Insolventa | Avocat Bucuresti | Cabinet de avocat si
             insolventa Alina Marin
           </title>
-          <link rel="canonical" href="https://alinamarin.ro/insolventa" />
+          
           <meta
             name="description"
             content="Oferim servicii de consultanță și reprezentare în procedurile de insolvență, inclusiv lichidare judiciara, redactare de cereri de deschidere a procedurii de insolventa, analiză a societatilor debitoare, infiintare societati, recuperare de creante, consultanta juridica și asistenta în aplicarea și executarea reglementarilor legale."
